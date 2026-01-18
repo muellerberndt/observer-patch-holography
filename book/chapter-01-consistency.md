@@ -2,6 +2,10 @@
 
 > **A note to the reader:** The framework presented in this book is highly speculative and almost certainly wrong in important ways. The mathematical structures are internally consistent and produce some numerical matches with experiment, but this does not mean they correctly describe reality. Many theories with good-looking math have failed. We present this material not as established physics, but as a research direction worth exploring. The ideas may be completely mistaken, partially useful, or (least likely) substantially correct. Read with appropriate skepticism.
 
+The following diagram shows how the entire framework flows from two parameters and four axioms to all features of physics:
+
+![OPH Prediction Chain](../assets/prediction-chain.svg)
+
 ## 1.1 Physicists Are Hackers
 
 This book is about reverse engineering.
