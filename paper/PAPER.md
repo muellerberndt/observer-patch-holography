@@ -206,9 +206,7 @@ LG into explicit support control for time-evolved operators.
 > \eta(\delta) \lesssim 2\sqrt{\ln 2 \cdot c \cdot |\partial C|_{\mathrm{UV}}} \, e^{-\delta/(2\xi)}.
 > $$
 
-This converts the former "Axiom A5" into a derived theorem. The geometric
-modular action is a consequence of quasi-locality + Lieb-Robinson bounds,
-not an independent postulate.
+The geometric modular action is thus a consequence of quasi-locality + Lieb-Robinson bounds, not an independent postulate.
 
 **Assumption I** (Refinement stability / RG consistency): There exists a family
 of coarse-graining channels $\Phi_{\ell\to L}$ between UV scale $\ell$ and IR
@@ -473,9 +471,6 @@ decay rate when needed.
 > Strict concavity of von Neumann entropy ensures uniqueness. When the
 > constraints are "translated local" (the same $O_a$ at each cell $x$), the
 > exponent is a sum of local terms. QED.
-
-This lemma replaces the former "Assumption LG"; the local Gibbs form is
-derived from Assumption B rather than postulated separately.
 
 **Axiom MX** (Exponential mixing): There exist constants $c$ and correlation
 length $\xi = O(\ell_{\mathrm{UV}})$ such that
@@ -4729,7 +4724,7 @@ exponential MX decay with δ/ξ ~ a few hundred.
 ### 8.2 Structural assessment
 
 - **Dynamics**: The GR chain requires modular covariance plus the null-surface
-  modular bridge (N1-N3). The EFT bridge theorem (Section 5.2) now derives
+  modular bridge (N1-N3). The EFT bridge theorem (Section 5.2) derives
   N1-N3 from A1-A4 under two testable conditions: (i) null strips as A4
   separators, (ii) local finite variation. This significantly reduces the
   conditionality. Remaining: verify these conditions in explicit UV regulators.
@@ -4737,7 +4732,7 @@ exponential MX decay with δ/ξ ~ a few hundred.
   and the anomaly/gluing link is precise, but selecting the SM factors,
   establishing DHR transportability, and justifying the refinement-stability
   selectors for chirality and generation number remain open.
-- **Microscopic theory**: Quantum link models (Section 2.6) now provide an
+- **Microscopic theory**: Quantum link models (Section 2.6) provide an
   explicit UV realization of R0/R1 and give EC + Markov collars automatically.
   What remains: (i) a microscopic derivation of A3 (generalized entropy), and
   (ii) ensuring modular flow becomes geometric in the continuum limit (the
