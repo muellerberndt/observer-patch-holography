@@ -1,6 +1,6 @@
 # Reverse Engineering Reality
 
-**Download:** [Technical Paper (PDF)](paper/observer_patch_holography.pdf) | [Book (PDF)](book/REVERSE_ENGINEERING_REALITY.pdf) | [Zenodo](https://doi.org/10.5281/zenodo.18288114)
+**Download:** [Technical Paper (PDF)](paper/observer_patch_holography.pdf) | [Book (Web)](https://oph-book.lovable.app) | [Zenodo](https://doi.org/10.5281/zenodo.18288114)
 
 **Read:** [How OPH Addresses Major Open Problems in Physics](https://medium.com/@muellerberndt/answering-10-of-the-hardest-questions-in-physics-and-some-bonus-questions-51222bf2419f)
 
