@@ -337,7 +337,7 @@ The model is incomplete. The main gaps are:
 
 5. **Particle masses**: The electroweak scale ($v \approx 243.5$ GeV, 1.1% accuracy) and top mass ($m_t \approx 172.2$ GeV, 0.3% accuracy) are now derived from dimensional transmutation. The fermion mass hierarchy reduces to discrete Z6 defect charges ($y_f \propto 6^{-n_f}$), eliminating continuous Yukawa parameters. Light fermion masses (electron, up/down quarks) require deriving the integer charges from UV structure.
 
-6. **Cosmological constant**: Why is Lambda small but nonzero? Not addressed.
+6. **Cosmological constant**: Structurally explained: Λ = 3π/(G · log dim H_tot) derives from screen capacity, and null modular data cannot fix Λ locally (it lives in a quotient ambiguity). The numerical value is inferred from observation, not predicted from first principles.
 
 7. **Strong CP problem**: theta_QCD is not predicted.
 
