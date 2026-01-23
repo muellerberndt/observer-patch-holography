@@ -350,6 +350,7 @@ The formal development: axioms, theorems, proofs, and gap analysis.
 
 | Chapter | Title | Topic |
 |---------|-------|-------|
+| [Prologue](book/prologue.md) | Prologue | Setting the stage |
 | [1](book/chapter-01-consistency.md) | Consistency | Observer agreement as the fundamental principle |
 | [2](book/chapter-02-lineage.md) | Lineage | Historical roots of holographic ideas |
 | [3](book/chapter-03-screen.md) | The Screen | Holographic screens and information bounds |
@@ -369,6 +370,7 @@ The formal development: axioms, theorems, proofs, and gap analysis.
 | [17](book/chapter-17-darwin.md) | Darwin's Laws | Laws as evolutionary survivors |
 | [18](book/chapter-18-synthesis.md) | Synthesis | Putting it all together |
 | [19](book/chapter-19-metaphysics.md) | Metaphysics | Qualia and the hard problem |
+| [Epilogue](book/epilogue.md) | Epilogue | One last surprise |
 
 ## Building Your Own Reality Simulator
 
