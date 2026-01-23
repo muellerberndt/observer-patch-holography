@@ -520,25 +520,70 @@ There's no "information paradox" because the paradox assumes information can be 
 
 The detailed dynamics of how information gets scrambled and unscrambled on the screen is complex. But there's no paradox, no violation of unitarity. The screen evolution is unitary by construction.
 
-## 15.12 What Remains Open
+## 15.12 Dark Matter: Information Deficits That Gravitate
 
-The model answers many traditional puzzles but raises its own questions:
+One of the most dramatic successes of our framework is its explanation of dark matter—without invoking new particles.
 
-### The Specific Screen Structure
+### The Problem
 
-Why does the screen have the particular structure it does? Why these constraints, these symmetries? The model derives physics from the screen, but doesn't yet explain why the screen is what it is.
+Galaxies rotate too fast. The stars at the outer edges orbit the galactic center at speeds that should fling them into intergalactic space, given the visible matter. Something provides extra gravitational pull.
 
-### The UV Completion
+The standard response: dark matter particles. Some new, weakly interacting particle that clumps around galaxies and provides the missing mass. Decades of searches have found nothing.
 
-The regulator premises R0 and R1 describe the UV structure abstractly. A concrete microscopic model realizing these premises is still missing. What are the fundamental degrees of freedom on the screen?
+An alternative: modify gravity (MOND). At low accelerations, perhaps gravity behaves differently. This explains galaxy rotation curves remarkably well, but struggles with galaxy clusters and the Bullet Cluster.
 
-### The Constraint Set
+### The OPH Solution
 
-MaxEnt selection requires a constraint set. Where does this constraint set come from? Why these constraints and not others?
+Our framework provides a third option: **there is extra gravitational pull, but it comes from imperfect information, not particles**.
 
-These are genuine open questions. But they're different from the traditional puzzles. We're no longer asking "how do we reconcile QFT with gravity?" We're asking "why does the screen have this structure?" That's progress.
+Recall that we derive Einstein's equations from entanglement equilibrium. In a perfect world, information on one side of a boundary would be perfectly recoverable from the boundary itself (the Markov condition). In that limit, you get pure Einstein gravity.
 
-## 15.13 Reverse Engineering Summary
+But the real world isn't perfect. There's always some residual correlation that can't be captured by the boundary alone. This **Markov imperfection** appears as an extra term in Einstein's equations.
+
+This term gravitates. But it's not made of particles. It's made of information deficits.
+
+### Why It's Dark
+
+The anomaly sector is dark by construction:
+- It doesn't couple to light (no electromagnetic interaction)
+- It doesn't interact with normal matter except through gravity
+- It's collisionless (no self-interaction that would cause clumping)
+
+This is exactly what we call dark matter—but it's not a particle. It's a feature of how emergent spacetime works.
+
+### The MOND Scale
+
+OTH connects this anomaly to the cosmological constant Λ. The only available large-scale length is the de Sitter radius. From this, we derive:
+
+$$a_0 = \frac{15}{8\pi^2} c^2 \sqrt{\frac{\Lambda}{3}} \approx 1.0 \times 10^{-10} \text{ m/s}^2$$
+
+This is almost exactly the observed MOND acceleration scale. The "coincidence" between galaxy dynamics and cosmology isn't a coincidence—they're connected through the information structure of the universe.
+
+At high accelerations ($g \gg a_0$), standard gravity dominates. At low accelerations ($g \ll a_0$), the anomaly term becomes important, and gravity transitions to MOND-like behavior: $g \sim \sqrt{a_0 \cdot g_b}$ where $g_b$ is the Newtonian prediction from baryons.
+
+### Galaxies vs. Clusters
+
+The framework naturally explains why MOND works better for galaxies than clusters:
+
+**In galaxies**: The anomaly "polarizes" around baryons, creating tight correlations between baryonic and total gravitational fields. This is why the radial acceleration relation (RAR) is so tight for galaxies.
+
+**In clusters**: There's also a "dust-like" component that behaves like collisionless dark matter. This explains why clusters need more dark matter than MOND predicts from baryons alone.
+
+### The Bullet Cluster
+
+The Bullet Cluster was considered a death blow to modified gravity theories. Two galaxy clusters collided; the gas (most of the baryonic mass) got stuck in the middle due to friction, but gravitational lensing shows the mass concentrated on the outsides, with the galaxies.
+
+If dark matter is just modified gravity locked to baryons, this shouldn't happen.
+
+But in our framework, the anomaly sector is collisionless. During a merger, the gas shocks and slows down, but the anomaly component sails through with the galaxies. The lensing mass separates from the gas—exactly as observed.
+
+This is a key prediction: the anomaly sector behaves dynamically like collisionless dark matter, even though it isn't particles.
+
+### What Remains to Derive
+
+The framework derives that the anomaly term must gravitate and gives the MOND-like scaling. What remains open is deriving the exact cosmological abundance of the anomaly sector from first principles. The dynamics (dust-like, collisionless) is essentially fixed by the framework, but the total amount requires knowing the integrated Markov defect across the universe's history.
+
+## 15.14 Reverse Engineering Summary
 
 | Intuitive Picture | Surprising Hint | First-Principles Reframing |
 |---|---|---|
