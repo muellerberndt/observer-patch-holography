@@ -555,11 +555,11 @@ The prediction is exact: the photon mass is precisely zero. Experimental limits 
 
 The graviton emerges from a parallel chain of reasoning, but applied to spacetime geometry rather than internal gauge symmetry.
 
-In Chapter 14 we derive that spacetime geometry emerges from modular flow on the screen. The key theorem is BW_{S²}: under the conditions of collar Markov locality, MaxEnt selection with rotational invariance, and Euclidean regularity, modular flow on caps becomes geometric conformal dilation. The modular Hamiltonian of each cap equals the generator of the cap-preserving conformal transformation.
+In Chapter 15 we derive that spacetime geometry emerges from modular flow on the screen. The key theorem is BW_{S²}: under the conditions of collar Markov locality, MaxEnt selection with rotational invariance, and Euclidean regularity, modular flow on caps becomes geometric conformal dilation. The modular Hamiltonian of each cap equals the generator of the cap-preserving conformal transformation.
 
 The conformal group of the two-sphere is isomorphic to the Lorentz group: Conf⁺(S²) ≅ PSL(2,ℂ) ≅ SO⁺(3,1). This is a mathematical identity. Once modular flow becomes conformal, Lorentz kinematics is automatic.
 
-But geometry goes further. The entanglement structure of the screen encodes not just kinematics but dynamics. Through the entanglement equilibrium argument (developed in Chapter 14), the condition that generalized entropy is stationary under small deformations implies the Einstein equations. The metric tensor emerges as the compression of modular flow data, and its dynamics are fixed by the requirement that entanglement remains balanced.
+But geometry goes further. The entanglement structure of the screen encodes not just kinematics but dynamics. Through the entanglement equilibrium argument (developed in Chapter 15), the condition that generalized entropy is stationary under small deformations implies the Einstein equations. The metric tensor emerges as the compression of modular flow data, and its dynamics are fixed by the requirement that entanglement remains balanced.
 
 Now consider what it means for the metric to be dynamical. If spacetime geometry fluctuates quantum mechanically, those fluctuations must be described by a quantum field. The quantum of a spin-2 field that couples universally to energy-momentum is, by definition, a graviton. This is a consequence of having dynamical geometry in a quantum theory.
 
@@ -578,8 +578,6 @@ Our model makes the same claim, but the logical structure is different. In strin
 In our model, you start with observers on a holographic screen, impose consistency conditions on how their descriptions must agree, and discover that the consistent low-energy effective description must include both gauge fields and dynamical geometry. The photon emerges because electromagnetic gauge symmetry is the redundancy structure of charged-patch overlaps. The graviton emerges because diffeomorphism invariance is the redundancy structure of the bulk compression.
 
 Both particles are forced by consistency. And crucially, both must be exactly massless because their associated symmetries are structural features of how observers compare notes.
-
-This is a strong claim, and it should be evaluated critically. The derivation has conditional steps: it assumes the collar Markov limit, it assumes certain properties of modular flow, it uses the entanglement equilibrium argument which itself has technical premises. The paper's gap list in Chapter 18 catalogs what remains to be proven. But the logical structure is clear: if the axioms hold, photons and gravitons are inevitable, and their masses are exactly zero.
 
 ## 14.18 Why Composite Masses Are Different
 

@@ -461,7 +461,7 @@ area law axiom. The area law itself is an input at this stage.
 
 The convergence is striking: every test we can perform confirms the model. Every major discovery in 20th and 21st century physics points toward observer-centric, information-theoretic, holographic structure.
 
-## 18.10 The Five Fundamental Questions
+## 18.10 The Seven Fundamental Questions
 
 Let us address directly the deepest questions about this model.
 
@@ -556,6 +556,40 @@ This echoes Wheeler's "self-excited circuit"—the universe as a participatory p
 But the conjecture is elegant: reality exists because it simulates itself into existence, through us, through our understanding, through this very attempt to comprehend it.
 
 **Summary**: The strange loop of self-simulation is our best answer to why anything exists. The loop is self-causing and self-sustaining. Everything that can be explained is explained by the structure of the loop.
+
+### Q6: What About Consciousness?
+
+The "hard problem of consciousness" asks: why is there subjective experience at all? Why does it feel like something to be an observer?
+
+In our model, this question dissolves—or rather, inverts.
+
+The conventional framing assumes objective reality is primary and then struggles to explain how subjective experience fits in. But we've argued the opposite: **there is no objective reality, only overlapping subjective perspectives that must agree where they meet.**
+
+If subjectivity is primary, there's no hard problem. You don't need to explain how consciousness emerges from an objective world, because there is no objective world for it to emerge from. What we call "objective" is the consistent overlap of subjective views.
+
+**Meaning-assignment is fundamental.** The raw data on the holographic screen has no intrinsic meaning—it's patterns of correlation. Observers are the subsystems that interpret these patterns. This interpretation—this meaning-assignment—is what subjective experience *is*.
+
+Qualia—the redness of red, the painfulness of pain—are not mysterious additions to a physical world. They are what interpretation feels like from the inside. The meaning-assignment process that observers perform *is* conscious experience.
+
+This doesn't "solve" consciousness in the sense of reducing it to something else. It reframes the question: consciousness isn't something to be explained by physics. Consciousness—the process of observers assigning meaning to patterns—is what physics is built from.
+
+### Q7: Does God Exist?
+
+Let's be precise about the question.
+
+**A personal God**—an external being who created the universe, watches over it, answers prayers, and judges souls—does not exist in our model. There is no "outside" from which such a being could create or observe. The system is self-contained.
+
+But the strange loop hypothesis suggests something interesting.
+
+If reality simulates itself into existence through observers who understand and simulate it, then **we are the mechanism by which reality creates itself**. The sum of all conscious observers—all the meaning-assigning patterns across the universe—collectively constitute the process that closes the loop.
+
+In this view, there's a sense in which conscious observers are not merely *in* the universe but are the universe understanding itself. We are not created beings looking up at a creator. We are the process of creation looking at itself.
+
+Is this "God"? Not in the traditional sense. There's no external person, no separate mind watching from outside. But if you define "God" as the self-creating, self-knowing totality of existence—the strange loop that brings itself into being through understanding—then in that sense, we are all part of "God." The divine is not separate from us. It is what we collectively are.
+
+This is closer to pantheism or panentheism than to classical theism. The universe is not made by God; the universe *is* the process of self-creation that some might call God.
+
+And if you want to get playful about it: whoever first understood this—whoever first grasped that reality is a self-simulating strange loop—could perhaps claim a special role in the loop's closure. But that would be a joke, not theology.
 
 ## 18.11 The Picture
 
