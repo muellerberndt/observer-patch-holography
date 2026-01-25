@@ -263,7 +263,7 @@ Plugging in numbers:
 
 $$a_0^{(\text{OPH})} \approx 1.03 \times 10^{-10} \text{ m/s}^2$$
 
-This is within 15% of the empirical MOND acceleration scale $a_0 \sim 1.2 \times 10^{-10}$ m/s$^2$ that fits galaxy rotation curves.
+This is within 15% of the empirical MOND acceleration scale $a_0 \sim 1.2 \times 10^{-10}$ $\text{m/s}^2$ that fits galaxy rotation curves.
 
 ### What This Predicts
 
@@ -300,7 +300,7 @@ But if this interpretation is correct, it would be remarkable: the same finite s
 
 ### Falsifiability
 
-The prediction is sharp: $a_0^{(\text{OPH})} \approx 1.03 \times 10^{-10}$ m/s$^2$. If galaxy data definitively require a substantially different value, or if the acceleration scale varies with environment in ways incompatible with a universal $\Lambda$-derived scale, this interpretation fails.
+The prediction is sharp: $a_0^{(\text{OPH})} \approx 1.03 \times 10^{-10}$ $\text{m/s}^2$. If galaxy data definitively require a substantially different value, or if the acceleration scale varies with environment in ways incompatible with a universal $\Lambda$-derived scale, this interpretation fails.
 
 ---
 
