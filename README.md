@@ -44,8 +44,6 @@ Think of the screen as a gauge-invariant quantum system on a 2-sphere. It resemb
 
 *The screen is the computation. Observer patches are the threads. Reality is what they agree on.*
 
-<a href="assets/screen.jpg"><img src="assets/screen.jpg" alt="The Holographic Screen" width="800"></a>
-
 ### What Drives the Computation?
 
 In quantum link models, the dynamics involve plaquette terms (Wilson loops around faces) and electric field terms (conjugate to the link variables). The competition between these determines the ground state. The "computation" is these quantum degrees of freedom evolving, creating and destroying correlations, with gauge constraints ensuring consistency.
