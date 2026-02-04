@@ -346,6 +346,9 @@ The model is incomplete. The main gaps are:
 ### [Technical Paper](paper/PAPER.md)
 The formal development: axioms, theorems, proofs, and gap analysis.
 
+### [Technical Supplement](paper/TECHNICAL_SUPPLEMENT.md)
+Complete mathematical derivations: emergence of gravity, measurement problem, dark matter, Koide formula, baryogenesis, and more.
+
 ### Code
 
 | Script | Description |
