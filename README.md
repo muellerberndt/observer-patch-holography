@@ -409,6 +409,12 @@ For corrections, suggestions, or additions, please open a pull request.
 
 ## License
 
-This work is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You are free to share and adapt this material for non-commercial purposes with attribution.
+This repository is licensed under the
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 
-(C) Bernhard Mueller 2026
+You are free to share and adapt the material for non-commercial purposes,
+provided proper attribution is given and derivative works are licensed
+under identical terms.
+
+For commercial licensing inquiries, please contact:
+bernhard@floatingpragma.io
