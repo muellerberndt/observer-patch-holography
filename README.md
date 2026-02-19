@@ -356,6 +356,9 @@ Complete mathematical derivations: emergence of gravity, measurement problem, da
 ### [String Theory Derivation](paper/STRING_THEORY.md)
 How OPH implies string theory: edge sectors → 2D Yang-Mills → worldsheet expansion via Gross-Taylor duality.
 
+### [MiHsC Duality](paper/MIHSC_DUALITY.md)
+McCulloch's Quantised Inertia as an effective IR description of OPH: structural mapping, shared phenomenology, and testable divergences.
+
 ### Code
 
 | Script | Description |
