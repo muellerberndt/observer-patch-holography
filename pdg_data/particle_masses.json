@@ -1,0 +1,135 @@
+[
+  {
+    "particle": "up quark",
+    "pdg_name": "u",
+    "mass_GeV": 0.00216,
+    "err_plus_GeV": 7.000000000000001e-05,
+    "err_minus_GeV": 7.000000000000001e-05
+  },
+  {
+    "particle": "down quark",
+    "pdg_name": "d",
+    "mass_GeV": 0.0047,
+    "err_plus_GeV": 7.000000000000001e-05,
+    "err_minus_GeV": 7.000000000000001e-05
+  },
+  {
+    "particle": "strange quark",
+    "pdg_name": "s",
+    "mass_GeV": 0.0935,
+    "err_plus_GeV": 0.0008,
+    "err_minus_GeV": 0.0008
+  },
+  {
+    "particle": "charm quark",
+    "pdg_name": "c",
+    "mass_GeV": 1.273,
+    "err_plus_GeV": 0.0046,
+    "err_minus_GeV": 0.0046
+  },
+  {
+    "particle": "bottom quark",
+    "pdg_name": "b",
+    "mass_GeV": 4.183,
+    "err_plus_GeV": 0.007,
+    "err_minus_GeV": 0.007
+  },
+  {
+    "particle": "top quark",
+    "pdg_name": "t",
+    "mass_GeV": 172.5590883453979,
+    "err_plus_GeV": 0.3040826988999338,
+    "err_minus_GeV": 0.3061998752861254
+  },
+  {
+    "particle": "electron",
+    "pdg_name": "e-",
+    "mass_GeV": 0.0005109989499999999,
+    "err_plus_GeV": 1.6e-14,
+    "err_minus_GeV": 1.6e-14
+  },
+  {
+    "particle": "muon",
+    "pdg_name": "mu-",
+    "mass_GeV": 0.1056583755,
+    "err_plus_GeV": 2.5e-09,
+    "err_minus_GeV": 2.5e-09
+  },
+  {
+    "particle": "tau",
+    "pdg_name": "tau-",
+    "mass_GeV": 1.77693246513409,
+    "err_plus_GeV": 0.08491495391323055,
+    "err_minus_GeV": 0.08758019173411406
+  },
+  {
+    "particle": "W boson",
+    "pdg_name": "W+",
+    "mass_GeV": 80.377,
+    "err_plus_GeV": 0.012,
+    "err_minus_GeV": 0.012
+  },
+  {
+    "particle": "Z boson",
+    "pdg_name": "Z0",
+    "mass_GeV": 91.18797809193725,
+    "err_plus_GeV": 0.002013761937203607,
+    "err_minus_GeV": 0.002013761937203607
+  },
+  {
+    "particle": "Higgs boson",
+    "pdg_name": "H",
+    "mass_GeV": 125.1995304097179,
+    "err_plus_GeV": 0.1148838236816068,
+    "err_minus_GeV": 0.1148838236816068
+  },
+  {
+    "particle": "proton",
+    "pdg_name": "p",
+    "mass_GeV": 0.93827208816,
+    "err_plus_GeV": 5.3e-11,
+    "err_minus_GeV": 5.3e-11
+  },
+  {
+    "particle": "neutron",
+    "pdg_name": "n",
+    "mass_GeV": 0.93956542052,
+    "err_plus_GeV": 4.9e-10,
+    "err_minus_GeV": 4.9e-10
+  },
+  {
+    "particle": "pion (charged)",
+    "pdg_name": "pi+",
+    "mass_GeV": 0.13957039098368132,
+    "err_plus_GeV": 0.0001820071604082601,
+    "err_minus_GeV": 0.0001820071604082601
+  },
+  {
+    "particle": "pion (neutral)",
+    "pdg_name": "pi0",
+    "mass_GeV": 0.13497682776768472,
+    "err_plus_GeV": 4.856792822842335e-07,
+    "err_minus_GeV": 4.856792822842335e-07
+  },
+  {
+    "particle": "kaon (charged)",
+    "pdg_name": "K+",
+    "mass_GeV": 0.4936765994580406,
+    "err_plus_GeV": 0.01540566522607151,
+    "err_minus_GeV": 0.01540566522607151
+  },
+  {
+    "particle": "kaon (neutral)",
+    "pdg_name": "K0",
+    "mass_GeV": 0.4976107675312575,
+    "err_plus_GeV": 0.0129901997564242,
+    "err_minus_GeV": 0.0129901997564242
+  },
+  {
+    "particle": "Lambda",
+    "pdg_name": "3122",
+    "mass_GeV": 1.115683138712051,
+    "err_plus_GeV": 0.006437637778621987,
+    "err_minus_GeV": 0.006437637778621987
+  }
+]
