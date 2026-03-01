@@ -6,6 +6,8 @@
 
 **Explore:** [Interactive OPH Lab](https://floatingpragma.io/oph/) -- an interactive lab for learning Observer Patch Holography
 
+**French version:** [README_FR.md](README_FR.md) -- translated by Martin S.
+
 **Blog Posts:**
 
 - [How OPH Addresses Major Open Problems in Physics](https://medium.com/@muellerberndt/answering-10-of-the-hardest-questions-in-physics-and-some-bonus-questions-51222bf2419f)
