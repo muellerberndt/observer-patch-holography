@@ -19,7 +19,7 @@ OPH is the fundamental theory that exactly describes how our universe works, why
 The entire prediction pipeline uses exactly \textbf{two} physical inputs:
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}llll@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.240\textwidth}>{\RaggedRight\arraybackslash}p{0.240\textwidth}>{\RaggedRight\arraybackslash}p{0.240\textwidth}>{\RaggedRight\arraybackslash}p{0.240\textwidth}@{}}
 \toprule\noalign{}
 Input & Symbol & Value & Origin \\
 \midrule\noalign{}
@@ -58,7 +58,12 @@ The prediction code enforces a runtime mutation test: after computing all predic
 \subsubsection{1A.1 The Physical Input}\label{1a1-the-physical-input}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lllll@{}}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.05}
+\footnotesize
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.13\textwidth}>{\RaggedRight\arraybackslash}p{0.09\textwidth}>{\RaggedRight\arraybackslash}p{0.18\textwidth}>{\RaggedRight\arraybackslash}p{0.33\textwidth}>{\RaggedRight\arraybackslash}p{0.15\textwidth}@{}}
 \toprule\noalign{}
 Constant & Value & Code variable & Origin & Status \\
 \midrule\noalign{}
@@ -73,7 +78,12 @@ Constant & Value & Code variable & Origin & Status \\
 \subsubsection{1A.2 Structural Integers Derived from Axioms}\label{1a2-structural-integers-derived-from-axioms}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lllll@{}}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.05}
+\footnotesize
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.13\textwidth}>{\RaggedRight\arraybackslash}p{0.12\textwidth}>{\RaggedRight\arraybackslash}p{0.21\textwidth}>{\RaggedRight\arraybackslash}p{0.28\textwidth}>{\RaggedRight\arraybackslash}p{0.14\textwidth}@{}}
 \toprule\noalign{}
 Constant & Value & Code variable & Derivation & Part I of this manuscript ref \\
 \midrule\noalign{}
@@ -82,14 +92,14 @@ Constant & Value & Code variable & Derivation & Part I of this manuscript ref \\
 \endlastfoot
 \(N_c\) (colors) & 3 & \texttt{N\_c\_DEFAULT} & Witten\textquotesingle s global SU(2) anomaly requires \(N_c + 1\) SU(2) doublets per generation to be even, so \(N_c\) must be odd. \(N_c = 1\) is excluded (SU(1) trivial). The Selection Axiom MAR (third component of the complexity vector) picks the smallest nontrivial value. \textbf{Result}: \(N_c = 3\). & Theorem 6.14 (§6.9); Part II of this manuscript §6 \\
 \(N_g\) (generations) & 3 & \texttt{N\_g\_DEFAULT} & Three independent constraints narrow the window: (1) CP violation requires \(N_g \geq 3\) (CKM phases \((N_g-1)(N_g-2)/2 > 0\)). (2) Asymptotic freedom of SU(2) requires \(N_g(N_c+1) < 22\), giving \(N_g \leq 5\). (3) MAR (fourth component of the complexity vector) picks the smallest value in \(\{3, 4, 5\}\). \textbf{Result}: \(N_g = 3\). & Proposition 6.9 (§6.4); Part II of this manuscript §7 \\
-Gauge group & \(\frac{SU(3) \times SU(2) \times U(1)}{\mathbb{Z}_6}\) & , & Tannaka-Krein / Doplicher-Roberts reconstruction from edge-sector fusion rules yields a compact gauge group \(G\) (Theorem 6.1, §6.1). The Selection Axiom MAR uniquely selects the SM factors: the minimal faithful carrier \(\mathbb{C}^3 \otimes \mathbb{C}^2\) enforces the product structure SU(3) \(\times\) SU(2) \(\times\) U(1), the commutant argument excludes extra factors, and the \(\mathbb{Z}_6\) quotient follows from hypercharge quantization (Proposition 6.6). & §6.1--6.2; Part II of this manuscript \\
+Gauge group & \(\frac{SU(3) \times SU(2) \times U(1)}{\mathbb{Z}_6}\) & --- & Tannaka-Krein / Doplicher-Roberts reconstruction from edge-sector fusion rules yields a compact gauge group \(G\) (Theorem 6.1, §6.1). The Selection Axiom MAR uniquely selects the SM factors: the minimal faithful carrier \(\mathbb{C}^3 \otimes \mathbb{C}^2\) enforces the product structure SU(3) \(\times\) SU(2) \(\times\) U(1), the commutant argument excludes extra factors, and the \(\mathbb{Z}_6\) quotient follows from hypercharge quantization (Proposition 6.6). & §6.1--6.2; Part II of this manuscript \\
 \(\beta_{\text{EW}}\) & 4 & \texttt{beta\_ew(N\_c)} & Number of SU(2) doublets per generation = \(N_c\) quark doublets + 1 lepton doublet = \(N_c + 1 = 4\). This is a counting consequence of the Witten anomaly analysis that already fixed \(N_c = 3\). & §6.9, §6.19 \\
-\(\varepsilon\) (Z₆ defect) & \(1/6\) & \texttt{defect\_epsilon\_Z6()} & The SM gauge group has a \(\mathbb{Z}_6\) center quotient. Each unit of \(\mathbb{Z}_6\) defect insertion removes \(\Delta S = \ln 6\) nats of entropy (MaxEnt weighting, Assumption B). The resulting Boltzmann suppression per defect is \(e^{-\ln 6} = 1/6\). \textbf{This is topologically fixed} by the quotient structure, not chosen. & §6.18, §6.21 \\
+\(\varepsilon\) (Z₆ defect) & \(1/6\) & \texttt{defect\_\allowbreak epsilon\_\allowbreak Z6()} & The SM gauge group has a \(\mathbb{Z}_6\) center quotient. Each unit of \(\mathbb{Z}_6\) defect insertion removes \(\Delta S = \ln 6\) nats of entropy (MaxEnt weighting, Assumption B). The resulting Boltzmann suppression per defect is \(e^{-\ln 6} = 1/6\). \textbf{This is topologically fixed} by the quotient structure, not chosen. & §6.18, §6.21 \\
 \(\delta\) (Koide phase) & \(2/9\) & computed inline & The holonomy phase on generation space: \(\delta = \beta_{\text{EW}} \cdot Y_Q / N_g = (N_c+1)/(2 N_c N_g) = 4/18 = 2/9\). Here \(Y_Q = 1/(2N_c)\) is the quark-doublet hypercharge (fixed by anomaly cancellation) and \(N_g = 3\) is the number of generations. All ingredients are previously derived. Experimental extraction: \(\delta_{\text{exp}} = 0.2222248 \pm 0.0000063\), matching \(2/9 = 0.2222\ldots\) within \(0.4\sigma\). & Proposition 13.3 (§13 of Part V of this manuscript) \\
-Quark exponents & \(n_u = (6,3,0)\), \(n_d = (6,4,2)\) & \texttt{derive\_integer\_vectors()} & Minimal SU(3) hierarchy structure: \(n_{u} = (2N_c, N_c, 0)\) and \(n_d = (2N_c, N_c+1, N_c-1)\). These are the unique sequences that (a) span the range \([0, 2N_c]\) in \(N_g\) steps, (b) have the top quark unsuppressed (\(n_t = 0\)), and (c) match the observed up/down mass ordering under CKM rotation. With \(N_c = 3\): \((6,3,0)\) and \((6,4,2)\). & §6.21 \\
-Lepton exponents & \(n_e = (7,4,3)\) & \texttt{derive\_lepton\_exponents()} & Derived algorithmically: the Koide roots \(r_k^2\) (from \(\delta = 2/9\)) must satisfy \(r_i^2/r_j^2 \approx \varepsilon^{n_i - n_j}\) for all pairs. The code scans integer triples near \((N_g, N_g+1, \ldots)\) and selects the unique triple minimizing the log-ratio residuals. \textbf{Result}: \((n_\tau, n_\mu, n_e) = (3, 4, 7)\). & §6.21, §13 of Part V of this manuscript \\
-CKM angles & \(s_{12} = \varepsilon\), \(s_{23} = \varepsilon^2\), \(s_{13} = \varepsilon^3\) & inline & Powers of \(\varepsilon = 1/6\): the CKM mixing angles scale as \$\textbackslash varepsilon\^{}\{ & n\_i - n\_j \\
-\(Q\) (Koide ratio) & \(2/3\) & inline & The \(\mathbb{Z}_3\) mode balance on generation space: the circulant Hermitian matrix \(\Phi = a I + b P + b^* P^2\) on 3 generations satisfies \$Q = (1 + 2 & b/a \\
+Quark exponents & \(n_u = (6,3,0)\), \(n_d = (6,4,2)\) & \texttt{derive\_\allowbreak integer\_\allowbreak vectors()} & Minimal SU(3) hierarchy structure: \(n_{u} = (2N_c, N_c, 0)\) and \(n_d = (2N_c, N_c+1, N_c-1)\). These are the unique sequences that (a) span the range \([0, 2N_c]\) in \(N_g\) steps, (b) have the top quark unsuppressed (\(n_t = 0\)), and (c) match the observed up/down mass ordering under CKM rotation. With \(N_c = 3\): \((6,3,0)\) and \((6,4,2)\). & §6.21 \\
+Lepton exponents & \(n_e = (7,4,3)\) & \texttt{derive\_\allowbreak lepton\_\allowbreak exponents()} & Derived algorithmically: the Koide roots \(r_k^2\) (from \(\delta = 2/9\)) must satisfy \(r_i^2/r_j^2 \approx \varepsilon^{n_i - n_j}\) for all pairs. The code scans integer triples near \((N_g, N_g+1, \ldots)\) and selects the unique triple minimizing the log-ratio residuals. \textbf{Result}: \((n_\tau, n_\mu, n_e) = (3, 4, 7)\). & §6.21, §13 of Part V of this manuscript \\
+CKM angles & \(s_{12} = \varepsilon\), \(s_{23} = \varepsilon^2\), \(s_{13} = \varepsilon^3\) & inline & Powers of \(\varepsilon = 1/6\): the CKM mixing angles scale as \(\varepsilon^{\lvert n_i - n_j \rvert}\) where the exponents are the generation-gap between up-type and down-type defect charges. This is the standard Froggatt-Nielsen scaling. & §6.21 \\
+\(Q\) (Koide ratio) & \(2/3\) & inline & The \(\mathbb{Z}_3\) mode balance on generation space: the circulant Hermitian matrix \(\Phi = a I + b P + b^* P^2\) on 3 generations satisfies \(Q = (1 + 2\lvert b/a \rvert^2)/3 = 2/3\) when \(\lvert b/a \rvert = 1/\sqrt{2}\), i.e., when the singlet and charged \(\mathbb{Z}_3\) modes have equal norm. This is the MaxEnt equilibrium. & Theorem 13.2 (§13 of Part V of this manuscript) \\
 \end{longtable}
 }
 
@@ -98,7 +108,12 @@ CKM angles & \(s_{12} = \varepsilon\), \(s_{23} = \varepsilon^2\), \(s_{13} = \v
 These constants are \emph{not} inputs , they are uniquely determined mathematical consequences of the gauge group SU(3) \(\times\) SU(2) \(\times\) U(1) with \(N_g\) generations of the standard fermion representations. Any QFT textbook (e.g., Peskin \& Schroeder) derives them from the Lagrangian.
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}llll@{}}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.05}
+\footnotesize
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.20\textwidth}>{\RaggedRight\arraybackslash}p{0.16\textwidth}>{\RaggedRight\arraybackslash}p{0.20\textwidth}>{\RaggedRight\arraybackslash}p{0.32\textwidth}@{}}
 \toprule\noalign{}
 Constant & Value & Code location & What determines it \\
 \midrule\noalign{}
@@ -106,11 +121,11 @@ Constant & Value & Code location & What determines it \\
 \bottomrule\noalign{}
 \endlastfoot
 MSSM \(\beta\)-coefficients & \((b_1, b_2, b_3) = (33/5, 1, -3)\) & \texttt{B\_MSSM} & The edge-sector computation (§6.17 of Part I of this manuscript) derives \(\beta\)-function shifts \(\Delta b \approx (2.49, 4.17, 4.01)\) from the heat-kernel vacuum-polarization weighting and the \(\mathbb{Z}_6\) quotient. These match the shifts from SM to MSSM to better than 1\%. The coefficients themselves are standard 1-loop group theory: \(b_i = \sum_R T(R_i)\) summed over all matter multiplets. Using MSSM content is a \emph{consequence} of the edge-sector matching, not an assumption. SM-only coefficients fail catastrophically (\(\alpha_s\) off by 52\(\sigma\)). \\
-SM 1-loop \(\beta\)-coefficients & \((b_1, b_2, b_3)^{\text{SM}} = (41/10, -19/6, -7)\) & \texttt{B\_SM\_1LOOP} & Standard 1-loop coefficients for the SM with \(N_g = 3\), used only for the critical-surface RG evolution from \(M_U\) to \(m_t\) (§5 of this paper). Determined entirely by the SM gauge group and matter content. \\
-4-loop MSbar \(\beta\)-coefficients & \(\beta_0, \beta_1, \beta_2, \beta_3\) & \texttt{beta\_coeffs\_msbar(n\_f)} in \texttt{oph\_qcd.py} & Standard perturbative QCD: \(\beta_0 = 11 - 2n_f/3\), \(\beta_1 = 102 - 38n_f/3\), etc. These are computed from SU(3) Feynman diagrams at each loop order. The 4-loop coefficient \(\beta_3\) involves \(\zeta(3)\); all are universal in the MSbar scheme. \\
-Pole-mass conversion & \(K_2 = 13.44 - 1.04 n_l\), \(K_3 = 190.6 - 26.7 n_l + 0.65 n_l^2\) & \texttt{top\_pole\_from\_msbar()} & Standard 3-loop QCD relation between \(\overline{\text{MS}}\) and pole mass (Chetyrkin, Kniehl, Steinhauser 2000). These are perturbative coefficients computed from Feynman diagrams; they depend only on \(n_l\) (number of light flavors) and SU(3) group factors. \\
-Casimir eigenvalues & \(C_2(p,q)\), \(d_{(p,q)}\) & \texttt{ellbar\_su3()}, \texttt{ellbar\_su2()} & Group-theoretic: \(C_2(p,q) = \frac{1}{3}(p^2 + q^2 + pq + 3p + 3q)\) for SU(3), \(C_2(j) = j(j+1)\) for SU(2), \(d_{(p,q)} = \frac{1}{2}(p+1)(q+1)(p+q+2)\). These are properties of the Lie algebra, not physical inputs. \\
-\(\zeta(3)\) & 1.20206... & \texttt{z3} in \texttt{oph\_qcd.py} & Ap\'{e}ry\textquotesingle s constant , a pure mathematical constant appearing in 4-loop \(\beta_3\). \\
+SM 1-loop \(\beta\)-coefficients & \((b_1, b_2, b_3)^{\text{SM}} = (41/10, -19/6, -7)\) & \texttt{B\_\allowbreak SM\_\allowbreak 1LOOP} & Standard 1-loop coefficients for the SM with \(N_g = 3\), used only for the critical-surface RG evolution from \(M_U\) to \(m_t\) (§5 of this paper). Determined entirely by the SM gauge group and matter content. \\
+4-loop MSbar \(\beta\)-coefficients & \(\beta_0, \beta_1, \beta_2, \beta_3\) & \texttt{beta\_\allowbreak coeffs\_\allowbreak msbar(n\_\allowbreak f)} in \texttt{oph\_\allowbreak qcd.py} & Standard perturbative QCD: \(\beta_0 = 11 - 2n_f/3\), \(\beta_1 = 102 - 38n_f/3\), etc. These are computed from SU(3) Feynman diagrams at each loop order. The 4-loop coefficient \(\beta_3\) involves \(\zeta(3)\); all are universal in the MSbar scheme. \\
+Pole-mass conversion & \(K_2 = 13.44 - 1.04 n_l\), \(K_3 = 190.6 - 26.7 n_l + 0.65 n_l^2\) & \texttt{top\_\allowbreak pole\_\allowbreak from\_\allowbreak msbar()} & Standard 3-loop QCD relation between \(\overline{\text{MS}}\) and pole mass (Chetyrkin, Kniehl, Steinhauser 2000). These are perturbative coefficients computed from Feynman diagrams; they depend only on \(n_l\) (number of light flavors) and SU(3) group factors. \\
+Casimir eigenvalues & \(C_2(p,q)\), \(d_{(p,q)}\) & \texttt{ellbar\_\allowbreak su3()}, \texttt{ellbar\_\allowbreak su2()} & Group-theoretic: \(C_2(p,q) = \frac{1}{3}(p^2 + q^2 + pq + 3p + 3q)\) for SU(3), \(C_2(j) = j(j+1)\) for SU(2), \(d_{(p,q)} = \frac{1}{2}(p+1)(q+1)(p+q+2)\). These are properties of the Lie algebra, not physical inputs. \\
+\(\zeta(3)\) & 1.20206... & \texttt{z3} in \texttt{oph\_\allowbreak qcd.py} & Ap\'{e}ry\textquotesingle s constant , a pure mathematical constant appearing in 4-loop \(\beta_3\). \\
 GUT normalization & \(\alpha_1 = \frac{5}{3}\alpha_Y\) & inline & The factor \(5/3\) is the standard GUT normalization ensuring all three couplings unify. It follows from embedding U(1)\(_Y\) into SU(5) and is fixed by the hypercharge assignments of the SM fermions. \\
 \end{longtable}
 }
@@ -118,7 +133,12 @@ GUT normalization & \(\alpha_1 = \frac{5}{3}\alpha_Y\) & inline & The factor \(5
 \subsubsection{1A.4 Dimensional/Definitional Constants}\label{1a4-dimensionaldefinitional-constants}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}llll@{}}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.05}
+\footnotesize
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.20\textwidth}>{\RaggedRight\arraybackslash}p{0.16\textwidth}>{\RaggedRight\arraybackslash}p{0.20\textwidth}>{\RaggedRight\arraybackslash}p{0.32\textwidth}@{}}
 \toprule\noalign{}
 Constant & Value & Code variable & Status \\
 \midrule\noalign{}
@@ -137,7 +157,7 @@ Constant & Value & Code variable & Status \\
 These affect computational precision but not the prediction logic. Changing them changes the last digits, not the physics.
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lll@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.320\textwidth}>{\RaggedRight\arraybackslash}p{0.320\textwidth}>{\RaggedRight\arraybackslash}p{0.320\textwidth}@{}}
 \toprule\noalign{}
 Parameter & Value used & Effect of changing \\
 \midrule\noalign{}
@@ -337,7 +357,7 @@ This yields:
 With \(\alpha_U\) and \(M_U\) determined, the gauge couplings at \(\mu = m_{Z,\text{run}}\) are fixed:
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lll@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.320\textwidth}>{\RaggedRight\arraybackslash}p{0.320\textwidth}>{\RaggedRight\arraybackslash}p{0.320\textwidth}@{}}
 \toprule\noalign{}
 Quantity & Formula & Predicted Value \\
 \midrule\noalign{}
@@ -357,7 +377,7 @@ From these:
 \[\alpha_{\text{em}} = \left(\frac{1}{\alpha_2} + \frac{1}{\frac{3}{5}\alpha_1}\right)^{-1}, \quad \sin^2\theta_W = \frac{\alpha_{\text{em}}}{\alpha_2}\]
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lll@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.320\textwidth}>{\RaggedRight\arraybackslash}p{0.320\textwidth}>{\RaggedRight\arraybackslash}p{0.320\textwidth}@{}}
 \toprule\noalign{}
 Observable & Predicted & PDG Value \\
 \midrule\noalign{}
@@ -505,7 +525,7 @@ Stepping down across flavor thresholds:
 yields:
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}ll@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.480\textwidth}>{\RaggedRight\arraybackslash}p{0.480\textwidth}@{}}
 \toprule\noalign{}
 \(n_f\) & \(\Lambda_{\overline{\text{MS}}}^{(n_f)}\) (GeV) \\
 \midrule\noalign{}
@@ -566,7 +586,7 @@ This yields \(\Delta m_{32}^2 \approx 9.1 \times 10^{-24} \text{ GeV}^2\) and \(
 The following particles are predicted to be \textbf{exactly massless} by symmetry:
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}ll@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.480\textwidth}>{\RaggedRight\arraybackslash}p{0.480\textwidth}@{}}
 \toprule\noalign{}
 Particle & Reason \\
 \midrule\noalign{}
@@ -590,7 +610,7 @@ All predictions below use inputs \(P = 1.63094\) and \(\log(\dim\mathcal{H}) = 1
 \subsubsection{10.1 Gauge Bosons and Higgs}\label{101-gauge-bosons-and-higgs}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lrrrll@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.160\textwidth}>{\RaggedLeft\arraybackslash}p{0.160\textwidth}>{\RaggedLeft\arraybackslash}p{0.160\textwidth}>{\RaggedLeft\arraybackslash}p{0.160\textwidth}>{\RaggedRight\arraybackslash}p{0.160\textwidth}>{\RaggedRight\arraybackslash}p{0.160\textwidth}@{}}
 \toprule\noalign{}
 Particle & OPH (GeV) & PDG (GeV) & Rel. Error & Stage & Error Source \\
 \midrule\noalign{}
@@ -608,7 +628,7 @@ Particle & OPH (GeV) & PDG (GeV) & Rel. Error & Stage & Error Source \\
 \subsubsection{10.2 Charged Leptons}\label{102-charged-leptons}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lrrrll@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.160\textwidth}>{\RaggedLeft\arraybackslash}p{0.160\textwidth}>{\RaggedLeft\arraybackslash}p{0.160\textwidth}>{\RaggedLeft\arraybackslash}p{0.160\textwidth}>{\RaggedRight\arraybackslash}p{0.160\textwidth}>{\RaggedRight\arraybackslash}p{0.160\textwidth}@{}}
 \toprule\noalign{}
 Particle & OPH (GeV) & PDG (GeV) & Rel. Error & Stage & Error Source \\
 \midrule\noalign{}
@@ -624,7 +644,7 @@ Tau & 1.7766 & 1.7769 ± 0.09 & −0.020\% & §6 & Same origin. The uniform sign
 \subsubsection{10.3 Neutrinos}\label{103-neutrinos}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lrrll@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.192\textwidth}>{\RaggedLeft\arraybackslash}p{0.192\textwidth}>{\RaggedLeft\arraybackslash}p{0.192\textwidth}>{\RaggedRight\arraybackslash}p{0.192\textwidth}>{\RaggedRight\arraybackslash}p{0.192\textwidth}@{}}
 \toprule\noalign{}
 Particle & OPH (GeV) & Experiment & Stage & Error Source \\
 \midrule\noalign{}
@@ -642,7 +662,7 @@ All predictions are well below the current experimental upper bound of \(\sim 0.
 \subsubsection{10.4 Quarks}\label{104-quarks}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lrrrll@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.160\textwidth}>{\RaggedLeft\arraybackslash}p{0.160\textwidth}>{\RaggedLeft\arraybackslash}p{0.160\textwidth}>{\RaggedLeft\arraybackslash}p{0.160\textwidth}>{\RaggedRight\arraybackslash}p{0.160\textwidth}>{\RaggedRight\arraybackslash}p{0.160\textwidth}@{}}
 \toprule\noalign{}
 Particle & OPH (GeV) & PDG (GeV) & Rel. Error & Stage & Error Source \\
 \midrule\noalign{}
@@ -662,7 +682,7 @@ top (crit. surf.) & 171.1 & 172.6 & −0.87\% & §5 & Independent derivation via
 \subsubsection{\texorpdfstring{10.5 Gauge Couplings at \(m_Z\)}{10.5 Gauge Couplings at m\_Z}}\label{105-gauge-couplings-at-m_z}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lrrrl@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.192\textwidth}>{\RaggedLeft\arraybackslash}p{0.192\textwidth}>{\RaggedLeft\arraybackslash}p{0.192\textwidth}>{\RaggedLeft\arraybackslash}p{0.192\textwidth}>{\RaggedRight\arraybackslash}p{0.192\textwidth}@{}}
 \toprule\noalign{}
 Quantity & OPH & PDG & Rel. Error & Error Source \\
 \midrule\noalign{}
@@ -678,7 +698,7 @@ Quantity & OPH & PDG & Rel. Error & Error Source \\
 \subsubsection{10.6 Derived Scales}\label{106-derived-scales}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lrrrl@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.192\textwidth}>{\RaggedLeft\arraybackslash}p{0.192\textwidth}>{\RaggedLeft\arraybackslash}p{0.192\textwidth}>{\RaggedLeft\arraybackslash}p{0.192\textwidth}>{\RaggedRight\arraybackslash}p{0.192\textwidth}@{}}
 \toprule\noalign{}
 Quantity & OPH Value & Reference & Agreement & Error Source \\
 \midrule\noalign{}
@@ -697,7 +717,7 @@ Quantity & OPH Value & Reference & Agreement & Error Source \\
 Hadron masses follow from \(m_X = C_X \cdot \Lambda_{\overline{\text{MS}}}^{(3)}\), where \(C_X\) is a dimensionless ratio computed via lattice QCD. The derivation chain is complete: \(P \to \alpha_s(m_Z) \to \Lambda^{(3)} \to m_X\). Current lattice estimates use small volumes and the quenched approximation, so systematic uncertainties are large (\textasciitilde10--20\%).
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lrll@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.240\textwidth}>{\RaggedLeft\arraybackslash}p{0.240\textwidth}>{\RaggedRight\arraybackslash}p{0.240\textwidth}>{\RaggedRight\arraybackslash}p{0.240\textwidth}@{}}
 \toprule\noalign{}
 Particle & PDG (GeV) & Formula & Dominant uncertainty \\
 \midrule\noalign{}
@@ -787,7 +807,7 @@ No other dependencies are needed. The \texttt{pdg} and \texttt{pandas} packages 
 \subsubsection{12.2 Code Files}\label{122-code-files}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}lll@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.320\textwidth}>{\RaggedRight\arraybackslash}p{0.320\textwidth}>{\RaggedRight\arraybackslash}p{0.320\textwidth}@{}}
 \toprule\noalign{}
 File & Description & Stage \\
 \midrule\noalign{}
