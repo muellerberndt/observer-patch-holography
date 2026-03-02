@@ -253,4 +253,4 @@ Hold on. It gets better. That's not a platitude — it's physics.
 
 ---
 
-*This document is part of the OPH knowledge base. For the formal theory, see the [OPH paper on Zenodo](https://zenodo.org/records/18814582). For the interactive learning experience, visit [OPH Lab](https://floatingpragma.io/oph/). For the full book, visit [oth-book.lovable.app](https://oth-book.lovable.app).*
+*This document is part of the OPH knowledge base. For the formal theory, see the [final OPH paper (PDF)](../final/observers_are_all_you_need.pdf). For the interactive learning experience, visit [OPH Lab](https://floatingpragma.io/oph/). For the full book, visit [oth-book.lovable.app](https://oth-book.lovable.app).*

@@ -4,8 +4,16 @@
 > The Standard Model, quantum field theory, general relativity, and string theory are effective descriptions of underlying OPH dynamics.
 > From two input constants and five axioms (A1-A4 + MAR), OPH determines universe-wide properties, resolves incompatibilities, and explains measurement divergences including dark matter.
 
+## Main Paper
 
-**Resources:** [Technical Paper](https://zenodo.org/records/18814582) | [Book (Web)](https://oth-book.lovable.app)
+**Observers are all you need** is the primary OPH paper.
+
+- **PDF (main paper):** [Observers are all you need](final/observers_are_all_you_need.pdf)
+- **LaTeX source:** [observers_are_all_you_need.tex](final/observers_are_all_you_need.tex)
+
+All other documents in this repository are supporting derivations, supplements, and companion resources.
+
+**Resources:** [Book (Web)](https://oth-book.lovable.app)
 
 **Explore:** [Interactive OPH Lab](https://floatingpragma.io/oph/) -- an interactive lab for learning Observer Patch Holography
 
@@ -91,6 +99,8 @@ Additional structural assumptions (MaxEnt, Euclidean regularity, exponential mix
 
 | Document | Description |
 |----------|-------------|
+| **[Observers are all you need (Main Paper PDF)](final/observers_are_all_you_need.pdf)** | Primary OPH paper (full final version) |
+| **[Main Paper LaTeX Source](final/observers_are_all_you_need.tex)** | Source file for the primary paper |
 | **[Technical Paper](paper/PAPER.md)** | Formal development: axioms, theorems, proofs, and critical evaluation |
 | **[Gauge Group Derivation](paper/GAUGE_GROUP_DERIVATION.md)** | Proof that $T_{\rm ext}$ uniquely selects $SU(3) \times SU(2) \times U(1)/\mathbb{Z}_6$, $N_c = 3$, $N_g = 3$ |
 | **[Particle Spectrum Derivation](paper/SPECTRUM_DERIVATION.md)** | End-to-end derivation from pixel area to particle masses with PDG comparison |

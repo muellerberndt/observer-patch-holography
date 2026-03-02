@@ -4,8 +4,16 @@
 > Le Modèle Standard, la théorie quantique des champs, la relativité générale et la théorie des cordes sont des descriptions effectives de l'OPH sous-jacente.
 > À partir de deux constantes d'entrée et de cinq axiomes (A1-A4 + MAR), OPH détermine les propriétés de l'univers, résout les incompatibilités et explique les divergences de mesure, y compris la matière noire.
 
+## Article principal
 
-**Télécharger :** [Article technique](https://zenodo.org/records/18814582) | [Livre (Web)](https://oth-book.lovable.app)
+**Observers are all you need** est l'article principal de l'OPH.
+
+- **PDF (article principal) :** [Observers are all you need](final/observers_are_all_you_need.pdf)
+- **Source LaTeX :** [observers_are_all_you_need.tex](final/observers_are_all_you_need.tex)
+
+Tous les autres documents du dépôt sont des dérivations, suppléments et ressources complémentaires.
+
+**Ressources :** [Livre (Web)](https://oth-book.lovable.app)
 
 **Lire :** [Comment l'OPH résout la physique fondamentale](https://medium.com/@muellerberndt/answering-10-of-the-hardest-questions-in-physics-and-some-bonus-questions-51222bf2419f)
 
@@ -91,6 +99,8 @@ Les hypothèses structurelles supplémentaires (MaxEnt, régularité euclidienne
 
 | Document | Description |
 |----------|-------------|
+| **[Observers are all you need (PDF principal)](final/observers_are_all_you_need.pdf)** | Article principal OPH (version finale complète) |
+| **[Source LaTeX de l'article principal](final/observers_are_all_you_need.tex)** | Fichier source de l'article principal |
 | **[Article technique](paper/PAPER.md)** | Développement formel : axiomes, théorèmes, preuves et évaluation critique |
 | **[Dérivation du groupe de jauge](paper/GAUGE_GROUP_DERIVATION.md)** | Preuve que $T_{\rm ext}$ sélectionne de façon unique $SU(3) \times SU(2) \times U(1)/\mathbb{Z}_6$, $N_c = 3$, $N_g = 3$ |
 | **[Dérivation du spectre de particules](paper/SPECTRUM_DERIVATION.md)** | Chaîne complète de l'aire de pixel aux masses avec comparaison PDG |

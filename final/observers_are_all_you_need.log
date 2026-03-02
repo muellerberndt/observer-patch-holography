@@ -1,5 +1,5 @@
 **
-(observers_is_all_you_need.tex
+(observers_are_all_you_need.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -433,7 +433,7 @@ File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
 \g__pdf_backend_object_int=\count305
 \g__pdf_backend_annotation_int=\count306
 \g__pdf_backend_link_int=\count307
-) (observers_is_all_you_need.aux
+) (observers_are_all_you_need.aux
 
 LaTeX Warning: Label `references' multiply defined.
 
@@ -441,7 +441,7 @@ LaTeX Warning: Label `references' multiply defined.
 LaTeX Warning: Label `references' multiply defined.
 
 )
-\openout1 = `observers_is_all_you_need.aux'.
+\openout1 = `observers_are_all_you_need.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
@@ -517,9 +517,9 @@ LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
 
-(observers_is_all_you_need.out) (observers_is_all_you_need.out)
+(observers_are_all_you_need.out) (observers_are_all_you_need.out)
 \@outlinefile=\write4
-\openout4 = `observers_is_all_you_need.out'.
+\openout4 = `observers_are_all_you_need.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
 9.
@@ -558,7 +558,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
  (umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(observers_is_all_you_need.toc
+(observers_are_all_you_need.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 3.
  [1
@@ -574,7 +574,7 @@ Missing character: There is no ₆ ("2086) in font ec-lmr10!
 Missing character: There is no ₃ ("2083) in font ec-lmr10!
 [8])
 \tf@toc=\write5
-\openout5 = `observers_is_all_you_need.toc'.
+\openout5 = `observers_are_all_you_need.toc'.
 
  [9] (tex_fragments/PAPER.tex
 Overfull \hbox (55.03757pt too wide) in paragraph at lines 19--21
@@ -2517,12 +2517,12 @@ er-[]path-[]holography-[]improves-[]on-[]the-[]standard-[]model-[]and-[]general
 
 [143] [144
 
-] (observers_is_all_you_need.aux)
+] (observers_are_all_you_need.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `observers_is_all_you_need.out' has not chang
-ed.
+Package rerunfilecheck Info: File `observers_are_all_you_need.out' has not chan
+ged.
 (rerunfilecheck)             Checksum: 605378B962399C92CFA9741678E45623;75391.
  )
-Output written on observers_is_all_you_need.xdv (144 pages, 809404 bytes).
+Output written on observers_are_all_you_need.xdv (144 pages, 809388 bytes).
