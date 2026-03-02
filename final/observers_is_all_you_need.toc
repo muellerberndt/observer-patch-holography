@@ -1,0 +1,314 @@
+\contentsline {part}{I\hspace {1em}Core Framework and Axioms}{10}{part.1}%
+\contentsline {section}{\numberline {1}Observer-Patch Holography}{10}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Abstract}{10}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}1. Model and Axioms}{11}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}1.1 Observers and access model}{11}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}1.2 Screen, patches, and algebra net}{11}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}1.3 Core axioms}{11}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}1.4 Assumptions and external inputs}{12}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}1.5 Notation}{13}{subsubsection.1.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.6}1.6 Summary: Complete axiom set}{14}{subsubsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.3}2. Information-Theoretic Tools}{14}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}2.1 Strong subadditivity and Markov states}{14}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}2.2 Approximate recovery}{14}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}2.3 Collar refinement and sufficient mechanisms}{15}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}2.6 Concrete UV realization: quantum link models}{17}{subsubsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.5}2.7 Conformal-modular fixed point microphysics (CMFP)}{18}{subsubsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.4}3. Overlap Consistency and Gluing}{20}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}3.1 Constructive gluing on tree covers}{20}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}3.2 Gauge-as-gluing and loops}{21}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}3.3 Loop obstruction class (central defect)}{21}{subsubsection.1.4.3}%
+\contentsline {subsubsection}{\numberline {1.4.4}3.4 Non-central obstruction (2-group cocycle)}{21}{subsubsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.5}4. Modular Flow and Lorentz Kinematics}{22}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}4.1 Modular additivity in the Markov collar limit}{22}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}4.2 Theorem: \(\mathrm {BW}_{S^2}\) from Markov locality, symmetry, regularity}{23}{subsubsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {1.5.3}4.3 Theorem: \(\mathrm {BW}_{S^2}\) implies Lorentz kinematics}{23}{subsubsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.6}5. Gravity from Entanglement Equilibrium}{24}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.6.1}5.1 Cap first law}{24}{subsubsection.1.6.1}%
+\contentsline {subsubsection}{\numberline {1.6.2}5.2 Null-surface modular bridge}{24}{subsubsection.1.6.2}%
+\contentsline {subsubsection}{\numberline {1.6.3}5.3 Modular energy as stress-tensor charge (UV CFT)}{28}{subsubsection.1.6.3}%
+\contentsline {subsubsection}{\numberline {1.6.4}5.4 Localized generalized entropy from Markov + MaxEnt}{29}{subsubsection.1.6.4}%
+\contentsline {subsubsection}{\numberline {1.6.5}5.5 Entanglement equilibrium from MaxEnt}{30}{subsubsection.1.6.5}%
+\contentsline {subsubsection}{\numberline {1.6.6}5.6 Einstein equation from cap equilibrium}{30}{subsubsection.1.6.6}%
+\contentsline {subsubsection}{\numberline {1.6.7}5.7 Overlaps supply all timelike directions}{30}{subsubsection.1.6.7}%
+\contentsline {subsubsection}{\numberline {1.6.8}5.8 Non-tunable numerical constants}{30}{subsubsection.1.6.8}%
+\contentsline {subsubsection}{\numberline {1.6.9}5.9 Quantitative Markov error and controlled corrections}{31}{subsubsection.1.6.9}%
+\contentsline {subsubsection}{\numberline {1.6.10}5.10 Focusing/QNEC internalization via relative entropy}{32}{subsubsection.1.6.10}%
+\contentsline {subsubsection}{\numberline {1.6.11}5.11 Discrete horizon area spectrum and Hawking emission (established)}{33}{subsubsection.1.6.11}%
+\contentsline {subsubsection}{\numberline {1.6.12}5.12 Classical mechanics from emergent GR}{37}{subsubsection.1.6.12}%
+\contentsline {subsubsection}{\numberline {1.6.13}5.13 Precision gravity predictions and experimental bounds}{39}{subsubsection.1.6.13}%
+\contentsline {subsubsection}{\numberline {1.6.14}5.14 Theory-side error propagation from Markov bounds}{39}{subsubsection.1.6.14}%
+\contentsline {subsubsection}{\numberline {1.6.15}5.15 Dark matter as modular anomaly (program-level)}{40}{subsubsection.1.6.15}%
+\contentsline {subsubsection}{\numberline {1.6.16}5.16 De Sitter holography: static patch vs boundary-at-infinity}{42}{subsubsection.1.6.16}%
+\contentsline {subsection}{\numberline {1.7}6. Standard Model from Gluing Consistency}{43}{subsection.1.7}%
+\contentsline {subsubsection}{\numberline {1.7.1}6.1 Edge sector category and gauge group reconstruction}{44}{subsubsection.1.7.1}%
+\contentsline {subsubsection}{\numberline {1.7.2}6.2 Selecting the SM factors (derived from MAR)}{44}{subsubsection.1.7.2}%
+\contentsline {subsubsection}{\numberline {1.7.3}6.3 Refinement stability and unprotected relevant operators}{46}{subsubsection.1.7.3}%
+\contentsline {subsubsection}{\numberline {1.7.4}6.4 Generation number from CP violation and refinement stability (derived from MAR)}{47}{subsubsection.1.7.4}%
+\contentsline {subsubsection}{\numberline {1.7.5}6.5 Hilbert-space formulation of gluing data}{48}{subsubsection.1.7.5}%
+\contentsline {subsubsection}{\numberline {1.7.6}6.6 Loop obstruction class (central defect)}{48}{subsubsection.1.7.6}%
+\contentsline {subsubsection}{\numberline {1.7.7}6.7 EFT reduction to anomaly cancellation}{49}{subsubsection.1.7.7}%
+\contentsline {subsubsection}{\numberline {1.7.8}6.8 Hypercharge from anomaly freedom and Yukawas}{49}{subsubsection.1.7.8}%
+\contentsline {subsubsection}{\numberline {1.7.9}6.9 Witten anomaly and the number of colors}{50}{subsubsection.1.7.9}%
+\contentsline {subsubsection}{\numberline {1.7.10}6.10 Bond-dimension gatekeeping}{51}{subsubsection.1.7.10}%
+\contentsline {subsubsection}{\numberline {1.7.11}6.11 Inevitability of photon and graviton}{51}{subsubsection.1.7.11}%
+\contentsline {subsubsection}{\numberline {1.7.12}6.12 Mass predictions from symmetry}{52}{subsubsection.1.7.12}%
+\contentsline {subsubsection}{\numberline {1.7.13}6.13 Coupling extraction from edge-sector probabilities}{53}{subsubsection.1.7.13}%
+\contentsline {subsubsection}{\numberline {1.7.14}6.14 Numerical validation of the heat-kernel law}{55}{subsubsection.1.7.14}%
+\contentsline {subsubsection}{\numberline {1.7.15}6.15 Particle mass extraction from spectroscopy}{59}{subsubsection.1.7.15}%
+\contentsline {subsubsection}{\numberline {1.7.16}6.16 Composite masses and the path to predictions}{60}{subsubsection.1.7.16}%
+\contentsline {subsubsection}{\numberline {1.7.17}6.17 Gauge unification and spectrum constraints}{60}{subsubsection.1.7.17}%
+\contentsline {subsubsection}{\numberline {1.7.18}6.18 The Z₆ quotient: edge-sector selection rules and entropy deficit}{69}{subsubsection.1.7.18}%
+\contentsline {subsubsection}{\numberline {1.7.19}6.19 Electroweak scale from dimensional transmutation}{71}{subsubsection.1.7.19}%
+\contentsline {subsubsection}{\numberline {1.7.20}6.20 Top quark mass from order-one Yukawa}{72}{subsubsection.1.7.20}%
+\contentsline {subsubsection}{\numberline {1.7.21}6.21 Yukawa hierarchy from Z₆ defect suppression}{73}{subsubsection.1.7.21}%
+\contentsline {subsubsection}{\numberline {1.7.22}6.22 Higgs mass from critical surface constraint}{74}{subsubsection.1.7.22}%
+\contentsline {subsubsection}{\numberline {1.7.23}6.23 Rigorous derivation chain: axioms to predictions}{75}{subsubsection.1.7.23}%
+\contentsline {subsection}{\numberline {1.8}7. Open Questions}{78}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}8. Critical Evaluation}{78}{subsection.1.9}%
+\contentsline {subsubsection}{\numberline {1.9.1}8.1 Classification of results}{78}{subsubsection.1.9.1}%
+\contentsline {subsubsection}{\numberline {1.9.2}8.2 Structural assessment}{81}{subsubsection.1.9.2}%
+\contentsline {subsubsection}{\numberline {1.9.3}8.3 Novel testable predictions}{81}{subsubsection.1.9.3}%
+\contentsline {subsubsection}{\numberline {1.9.4}8.4 What is not predicted (gaps)}{82}{subsubsection.1.9.4}%
+\contentsline {subsubsection}{\numberline {1.9.5}8.5 Comparison with other unification approaches}{83}{subsubsection.1.9.5}%
+\contentsline {subsection}{\numberline {1.10}References}{86}{subsection.1.10}%
+\contentsline {subsubsection}{\numberline {1.10.1}Foundational results used in this work}{86}{subsubsection.1.10.1}%
+\contentsline {subsubsection}{\numberline {1.10.2}Standard Model and unification (borrowed results)}{87}{subsubsection.1.10.2}%
+\contentsline {part}{II\hspace {1em}Gauge Group Derivation}{88}{part.2}%
+\contentsline {section}{\numberline {2}Gauge Group Derivation: Why the Standard Model Is Inevitable}{88}{section.2}%
+\contentsline {subsection}{\numberline {2.1}1. Premise Summary}{88}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}1.1 The Extended Theory}{88}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}1.2 What the Core Already Proves}{89}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}1.3 The Transportability Premise}{89}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}2. Admissibility Conditions}{89}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}(i) Loop-coherent / transportable}{89}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}(ii) Anomaly-free}{89}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}(iii) Refinement-stable with light chiral matter}{90}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}(iv) Single-Higgs Yukawa-completable}{90}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}(v) Intrinsically CP-capable}{90}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}(vi) Weak-sector UV-completable}{90}{subsubsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.3}3. Selection Axiom MAR}{90}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}4. Main Theorem}{91}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}5. Proof: Gauge Group}{91}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Step 1: Some compact group exists}{91}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Step 2: The gauge group must be a product}{92}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Step 3: The factors are SU(3), SU(2), and U(1)}{92}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Step 4: Nothing else , the commutant argument}{93}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.5}Step 5: The global quotient is \(\mathbb {Z}_6\)}{93}{subsubsection.2.5.5}%
+\contentsline {subsubsection}{\numberline {2.5.6}Summary of Step 1--5}{94}{subsubsection.2.5.6}%
+\contentsline {subsection}{\numberline {2.6}6. Proof: Number of Colors}{94}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}7. Proof: Number of Generations}{94}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}8. Corollaries}{95}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}Corollary 1: No gauge-mediated proton decay}{95}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}Corollary 2: Uniqueness}{95}{subsubsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {2.8.3}Corollary 3: Hypercharge quantization}{96}{subsubsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.9}9. Complete Derivation Chain}{96}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}10. Future Work}{96}{subsection.2.10}%
+\contentsline {part}{III\hspace {1em}Spectrum Derivation}{97}{part.3}%
+\contentsline {section}{\numberline {3}From Pixel Area to Particle Masses: The Complete OPH Spectrum Derivation}{97}{section.3}%
+\contentsline {subsection}{\numberline {3.1}1. Inputs and Contract}{97}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}1.1 Physical Inputs}{97}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}1.2 What Counts as "Derived"}{97}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}1.3 No-Cheat Guarantee}{98}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}1A. Complete Audit of All Constants}{98}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}1A.1 The Physical Input}{98}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}1A.2 Structural Integers Derived from Axioms}{98}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}1A.3 Standard QFT Constants (Fixed by the Gauge Group + Matter Content)}{99}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}1A.4 Dimensional/Definitional Constants}{99}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}1A.5 Numerical-Method Parameters}{99}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.6}1A.6 Summary: What Is and Isn\textquotesingle t Assumed}{99}{subsubsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.3}2. Stage 1: Fundamental Scales}{100}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}2.1 Unification Scale}{100}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}2.2 Cell Energy Scale}{101}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}3. Stage 2: Gauge Closure and the Pixel Constraint}{101}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}3.1 The Heat-Kernel Entropy}{101}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}3.2 The Pixel Constraint}{101}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}3.3 Gauge Running and the \(\alpha _U\) Solution}{102}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}3.4 Self-Consistent Fixed Point}{102}{subsubsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.5}4. Stage 3: Electroweak Observables}{102}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}4.1 Z Boson Pole Mass}{103}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}4.2 W Boson Mass}{103}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}5. Stage 4: Critical Surface , Higgs and Top}{103}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}5.1 The Critical Surface Constraint}{103}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}5.2 RG Evolution to Low Scales}{103}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}5.3 Top Mass}{104}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}5.4 Higgs Mass}{104}{subsubsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.7}6. Stage 5: Discrete Spectrum , Quarks and Leptons}{104}{subsection.3.7}%
+\contentsline {subsubsection}{\numberline {3.7.1}6.1 The \(\mathbb {Z}_6\) Defect Parameter}{104}{subsubsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.2}6.2 Integer Exponents (Algorithmically Derived)}{104}{subsubsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.3}6.3 The Koide Phase}{104}{subsubsection.3.7.3}%
+\contentsline {subsubsection}{\numberline {3.7.4}6.4 Diagonal Quark Masses}{105}{subsubsection.3.7.4}%
+\contentsline {subsubsection}{\numberline {3.7.5}6.5 CKM Mixing}{105}{subsubsection.3.7.5}%
+\contentsline {subsubsection}{\numberline {3.7.6}6.6 Charged Lepton Masses}{105}{subsubsection.3.7.6}%
+\contentsline {subsection}{\numberline {3.8}7. Stage 6: QCD Scale and Hadron Masses}{105}{subsection.3.8}%
+\contentsline {subsubsection}{\numberline {3.8.1}7.1 \(\Lambda _{\overline {\text {MS}}}\) from \(\alpha _s(m_Z)\)}{105}{subsubsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.2}7.2 Hadron Masses}{106}{subsubsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.9}8. Stage 7: Neutrino Masses}{106}{subsection.3.9}%
+\contentsline {subsubsection}{\numberline {3.9.1}8.1 The Capacity Model}{106}{subsubsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.10}9. Massless Particles}{106}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}10. Complete Spectrum: Predictions vs PDG}{107}{subsection.3.11}%
+\contentsline {subsubsection}{\numberline {3.11.1}10.1 Gauge Bosons and Higgs}{107}{subsubsection.3.11.1}%
+\contentsline {subsubsection}{\numberline {3.11.2}10.2 Charged Leptons}{107}{subsubsection.3.11.2}%
+\contentsline {subsubsection}{\numberline {3.11.3}10.3 Neutrinos}{107}{subsubsection.3.11.3}%
+\contentsline {subsubsection}{\numberline {3.11.4}10.4 Quarks}{108}{subsubsection.3.11.4}%
+\contentsline {subsubsection}{\numberline {3.11.5}10.5 Gauge Couplings at \(m_Z\)}{108}{subsubsection.3.11.5}%
+\contentsline {subsubsection}{\numberline {3.11.6}10.6 Derived Scales}{108}{subsubsection.3.11.6}%
+\contentsline {subsubsection}{\numberline {3.11.7}10.7 Hadron Masses}{108}{subsubsection.3.11.7}%
+\contentsline {subsection}{\numberline {3.12}11. Analysis of Discrepancies}{109}{subsection.3.12}%
+\contentsline {subsubsection}{\numberline {3.12.1}11.1 Excellent Agreement (\textless {} 0.1\%)}{109}{subsubsection.3.12.1}%
+\contentsline {subsubsection}{\numberline {3.12.2}11.2 Good Agreement (0.1\% -- 2\%)}{109}{subsubsection.3.12.2}%
+\contentsline {subsubsection}{\numberline {3.12.3}11.3 Qualitative Agreement Only: Quark Masses (16\% -- 73\%)}{109}{subsubsection.3.12.3}%
+\contentsline {subsubsection}{\numberline {3.12.4}11.4 Hadron Masses}{110}{subsubsection.3.12.4}%
+\contentsline {subsubsection}{\numberline {3.12.5}11.5 Neutrinos: No Direct Comparison Available}{110}{subsubsection.3.12.5}%
+\contentsline {subsection}{\numberline {3.13}12. Reproduction Instructions}{110}{subsection.3.13}%
+\contentsline {subsubsection}{\numberline {3.13.1}12.1 Prerequisites}{110}{subsubsection.3.13.1}%
+\contentsline {subsubsection}{\numberline {3.13.2}12.2 Code Files}{110}{subsubsection.3.13.2}%
+\contentsline {subsubsection}{\numberline {3.13.3}12.3 Running the Full Prediction}{111}{subsubsection.3.13.3}%
+\contentsline {subsubsection}{\numberline {3.13.4}12.4 No-Cheat Verification}{111}{subsubsection.3.13.4}%
+\contentsline {subsubsection}{\numberline {3.13.5}12.5 Individual Stages}{111}{subsubsection.3.13.5}%
+\contentsline {subsubsection}{\numberline {3.13.6}12.5 Fetching PDG Reference Data}{111}{subsubsection.3.13.6}%
+\contentsline {subsection}{\numberline {3.14}Summary}{111}{subsection.3.14}%
+\contentsline {part}{IV\hspace {1em}String-Theory Derivation}{113}{part.4}%
+\contentsline {section}{\numberline {4}String Theory from Observer Patch Holography}{113}{section.4}%
+\contentsline {subsection}{\numberline {4.1}A Complete Derivation}{113}{subsection.4.1}%
+\contentsline {section}{\numberline {5}1. Overview: What We Derive}{113}{section.5}%
+\contentsline {section}{\numberline {6}2. OPH Inputs Used}{113}{section.6}%
+\contentsline {subsection}{\numberline {6.1}2.1 Core Axioms}{114}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}2.2 Regulator Premises}{114}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}2.3 Key Derived Results}{114}{subsection.6.3}%
+\contentsline {section}{\numberline {7}3. Einstein Equation from Entanglement Equilibrium}{114}{section.7}%
+\contentsline {subsection}{\numberline {7.1}3.1 Setup: Null Deformation Problem}{115}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}3.2 Generalized Entropy Variation}{115}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}3.3 Area Variation via Raychaudhuri}{115}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}3.4 Bulk Entropy Variation via Modular Theory}{115}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}3.5 Entanglement Equilibrium Implies Einstein}{116}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}3.6 Upgrade to Full Einstein Equation}{116}{subsection.7.6}%
+\contentsline {section}{\numberline {8}4. Edge Sectors and 2D Yang-Mills}{116}{section.8}%
+\contentsline {subsection}{\numberline {8.1}4.1 Edge-Sector Structure}{116}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}4.2 Heat-Kernel Weights from MaxEnt}{116}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}4.3 Edge Partition Function}{117}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}4.4 Identification with Group Heat Kernel}{117}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}4.5 Gluing = Markov = Area Additivity}{117}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}4.6 Exact Match with 2D Yang-Mills}{117}{subsection.8.6}%
+\contentsline {section}{\numberline {9}5. 2D Yang-Mills as String Theory}{118}{section.9}%
+\contentsline {subsection}{\numberline {9.1}5.1 The Gross-Taylor Expansion}{118}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}5.2 Worldsheet Interpretation}{118}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}5.3 The Large-\(N\) Regime}{118}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}5.4 Genus Expansion}{118}{subsection.9.4}%
+\contentsline {section}{\numberline {10}6. Worldsheet Kinematics from Modular Flow}{119}{section.10}%
+\contentsline {subsection}{\numberline {10.1}6.1 Conformal Structure}{119}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}6.2 Sewing Structure}{119}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}6.3 The Analogy with Standard String Theory}{119}{subsection.10.3}%
+\contentsline {section}{\numberline {11}7. The B-Field Slot: Higher Gauge Structure}{119}{section.11}%
+\contentsline {subsection}{\numberline {11.1}7.1 Nonabelian Gluing Cocycles}{119}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}7.2 Strictification and Trivialization}{119}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}7.3 D-Brane Interpretation}{120}{subsection.11.3}%
+\contentsline {section}{\numberline {12}8. OPH String Scale and Parameters}{120}{section.12}%
+\contentsline {subsection}{\numberline {12.1}8.1 String Scale from Pixel Area}{120}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}8.2 Worldsheet YM Coupling}{120}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}8.3 Current Algebra Central Charge (WZW)}{120}{subsection.12.3}%
+\contentsline {section}{\numberline {13}9. From 2D Yang-Mills to Critical Superstrings}{121}{section.13}%
+\contentsline {subsection}{\numberline {13.1}9.1 Established Results}{121}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}9.2 Extensions to Critical Superstrings}{121}{subsection.13.2}%
+\contentsline {section}{\numberline {14}10. Summary}{122}{section.14}%
+\contentsline {section}{\numberline {15}Appendix A: Entanglement First Law Numerical Check}{122}{section.15}%
+\contentsline {subsection}{\numberline {15.1}A.1 Setup}{122}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}A.2 Expected Result}{122}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}A.3 Code}{122}{subsection.15.3}%
+\contentsline {section}{\numberline {16}Appendix B: Key Equations Summary}{122}{section.16}%
+\contentsline {section}{\numberline {17}References}{123}{section.17}%
+\contentsline {part}{V\hspace {1em}Technical Supplement}{124}{part.5}%
+\contentsline {section}{\numberline {18}Technical Supplement: Mathematical Foundations of Observer-Patch Holography}{124}{section.18}%
+\contentsline {subsection}{\numberline {18.1}For Theoretical Physicists}{124}{subsection.18.1}%
+\contentsline {section}{\numberline {19}1. Core Axioms and Definitions}{124}{section.19}%
+\contentsline {subsection}{\numberline {19.1}1.1 The Axiom Set}{124}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}1.2 Regulator Premises}{124}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}1.3 Edge-Center Completion (EC)}{125}{subsection.19.3}%
+\contentsline {subsection}{\numberline {19.4}1.4 Fundamental Parameters}{125}{subsection.19.4}%
+\contentsline {section}{\numberline {20}2. Emergence of Gravity and Quantum Mechanics}{125}{section.20}%
+\contentsline {subsection}{\numberline {20.1}2.1 Local Lorentz Structure}{125}{subsection.20.1}%
+\contentsline {subsection}{\numberline {20.2}2.2 Geometric Modular Flow}{125}{subsection.20.2}%
+\contentsline {subsection}{\numberline {20.3}2.3 Null Modular Bridge (EFT Conditions N1-N3)}{126}{subsection.20.3}%
+\contentsline {subsection}{\numberline {20.4}2.4 Stress Tensor Reconstruction}{126}{subsection.20.4}%
+\contentsline {subsection}{\numberline {20.5}2.5 Entanglement Equilibrium and Einstein\textquotesingle s Equation}{126}{subsection.20.5}%
+\contentsline {subsection}{\numberline {20.6}2.6 Newton\textquotesingle s Constant from Edge Entropy}{127}{subsection.20.6}%
+\contentsline {section}{\numberline {21}3. The Measurement Problem}{127}{section.21}%
+\contentsline {subsection}{\numberline {21.1}3.1 Records as Central Variables}{127}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}3.2 Markov Structure Theorem}{127}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}3.3 Approximate Markov and Recovery}{128}{subsection.21.3}%
+\contentsline {subsection}{\numberline {21.4}3.4 Definiteness of Outcomes}{128}{subsection.21.4}%
+\contentsline {subsection}{\numberline {21.5}3.5 Born Rule as Unique Probability Measure}{128}{subsection.21.5}%
+\contentsline {subsection}{\numberline {21.6}3.6 Collapse as Conditioning}{128}{subsection.21.6}%
+\contentsline {section}{\numberline {22}4. The Cosmological Principle}{129}{section.22}%
+\contentsline {subsection}{\numberline {22.1}4.1 MaxEnt Symmetry Inheritance}{129}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}4.2 Isotropy from SO(3)-Invariant Constraints}{129}{subsection.22.2}%
+\contentsline {subsection}{\numberline {22.3}4.3 Homogeneity from Isotropy Everywhere}{129}{subsection.22.3}%
+\contentsline {subsection}{\numberline {22.4}4.4 FLRW Emergence}{129}{subsection.22.4}%
+\contentsline {section}{\numberline {23}5. Supersymmetry and Gauge Coupling Unification}{130}{section.23}%
+\contentsline {subsection}{\numberline {23.1}5.1 One-Loop Unification Algebra}{130}{subsection.23.1}%
+\contentsline {subsection}{\numberline {23.2}5.2 SM vs MSSM Coefficients}{130}{subsection.23.2}%
+\contentsline {subsection}{\numberline {23.3}5.3 Heat-Kernel Edge Sector Weights}{130}{subsection.23.3}%
+\contentsline {subsection}{\numberline {23.4}5.4 Peter-Weyl and Effective Multiplicity}{131}{subsection.23.4}%
+\contentsline {subsection}{\numberline {23.5}5.5 Beta Function Shifts}{131}{subsection.23.5}%
+\contentsline {section}{\numberline {24}6. The Horizon Problem}{131}{section.24}%
+\contentsline {subsection}{\numberline {24.1}6.1 Anisotropy Bound from Markov Control}{131}{subsection.24.1}%
+\contentsline {subsection}{\numberline {24.2}6.2 CMB Anisotropy Requirement}{131}{subsection.24.2}%
+\contentsline {subsection}{\numberline {24.3}6.3 Homogeneity as MaxEnt Default}{132}{subsection.24.3}%
+\contentsline {section}{\numberline {25}7. Black Hole Information Paradox}{132}{section.25}%
+\contentsline {subsection}{\numberline {25.1}7.1 The Information Trilemma}{132}{subsection.25.1}%
+\contentsline {subsection}{\numberline {25.2}7.2 Edge-Center Resolution}{132}{subsection.25.2}%
+\contentsline {subsection}{\numberline {25.3}7.3 Recoverability of Interior}{132}{subsection.25.3}%
+\contentsline {subsection}{\numberline {25.4}7.4 Hawking Temperature from Modular Theory}{132}{subsection.25.4}%
+\contentsline {subsection}{\numberline {25.5}7.5 Discrete Area Spectrum}{133}{subsection.25.5}%
+\contentsline {section}{\numberline {26}8. The Cosmological Constant Problem}{133}{section.26}%
+\contentsline {subsection}{\numberline {26.1}8.1 Vacuum Energy Blindness}{133}{subsection.26.1}%
+\contentsline {subsection}{\numberline {26.2}8.2 Structural Separation}{133}{subsection.26.2}%
+\contentsline {subsection}{\numberline {26.3}8.3 Λ from Capacity}{133}{subsection.26.3}%
+\contentsline {subsection}{\numberline {26.4}8.4 No-Go for Local Λ Prediction}{133}{subsection.26.4}%
+\contentsline {section}{\numberline {27}9. Dark Matter as Modular Anomaly}{134}{section.27}%
+\contentsline {subsection}{\numberline {27.1}9.1 The Modular Additivity Defect}{134}{subsection.27.1}%
+\contentsline {subsection}{\numberline {27.2}9.2 Anomalous Stress-Energy}{134}{subsection.27.2}%
+\contentsline {subsection}{\numberline {27.3}9.3 Properties of the Anomaly Sector}{134}{subsection.27.3}%
+\contentsline {subsection}{\numberline {27.4}9.4 The MOND Acceleration Scale}{134}{subsection.27.4}%
+\contentsline {subsection}{\numberline {27.5}9.5 Polarization Response (MOND-like Scaling)}{134}{subsection.27.5}%
+\contentsline {section}{\numberline {28}10. Proton Stability and Spin}{135}{section.28}%
+\contentsline {subsection}{\numberline {28.1}10.1 Sector Factorization and Product Group}{135}{subsection.28.1}%
+\contentsline {subsection}{\numberline {28.2}10.2 No Leptoquarks, No Gauge Proton Decay}{135}{subsection.28.2}%
+\contentsline {subsection}{\numberline {28.3}10.3 Proton Spin Fraction}{135}{subsection.28.3}%
+\contentsline {section}{\numberline {29}11. Baryogenesis}{136}{section.29}%
+\contentsline {subsection}{\numberline {29.1}11.1 The Z₆ Defect Suppression}{136}{subsection.29.1}%
+\contentsline {subsection}{\numberline {29.2}11.2 The Baryon-Violating Channel}{136}{subsection.29.2}%
+\contentsline {subsection}{\numberline {29.3}11.3 Defect-Order Identification}{136}{subsection.29.3}%
+\contentsline {subsection}{\numberline {29.4}11.4 CP Bias from Overlap Holonomy}{136}{subsection.29.4}%
+\contentsline {section}{\numberline {30}12. Generation Structure and Yukawa Hierarchy}{136}{section.30}%
+\contentsline {subsection}{\numberline {30.1}12.1 Why Three Generations}{136}{subsection.30.1}%
+\contentsline {subsection}{\numberline {30.2}12.2 Yukawa as Defect-Mediated Overlap}{137}{subsection.30.2}%
+\contentsline {subsection}{\numberline {30.3}12.3 The Yukawa Spectrum}{137}{subsection.30.3}%
+\contentsline {subsection}{\numberline {30.4}12.4 Deterministic Completion (RK Hamiltonian)}{137}{subsection.30.4}%
+\contentsline {section}{\numberline {31}13. The Koide Formula}{137}{section.31}%
+\contentsline {subsection}{\numberline {31.1}13.1 Numerical Verification}{137}{subsection.31.1}%
+\contentsline {subsection}{\numberline {31.2}13.2 Z₃ Holonomy Parameterization}{138}{subsection.31.2}%
+\contentsline {subsection}{\numberline {31.3}13.3 Why Q = 2/3}{138}{subsection.31.3}%
+\contentsline {subsection}{\numberline {31.4}13.4 The Koide Phase from OPH}{138}{subsection.31.4}%
+\contentsline {section}{\numberline {32}14. Cosmological Parameters}{138}{section.32}%
+\contentsline {subsection}{\numberline {32.1}14.1 The de Sitter Scale}{138}{subsection.32.1}%
+\contentsline {subsection}{\numberline {32.2}14.2 Emergent Age of the Universe}{139}{subsection.32.2}%
+\contentsline {subsection}{\numberline {32.3}14.3 Screen Capacity}{139}{subsection.32.3}%
+\contentsline {subsection}{\numberline {32.4}14.4 Pixel Parameters}{139}{subsection.32.4}%
+\contentsline {section}{\numberline {33}Appendix A: Summary of Derived Results}{139}{section.33}%
+\contentsline {subsection}{\numberline {33.1}A.1 Theorem-Level Results}{139}{subsection.33.1}%
+\contentsline {subsection}{\numberline {33.2}A.2 Quantitative Predictions}{139}{subsection.33.2}%
+\contentsline {subsection}{\numberline {33.3}A.3 Future Directions}{140}{subsection.33.3}%
+\contentsline {section}{\numberline {34}Appendix B: Key Numerical Values}{140}{section.34}%
+\contentsline {section}{\numberline {35}References}{140}{section.35}%
+\contentsline {part}{VI\hspace {1em}Strange Loop Hypothesis}{141}{part.6}%
+\contentsline {section}{\numberline {36}Formal Statement}{141}{section.36}%
+\contentsline {section}{\numberline {37}Timeless Causal Chain}{141}{section.37}%
+\contentsline {section}{\numberline {38}Why Reality Exists and Why It Has This Form}{141}{section.38}%
+\contentsline {section}{\numberline {39}Additional Problem Closures}{142}{section.39}%
+\contentsline {section}{\numberline {40}Source Notes for This Part}{142}{section.40}%
+\contentsline {part}{VII\hspace {1em}Observer Continuation and Backup Mechanism}{144}{part.7}%
+\contentsline {section}{\numberline {41}Observer as Algebraic Pattern}{144}{section.41}%
+\contentsline {section}{\numberline {42}Markov Collar Factorization}{144}{section.42}%
+\contentsline {section}{\numberline {43}Checkpoint and Restoration Map}{144}{section.43}%
+\contentsline {section}{\numberline {44}Physical Meaning}{144}{section.44}%
