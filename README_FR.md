@@ -8,8 +8,8 @@
 
 **Observers are all you need** est l'article principal de l'OPH.
 
-- **PDF (article principal) :** [Observers are all you need](final/observers_are_all_you_need.pdf)
-- **Source LaTeX :** [observers_are_all_you_need.tex](final/observers_are_all_you_need.tex)
+- **PDF (article principal) :** [Observers are all you need](paper/observers_are_all_you_need.pdf)
+- **Source LaTeX :** [observers_are_all_you_need.tex](paper/observers_are_all_you_need.tex)
 
 Tous les autres documents du dépôt sont des dérivations, suppléments et ressources complémentaires.
 
@@ -93,20 +93,7 @@ Le cadre repose sur quatre axiomes centraux plus un axiome de sélection :
 | **A4** | Markov local | L'information mutuelle conditionnelle décroît à travers les colliers |
 | **MAR** | Réalisation admissible minimale | Parmi les secteurs admissibles, la Nature réalise le minimum lexicographique |
 
-Les hypothèses structurelles supplémentaires (MaxEnt, régularité euclidienne, mélange exponentiel) sont détaillées dans l'[Article technique](paper/PAPER.md), section 1.6.
-
-## Suppléments
-
-| Document | Description |
-|----------|-------------|
-| **[Observers are all you need (PDF principal)](final/observers_are_all_you_need.pdf)** | Article principal OPH (version finale complète) |
-| **[Source LaTeX de l'article principal](final/observers_are_all_you_need.tex)** | Fichier source de l'article principal |
-| **[Article technique](paper/PAPER.md)** | Développement formel : axiomes, théorèmes, preuves et évaluation critique |
-| **[Dérivation du groupe de jauge](paper/GAUGE_GROUP_DERIVATION.md)** | Preuve que $T_{\rm ext}$ sélectionne de façon unique $SU(3) \times SU(2) \times U(1)/\mathbb{Z}_6$, $N_c = 3$, $N_g = 3$ |
-| **[Dérivation du spectre de particules](paper/SPECTRUM_DERIVATION.md)** | Chaîne complète de l'aire de pixel aux masses avec comparaison PDG |
-| **[Supplément technique](paper/TECHNICAL_SUPPLEMENT.md)** | Matière noire, formule de Koide, baryogenèse, problème de la mesure, etc. |
-| **[Dérivation de la théorie des cordes](paper/STRING_THEORY.md)** | Les poids de secteur de bord OPH = noyaux de chaleur YM 2D -> expansion de feuille d'univers |
-| **Dualité MiHsC (à venir)** | L'Inertie Quantifiée de McCulloch comme description IR effective de l'OPH |
+Les hypothèses structurelles supplémentaires (MaxEnt, régularité euclidienne, mélange exponentiel) sont détaillées dans l'[Article technique](wip/PAPER.md), section 1.6.
 
 ## La chaîne de prédictions
 
@@ -116,7 +103,7 @@ L'infographie suivante montre comment l'ensemble du cadre relie deux paramètres
 
 *Des axiomes à la réalité : comment la cohérence de recouvrement dérive toute la physique.*
 
-> **Prédictions du spectre de particules :** la dérivation complète de l'aire de pixel aux masses des particules, avec comparaison aux données PDG et audit de toutes les constantes, est présentée dans **[De l'aire des pixels aux masses des particules](paper/SPECTRUM_DERIVATION.md)**. Cinq particules (W, Z, e, $\mu$, $\tau$) sont prédites à < 0,04 % ; Higgs et quark top à ~1 %, à partir d'une seule entrée $P = 1.63094$.
+> **Prédictions du spectre de particules :** la dérivation complète de l'aire de pixel aux masses des particules, avec comparaison aux données PDG et audit de toutes les constantes, est présentée dans **[De l'aire des pixels aux masses des particules](wip/SPECTRUM_DERIVATION.md)**. Cinq particules (W, Z, e, $\mu$, $\tau$) sont prédites à < 0,04 % ; Higgs et quark top à ~1 %, à partir d'une seule entrée $P = 1.63094$.
 
 ## Les paramètres fondamentaux
 
@@ -153,7 +140,7 @@ permet d'en déduire la capacité à partir de $\Lambda \sim 10^{-52}$ $\text{m}
 - **Aire de pixel** = résolution (extraite des couplages de jauge via l'entropie de bord)
 - **Capacité de l'écran** = taille totale (extraite de la constante cosmologique observée)
 
-La structure axiomatique ne contient aucune autre constante dimensionnée. Les axiomes plus la reconstruction donnent *un* groupe de jauge compact ; l'axiome MAR sélectionne ensuite de façon unique $SU(3) \times SU(2) \times U(1)/\mathbb{Z}_6$ comme groupe réalisé (voir [GAUGE_GROUP_DERIVATION.md](paper/GAUGE_GROUP_DERIVATION.md)). La quantification de charge et les équations d'Einstein suivent alors.
+La structure axiomatique ne contient aucune autre constante dimensionnée. Les axiomes plus la reconstruction donnent *un* groupe de jauge compact ; l'axiome MAR sélectionne ensuite de façon unique $SU(3) \times SU(2) \times U(1)/\mathbb{Z}_6$ comme groupe réalisé (voir [GAUGE_GROUP_DERIVATION.md](wip/GAUGE_GROUP_DERIVATION.md)). La quantification de charge et les équations d'Einstein suivent alors.
 
 ### Ce que cela signifie
 
@@ -179,17 +166,17 @@ Le cadre a maintenant un statut de bout en bout à travers l'article principal e
 
 | Couche | Résultat clé | Statut actuel | Source principale |
 |-------|---------------|---------------|-------------------|
-| Axiomes centraux (A1-A4) + MaxEnt + régularité euclidienne | Cinématique de Lorentz, équations d'Einstein semi-classiques, reconstruction d'un groupe de jauge compact | Dérivé (Théorèmes 4.2-4.3, 5.1, 6.1) | [Article technique](paper/PAPER.md) |
-| Théorie étendue $T_{\text{ext}}$ avec MAR | Groupe global MS $SU(3)\times SU(2)\times U(1)/\mathbb{Z}_6$, $N_c=3$, $N_g=3$ | Sélection unique sous admissibilité + MAR | [Dérivation du groupe de jauge](paper/GAUGE_GROUP_DERIVATION.md) |
-| Conséquence structurelle de jauge | Stabilité du proton (pas de désintégration médiée par jauge) | Structure produit, pas de générateurs leptoquarks $X/Y$ | [Dérivation du groupe de jauge](paper/GAUGE_GROUP_DERIVATION.md) |
-| Zéros exacts protégés par symétrie | $m_\gamma = 0$, $m_g = 0$, $m_{\text{graviton}} = 0$ | Dérivés comme zéros exacts via invariances jauge/difféomorphisme | [Article technique](paper/PAPER.md), [Dérivation du spectre](paper/SPECTRUM_DERIVATION.md) |
-| Couplages à $m_Z$ | $\alpha_s=0.1183$, $\sin^2\theta_W=0.2307$, $\alpha_{\rm em}^{-1}=128.31$ | Proches du PDG (niveau 0,5$\sigma$ à 0,3 %) | [Dérivation du spectre](paper/SPECTRUM_DERIVATION.md) |
-| Masses de précision (EW + leptons chargés) | $W=80.386$ GeV, $Z=91.220$ GeV, $e/\mu/\tau$ | Cinq prédictions à $<0.04\%$ d'erreur | [Dérivation du spectre](paper/SPECTRUM_DERIVATION.md) |
-| Masses de surface critique | Higgs $=126.48$ GeV, top(pôle) $=171.1$ GeV | Environ 1 %, avec limites connues (1 boucle / seuils) | [Dérivation du spectre](paper/SPECTRUM_DERIVATION.md) |
-| Hiérarchie de saveur | $\varepsilon=1/6$ depuis $\mathbb{Z}_6$, texture de Yukawa en base 6 | Hiérarchie capturée ; masses de quarks individuelles encore à 16 %-73 % d'écart | [Dérivation du spectre](paper/SPECTRUM_DERIVATION.md) |
-| Secteur neutrino | $m_{\nu_3}\approx 3.0$ meV, $m_{\nu_2}\approx 0.50$ meV, $m_{\nu_1}\approx 0.084$ meV | Compatible avec les bornes actuelles ; bons ordres de grandeur d'oscillation | [Dérivation du spectre](paper/SPECTRUM_DERIVATION.md) |
-| Chaîne QCD/hadrons | $P \rightarrow \alpha_s \rightarrow \Lambda_{\overline{\rm MS}}^{(3)} \rightarrow m_{\rm hadrons}$ | Chaîne dérivée complète ; précision limitée par réseau trempé/petits volumes | [Dérivation du spectre](paper/SPECTRUM_DERIVATION.md) |
-| Pont vers la théorie des cordes | Poids de bord OPH = noyaux de chaleur YM 2D ; expansion de feuille d'univers à grand $N$ (Gross-Taylor) | Pont mathématique établi ; extension vers supercordes critiques encore ouverte | [Dérivation de la théorie des cordes](paper/STRING_THEORY.md) |
+| Axiomes centraux (A1-A4) + MaxEnt + régularité euclidienne | Cinématique de Lorentz, équations d'Einstein semi-classiques, reconstruction d'un groupe de jauge compact | Dérivé (Théorèmes 4.2-4.3, 5.1, 6.1) | [Article technique](wip/PAPER.md) |
+| Théorie étendue $T_{\text{ext}}$ avec MAR | Groupe global MS $SU(3)\times SU(2)\times U(1)/\mathbb{Z}_6$, $N_c=3$, $N_g=3$ | Sélection unique sous admissibilité + MAR | [Dérivation du groupe de jauge](wip/GAUGE_GROUP_DERIVATION.md) |
+| Conséquence structurelle de jauge | Stabilité du proton (pas de désintégration médiée par jauge) | Structure produit, pas de générateurs leptoquarks $X/Y$ | [Dérivation du groupe de jauge](wip/GAUGE_GROUP_DERIVATION.md) |
+| Zéros exacts protégés par symétrie | $m_\gamma = 0$, $m_g = 0$, $m_{\text{graviton}} = 0$ | Dérivés comme zéros exacts via invariances jauge/difféomorphisme | [Article technique](wip/PAPER.md), [Dérivation du spectre](wip/SPECTRUM_DERIVATION.md) |
+| Couplages à $m_Z$ | $\alpha_s=0.1183$, $\sin^2\theta_W=0.2307$, $\alpha_{\rm em}^{-1}=128.31$ | Proches du PDG (niveau 0,5$\sigma$ à 0,3 %) | [Dérivation du spectre](wip/SPECTRUM_DERIVATION.md) |
+| Masses de précision (EW + leptons chargés) | $W=80.386$ GeV, $Z=91.220$ GeV, $e/\mu/\tau$ | Cinq prédictions à $<0.04\%$ d'erreur | [Dérivation du spectre](wip/SPECTRUM_DERIVATION.md) |
+| Masses de surface critique | Higgs $=126.48$ GeV, top(pôle) $=171.1$ GeV | Environ 1 %, avec limites connues (1 boucle / seuils) | [Dérivation du spectre](wip/SPECTRUM_DERIVATION.md) |
+| Hiérarchie de saveur | $\varepsilon=1/6$ depuis $\mathbb{Z}_6$, texture de Yukawa en base 6 | Hiérarchie capturée ; masses de quarks individuelles encore à 16 %-73 % d'écart | [Dérivation du spectre](wip/SPECTRUM_DERIVATION.md) |
+| Secteur neutrino | $m_{\nu_3}\approx 3.0$ meV, $m_{\nu_2}\approx 0.50$ meV, $m_{\nu_1}\approx 0.084$ meV | Compatible avec les bornes actuelles ; bons ordres de grandeur d'oscillation | [Dérivation du spectre](wip/SPECTRUM_DERIVATION.md) |
+| Chaîne QCD/hadrons | $P \rightarrow \alpha_s \rightarrow \Lambda_{\overline{\rm MS}}^{(3)} \rightarrow m_{\rm hadrons}$ | Chaîne dérivée complète ; précision limitée par réseau trempé/petits volumes | [Dérivation du spectre](wip/SPECTRUM_DERIVATION.md) |
+| Pont vers la théorie des cordes | Poids de bord OPH = noyaux de chaleur YM 2D ; expansion de feuille d'univers à grand $N$ (Gross-Taylor) | Pont mathématique établi ; extension vers supercordes critiques encore ouverte | [Dérivation de la théorie des cordes](wip/STRING_THEORY.md) |
 
 **Cibles de fermeture ouvertes (suivies explicitement) :**
 - Dériver les multiplicateurs MaxEnt $t_i$ (donc couplages/calibration pixel) depuis des premiers principes.
@@ -235,7 +222,7 @@ Le principe jauge-comme-collage reconstruit des groupes de jauge compacts à par
 
 **Trois générations :** CP impose $N_g \ge 3$, liberté asymptotique de $SU(2)_L$ impose $N_g \le 5$, puis MAR sélectionne $N_g = 3$.
 
-**Stabilité du proton :** sous MAR, le porteur fidèle minimal $\mathbb{C}^3 \otimes \mathbb{C}^2$ impose une structure produit. Pas d'inclusion dans un groupe simple plus grand, donc pas de générateurs leptoquarks. Voir [GAUGE_GROUP_DERIVATION.md](paper/GAUGE_GROUP_DERIVATION.md).
+**Stabilité du proton :** sous MAR, le porteur fidèle minimal $\mathbb{C}^3 \otimes \mathbb{C}^2$ impose une structure produit. Pas d'inclusion dans un groupe simple plus grand, donc pas de générateurs leptoquarks. Voir [GAUGE_GROUP_DERIVATION.md](wip/GAUGE_GROUP_DERIVATION.md).
 
 ## Comment le modèle explique la physique connue
 
@@ -267,7 +254,7 @@ Ces résultats suivent des axiomes centraux (A1-A4) + hypothèses supplémentair
 
 ### Validations de précision face aux données existantes
 
-La chaîne complète depuis l'aire de pixel $P = 1.63094$ jusqu'aux masses est documentée dans **[From Pixel Area to Particle Masses](paper/SPECTRUM_DERIVATION.md)**. Les résultats additionnels (matière noire, Koide, baryogenèse, spin du proton) sont dans le **[Supplément technique](paper/TECHNICAL_SUPPLEMENT.md)**.
+La chaîne complète depuis l'aire de pixel $P = 1.63094$ jusqu'aux masses est documentée dans **[From Pixel Area to Particle Masses](wip/SPECTRUM_DERIVATION.md)**. Les résultats additionnels (matière noire, Koide, baryogenèse, spin du proton) sont dans le **[Supplément technique](wip/TECHNICAL_SUPPLEMENT.md)**.
 
 **Masses de particules sous le pour-mille** (depuis une seule constante d'entrée) :
 
@@ -296,7 +283,7 @@ La chaîne complète depuis l'aire de pixel $P = 1.63094$ jusqu'aux masses est d
 | $\sin^2\theta_W(M_Z)$ | 0.2307 | 0.23122 ± 0.00004 | −0.21% |
 | $\alpha_{\text{em}}^{-1}(M_Z)$ | 128.31 | 127.952 ± 0.009 | +0.28% |
 
-**Résultats quantitatifs supplémentaires** (voir [Supplément technique](paper/TECHNICAL_SUPPLEMENT.md)) :
+**Résultats quantitatifs supplémentaires** (voir [Supplément technique](wip/TECHNICAL_SUPPLEMENT.md)) :
 
 | Grandeur | OPH | Observé | Accord |
 |----------|-----|----------|-----------|
@@ -361,7 +348,7 @@ Ces résultats sont dérivés via l'axiome de sélection MAR :
 | Unification des couplages sans désintégration du proton | Durée de vie proton + données de couplages de précision | Unification géométrique vs algébrique |
 | Borne de déviation RG via défaut de Markov | Tests de gravité de précision en régime faible CMI | Suppression exponentielle avec largeur de collier |
 | Masses neutrinos : $m_{\nu_3} \approx 3.0$ meV, $m_{\nu_2} \approx 0.50$ meV, $m_{\nu_1} \approx 0.084$ meV | JUNO, DUNE, KATRIN, $\sum m_\nu$ cosmologique | Ordonnancement normal ; $\sum m_\nu \approx 3.6$ meV |
-| Théorie des cordes depuis secteurs de bord | Vérification théorique | Poids OPH = noyaux de chaleur YM 2D -> expansion Gross-Taylor (voir [STRING_THEORY.md](paper/STRING_THEORY.md)) |
+| Théorie des cordes depuis secteurs de bord | Vérification théorique | Poids OPH = noyaux de chaleur YM 2D -> expansion Gross-Taylor (voir [STRING_THEORY.md](wip/STRING_THEORY.md)) |
 
 ### Prédictions dynamiques
 
