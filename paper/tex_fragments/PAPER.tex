@@ -405,7 +405,7 @@ c\,\lvert\partial C\rvert_{\mathrm{UV}}\,e^{-\delta/\xi},
 \lvert\partial C\rvert_{\mathrm{UV}} \sim \frac{\mathrm{length}(\partial C)}{\ell_{\mathrm{UV}}}.
 \]
 
-This is the standard clustering/mixing condition for local Gibbs states, equivalent to assuming the MaxEnt state lies in a Dobrushin uniqueness regime or has a uniform spectral gap. It is not derived from B but is a physically natural condition on the UV state.
+This is the standard clustering/mixing condition for local Gibbs states, equivalent to assuming the MaxEnt state lies in a Dobrushin uniqueness regime or has a uniform spectral gap. It is a physically natural condition on the UV state and is not derived from B.
 
 \begin{quote}
 \textbf{Theorem 2.5 (Local Gibbs + mixing implies collar refinement).} Under Lemma 2.6 (local Gibbs form from B) and Axiom MX (exponential mixing), Assumption F holds in the collar double-scaling limit \(\delta \to 0\), \(\ell_{\mathrm{UV}} \to 0\) with \(\delta/\ell_{\mathrm{UV}} \to \infty\).
@@ -519,7 +519,7 @@ Then \(\sigma_t^{\omega,C}(\mathcal{A}(R)) = \mathcal{A}(f_t^C(R))\), which is e
 
 \textbf{Proof.} Since \(\sigma_t^{\omega,C}\) is an automorphism of \(\mathcal{A}(C)\), and (NR) allows us to read support from the net labeling, the map \(R \mapsto f_t^C(R)\) is well-defined and consistent. QED.
 
-This shows H is not "extra physics" but a regularity condition on how the geometric labeling \(P \subset S^2\) matches the algebra net, which is required anyway if locality is to be meaningful.
+This shows H serves as a regularity condition on how the geometric labeling \(P \subset S^2\) matches the algebra net. It does not add extra physics and is required if locality is to be meaningful.
 
 \textbf{Null-surface modular structure.} Under CMFP-3, the null-surface modular machinery (N1--N3) becomes available from established QFT results:
 
@@ -1010,7 +1010,7 @@ Therefore, in the locally Lorentzian regime the modular Hamiltonian is a stress-
 
 \textbf{Proof.} Premises 1-2 yield N1 (null modular additivity) via the exact Markov argument: \(I(A:D|B)=0\) implies \(K_{ABD} = K_{AB} + K_{BD} - K_B\). Premise 3 yields N2 (half-sided inclusion) since dilation maps half-lines into themselves. Premise 4 is N3 (weak continuity). The lemmas above then construct the density, translations, and reconstruction. QED.
 
-\textbf{Gap closure status.} The theorem shows that the "EFT bridge" is not an external assumption but a consequence of the screen axioms. Specifically:
+\textbf{Gap closure status.} The theorem shows that the "EFT bridge" follows from the screen axioms, rather than entering as an external assumption. Specifically:
 
 \begin{itemize}
 \item
@@ -1116,7 +1116,7 @@ Explicitly:
 \bar{\ell}(t) = \frac{\sum_R d_R e^{-t\lambda_R} \log d_R}{\sum_R d_R e^{-t\lambda_R}}.
 \]
 
-Thus \(G\) is not a normalization convention but the inverse edge-entropy density per geometric area, computable from the UV regulator and the reference-state Gibbs parameter \(t\).
+Thus \(G\) is the inverse edge-entropy density per geometric area, computable from the UV regulator and the reference-state Gibbs parameter \(t\), rather than a normalization convention.
 
 \subsubsection{5.5 Entanglement equilibrium from MaxEnt}\label{55-entanglement-equilibrium-from-maxent}
 
@@ -1338,7 +1338,7 @@ Given the derived Einstein equation (Theorem 5.1) and the classical Raychaudhuri
 \textbf{Proof sketch.} The Raychaudhuri equation relates expansion evolution to \(R_{kk}\). Einstein\textquotesingle s equation gives \(R_{kk} = 8\pi G (T_{kk} - \frac{1}{2}g_{kk}T)\). For null \(k\), this simplifies to \(R_{kk} = 8\pi G T_{kk}\). The QNEC (Prop 5.10a) then bounds the bulk entropy production, ensuring \(d\Theta_{\mathrm{gen}}/d\lambda \le 0\). QED.
 \end{quote}
 
-\textbf{Significance.} A3 (generalized entropy with quantum focusing) is not an independent axiom but a derived consequence of the null modular structure. The only external input is relative entropy monotonicity, which is pure quantum information theory.
+\textbf{Significance.} A3 (generalized entropy with quantum focusing) is a derived consequence of the null modular structure. It is therefore not an independent axiom. The only external input is relative entropy monotonicity, which is pure quantum information theory.
 
 \textbf{Theorem 5.1 (Observer-consistency implies semiclassical Einstein).} Under A1-A4, Assumptions B-G, and the EFT bridge, the cap equilibrium condition implies the semiclassical Einstein equation in regions where the small-diamond modular Hamiltonian is a stress-tensor charge. QED.
 
@@ -1386,9 +1386,9 @@ Using the Hawking temperature \(T_H = \hbar c^3 / (8\pi G k_B M)\), whose \(2\pi
 \Delta f_k = \frac{c^3}{16\pi^2 G M} \ln k.
 \]
 
-\textbf{Structural condition: comb vs. generic discreteness.} The log-integer \emph{comb} structure requires the additional dynamical assumption that integer-multiplication transitions (d → kd) dominate. If generic transitions between arbitrary integers dominate instead, the set of ln(d\textquotesingle/d) values becomes a dense log-rational set that may appear quasi-continuous after folding in linewidths and astrophysical effects. What is robust from the axioms is \emph{discrete area spectrum}; the clean comb pattern is conditional on the selection rule.
+\textbf{Structural condition: comb vs. generic discreteness.} The log-integer \emph{comb} structure requires the additional dynamical assumption that integer-multiplication transitions (d → kd) dominate. If generic transitions between arbitrary integers dominate instead, the set of ln(d\textquotesingle/d) values becomes a dense log-rational set that may appear quasi-continuous after folding in linewidths and astrophysical effects. What follows directly from the axioms is the \emph{discrete area spectrum}; the clean comb pattern is conditional on the selection rule.
 
-\textbf{established prediction (Discrete Hawking spectrum).} The Hawking emission spectrum is not continuous thermal but consists of discrete lines with spacing \(\Delta E_k = k_B T_H \ln k\), where \(k\) is an integer characterizing the dominant sector transitions.
+\textbf{established prediction (Discrete Hawking spectrum).} The Hawking emission spectrum consists of discrete lines with spacing \(\Delta E_k = k_B T_H \ln k\), where \(k\) is an integer characterizing the dominant sector transitions, instead of a continuous thermal profile.
 
 \textbf{Mass-independent fractional linewidth.} Using Page\textquotesingle s semiclassical calculation for emission power \(P(M) = p_0 \hbar c^6 / (G^2 M^2)\) with \(p_0 \approx 2 \times 10^{-4}\), the emission rate is \(\dot{N} \approx P /
 \langle E \rangle\) where \(\langle E \rangle = a \, k_B T_H\) with \(a \sim
@@ -1730,7 +1730,7 @@ This corresponds to a reduced Compton wavelength \(\bar{\lambda}_C \gtrsim 1.6 \
 
 \subsubsection{5.14 Theory-side error propagation from Markov bounds}\label{514-theory-side-error-propagation-from-markov-bounds}
 
-The framework provides not just exact-zero predictions but also quantitative control over how well those predictions hold. The Markov/recovery machinery can be propagated through the entire GR emergence chain.
+The framework provides exact-zero predictions and quantitative control over how well those predictions hold. The Markov/recovery machinery can be propagated through the entire GR emergence chain.
 
 \textbf{The key quantitative hook.} From Theorem 3.1, if the target state satisfies
 
@@ -1992,7 +1992,7 @@ This section has two logically distinct parts:
 
 \textbf{Part I (§6.1):} The mathematical reconstruction machinery. Given edge-center completion (Theorem 2.3), we get a sector category. If this category satisfies standard categorical properties (rigid, symmetric, \(C^*\)), Tannaka-Krein reconstruction yields \emph{some} compact gauge group \(G\). This part has explicit hypotheses and is unconditional once EC is established.
 
-\textbf{Part II (Derived from MAR, §6.2 onward):} The Selection Axiom MAR (Minimal Admissible Realization) uniquely narrows from "some \(G\)" to the Standard Model gauge group. The former Selectors S1--S3 and the separate minimality steps for \(N_c\) and \(N_g\) are all consequences of MAR applied to the admissible class. The SM derivation follows from the extended theory \(T_{\mathrm{ext}} = A1\text{–}A4 + R0 + R1 + [z]=0 + \mathrm{MAR}\). See Part II of this manuscript for the complete proof.
+\textbf{Part II (Derived from MAR, §6.2 onward):} The Selection Axiom MAR (Minimal Admissible Realization) uniquely narrows from "some \(G\)" to the Standard Model gauge group. The former Selectors S1--S3 and the separate minimality steps for \(N_c\) and \(N_g\) are all consequences of MAR applied to the admissible class. The SM derivation follows from the extended theory \(T_{\mathrm{ext}} = A1\text{-}A4 + R0 + R1 + [z]=0 + \mathrm{MAR}\). See Part II of this manuscript for the complete proof.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -2651,7 +2651,7 @@ p_R = \frac{d_R \, e^{-t \lambda_R}}{Z}.
 
 QED.
 
-\textbf{Why d\_R and not d\_R²?} The full edge space has dimension d\_R² in sector R (from V\_R ⊗ V\_R*), but entanglement entropy measures correlations \emph{across} the cut. After tracing over one side, the reduced density matrix has effective rank d\_R. Mathematically: in the Markov normal form, the edge factor on one side contributes log d\_R to the entropy.
+\textbf{Why the entropy rank is \(d_R\) (instead of \(d_R^2\)).} The full edge space has dimension \(d_R^2\) in sector \(R\) (from \(V_R \otimes V_R^\ast\)). Entanglement entropy, however, measures correlations \emph{across} the cut. After tracing over one side, the reduced density matrix has effective rank \(d_R\). Mathematically: in the Markov normal form, the edge factor on one side contributes \(\log d_R\) to the entropy.
 
 \textbf{Status.} The derivation is complete. The LG assumption (quasi-local MaxEnt generator) is derived from Theorem 2.6: if MaxEnt constraints are expectations of finitely many quasi-local operators, the entropy maximizer is automatically a Gibbs state with a quasi-local generator. What remains is the specific \emph{Laplacian form} of that generator; this follows from gauge invariance plus uniqueness of the bi-invariant second-order differential operator on G.
 
@@ -2711,7 +2711,7 @@ h & p₀ & p₁ & t & g\_ent \\
 \textbf{Results for Z₃ (overconstrained test).} With λ₁ = λ₂ = 4sin²(π/3) = 3:
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}@{}}
+\begin{longtable}[]{@{}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}@{}}
 \toprule\noalign{}
 h & p₀ & p₁ & p₂ & t(q=1) & t(q=2) & g\_ent & m\_plaq \\
 \midrule\noalign{}
@@ -2791,7 +2791,7 @@ For S₃ (the smallest nonabelian group, order 6), there are three irreps: trivi
 The heat-kernel ansatz predicts p\_R ∝ d\_R exp(−t λ\_R). Extracting t independently from the sign and standard irreps provides an overconstrained test: the ratio λ\_sign/λ\_std = 6/3 = 2 is a parameter-free prediction. Results from a single-plaquette S₃ lattice gauge model (K=1, Γ=5):
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}>{\RaggedLeft\arraybackslash}p{0.120\textwidth}@{}}
+\begin{longtable}[]{@{}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}>{\RaggedLeft\arraybackslash}p{0.112\textwidth}@{}}
 \toprule\noalign{}
 h & p\_triv & p\_sign & p\_std & t (sign) & t (std) & Δt/t & log-ratio \\
 \midrule\noalign{}
@@ -3132,7 +3132,7 @@ This quantifies what the "scheme matching" step must accomplish: if UV physics o
 \end{itemize}
 \end{quote}
 
-The uncertainty is dominated by the experimental error on α\_s(M\_Z) = 0.1177 ± 0.0009. The central value is sensitive to the precise α\_s input: α\_s = 0.1175 gives M\_S ≈ 67 GeV, while α\_s = 0.1166 (the MSSM prediction) gives M\_S ≈ 91 GeV. The qualitative conclusion (effective threshold near the electroweak scale) is robust across the 1σ range.
+The uncertainty is dominated by the experimental error on α\_s(M\_Z) = 0.1177 ± 0.0009. The central value is sensitive to the precise α\_s input: α\_s = 0.1175 gives M\_S ≈ 67 GeV, while α\_s = 0.1166 (the MSSM prediction) gives M\_S ≈ 91 GeV. The qualitative conclusion (effective threshold near the electroweak scale) remains stable across the 1σ range.
 
 \textbf{Physical interpretation.} This is a striking result: internal consistency of one-loop unification pushes the effective onset of MSSM-like Δb down to the \textbf{electroweak scale}. The new charged degrees of freedom cannot all live at some ultra-high scale; their \emph{net effect} on beta functions must turn on around \textasciitilde10² GeV.
 
@@ -3217,7 +3217,7 @@ With the currently derived value a\_cell/ℓ\_p² ≈ 1.63094, this gives a\_cel
 
 where \(\bar{\ell}_G(t) = \sum_R p_R(t) \ln d_R\) with \(p_R \propto d_R e^{-t C_2(R)}\) and \(t = 4\pi^2 \alpha\).
 
-\textbf{Why \(t = 4\pi^2 \alpha\) is unique (not a scheme choice).} The normalization \(t = 4\pi^2 \alpha\) is not an arbitrary convention but the \emph{unique} value compatible with the heat kernel and modular geometry:
+\textbf{Why \(t = 4\pi^2 \alpha\) is unique (scheme-fixed).} The normalization \(t = 4\pi^2 \alpha\) is the \emph{unique} value compatible with the heat kernel and modular geometry, and is not an arbitrary convention:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -3233,7 +3233,7 @@ where \(\bar{\ell}_G(t) = \sum_R p_R(t) \ln d_R\) with \(p_R \propto d_R e^{-t C
 
 The map from edge parameters to physical couplings is thus fixed by the universal modular geometry, not by convention.
 
-\textbf{RG mechanism from Markov collar structure.} The running of gauge couplings is not an extra assumption but a structural consequence of the Markov collar plus symmetry. Consider a nested family of caps C(δ) and the operation "thicken the collar by Δ":
+\textbf{RG mechanism from Markov collar structure.} The running of gauge couplings is a structural consequence of the Markov collar plus symmetry and does not require an extra assumption. Consider a nested family of caps C(δ) and the operation "thicken the collar by Δ":
 
 \begin{itemize}
 \tightlist
@@ -3441,7 +3441,7 @@ where Y = n/6 (canonical GUT normalization) and T\_i is the Dynkin index with T(
 
 This achieves MSSM-like beta shifts without inserting MSSM by hand. The \textasciitilde5\% tension in Δb₂ is resolved by two-loop corrections, threshold effects, or refinements to the U(1) sector weighting.
 
-\textbf{What makes this non-trivial.} The key test is not matching individual Δb values (which can be achieved by adjusting an overall normalization), but the \textbf{ratio} Δb₃/Δb₂. The MSSM requires Δb₃/Δb₂ = 4.00/4.17 = 0.959. The Peter-Weyl calculation gives 3.97/4.38 = 0.906, about 6\% low. This ratio is fixed by the heat-kernel distribution and representation theory, with no free parameters to adjust. Getting within 6\% of a non-trivial ratio like 0.96 from first principles is significant, though the remaining discrepancy indicates the mechanism is now complete.
+\textbf{What makes this non-trivial.} The key test is the \textbf{ratio} Δb₃/Δb₂, rather than matching individual Δb values (which can be achieved by adjusting an overall normalization). The MSSM requires Δb₃/Δb₂ = 4.00/4.17 = 0.959. The Peter-Weyl calculation gives 3.97/4.38 = 0.906, about 6\% low. This ratio is fixed by the heat-kernel distribution and representation theory, with no free parameters to adjust. Getting within 6\% of a non-trivial ratio like 0.96 from first principles is significant, though the remaining discrepancy indicates the mechanism is now complete.
 
 \textbf{Alternative minimal Dynkin-index mapping.} A simpler estimate uses only the expected Dynkin index from the heat-kernel ensemble. Assume each RG shell contributes screening proportional to T\_a(R), with two sides of the entanglement cut giving a factor of 2:
 
@@ -3512,7 +3512,7 @@ This is a directly testable prediction: the edge-mode "onset scale" is O(100 TeV
 
 \subsubsection{6.18 The Z₆ quotient: edge-sector selection rules and entropy deficit}\label{618-the-zux2086-quotient-edge-sector-selection-rules-and-entropy-deficit}
 
-The SM global gauge group is not the direct product but the quotient (SU(3) × SU(2) × U(1))/Z₆ (Proposition 6.6). Combined with the heat-kernel edge-sector law, this yields sharp, testable predictions.
+The SM global gauge group is the quotient (SU(3) × SU(2) × U(1))/Z₆, rather than the direct product (Proposition 6.6). Combined with the heat-kernel edge-sector law, this yields sharp, testable predictions.
 
 \textbf{The Z₆ congruence rule.} The identified element is (exp(2πi/3), −1, exp(iπ/3)) ∈ SU(3) × SU(2) × U(1). Label edge sectors by SU(3) triality τ ∈ \{0,1,2\}, SU(2) spin j, and hypercharge Y = n/6 with n ∈ Z. For the representation to descend to the quotient group, the identified element must act trivially:
 
@@ -3562,7 +3562,7 @@ With the electroweak inputs and PDG 2025 EW-fit value α\_s(M\_Z) = 0.1177:
 
 For the U(1) factor with Y = n/6, the effective slope is t\_Y = t₁/36 = 0.0186.
 
-\emph{Normalization note:} The A\_eff = 4π convention gives t = 4π²α, a clean relation used throughout. However, Section 6.14\textquotesingle s lattice extrapolation gives A\_eff → 2, not 4π ≈ 12.6. This factor-of-\textasciitilde6 discrepancy indicates either: (1) the toy UV model\textquotesingle s "g²" differs from the continuum MS-bar convention by a factor of \textasciitilde2π, or (2) additional physics (spin-statistics, vertex factors) enters the lattice↔continuum matching. This normalization ambiguity affects \emph{absolute} t values but not ratios between gauge groups, so predictions depending only on ratios (hypercharge selection rules, entropy deficits) are robust. Predictions depending on absolute t (like the α\_s pixel-area extraction) require this normalization to be resolved from first principles; currently it is fixed by convention.
+\emph{Normalization note:} The A\_eff = 4π convention gives t = 4π²α, a clean relation used throughout. However, Section 6.14\textquotesingle s lattice extrapolation gives A\_eff → 2, not 4π ≈ 12.6. This factor-of-\textasciitilde6 discrepancy indicates either: (1) the toy UV model\textquotesingle s "g²" differs from the continuum MS-bar convention by a factor of \textasciitilde2π, or (2) additional physics (spin-statistics, vertex factors) enters the lattice↔continuum matching. This normalization ambiguity affects \emph{absolute} t values but not ratios between gauge groups, so predictions depending only on ratios (hypercharge selection rules, entropy deficits) remain stable. Predictions depending on absolute t (like the α\_s pixel-area extraction) require this normalization to be resolved from first principles; currently it is fixed by convention.
 
 \textbf{Full edge-sector probability law.} A sector (R₃, R₂, n) has weight
 
@@ -3632,7 +3632,7 @@ The deviation from log₂ 6 is \textasciitilde4 × 10⁻⁶ bits.
   r ≡ 1 or 5 (mod 6): P = 0.002 at M\_Z, P = 0.072 at M\_U
 \end{itemize}
 
-The framework predicts not just the congruence rule but how the occupancy of allowed classes runs with scale.
+The framework predicts the congruence rule and how the occupancy of allowed classes runs with scale.
 
 \textbf{Why this is sharp.} The log₂ 6 entropy deficit is:
 
@@ -3815,7 +3815,7 @@ The refinement-stability logic (Section 6.7) forbids unprotected relevant operat
 
 λ(M\_U) = 0, β\_λ(M\_U) = 0
 
-This is not an arbitrary choice but the natural MaxEnt/refinement-stability condition: the Higgs quartic sits at the critical surface where the potential is neither destabilized nor requires fine-tuned cancellations.
+This is the natural MaxEnt/refinement-stability condition, rather than an arbitrary choice: the Higgs quartic sits at the critical surface where the potential is neither destabilized nor requires fine-tuned cancellations.
 
 \textbf{Derivation of the top Yukawa boundary condition.} At one loop in the SM (keeping the dominant top contribution), if λ = 0 then:
 
@@ -4001,7 +4001,7 @@ With edge-derived Δb and measured electroweak inputs at M\_Z:
   α\_s(M\_Z) = 0.1180 ± 0.0009
 \end{itemize}
 
-The piecewise running (SM below M\_S, edge-UV above) gives a 2×2 system for x = ln(M\_S/M\_Z) and y = ln(M\_U/M\_S). Solution:
+The piecewise running (SM below M\_S, edge-UV above) gives a \(2\times 2\) system for \(x = \ln(M_S/M_Z)\) and \(y = \ln(M_U/M_S)\). Solution:
 
 \[
 M_S \approx 60 \text{ GeV}, \quad M_U \approx 2.4 \times 10^{16} \text{ GeV}, \quad \alpha_U^{-1} \approx 24.0
@@ -4156,7 +4156,7 @@ The following questions remain for future work:
 \item
   \textbf{Newton\textquotesingle s constant formula}: G = a\_cell / (4 \={ℓ}(t)) from edge entropy density (Section 5.4)
 \item
-  \textbf{Discrete area spectrum}: Log-integer area eigenvalues from edge sectors (Section 5.11); this is robust
+  \textbf{Discrete area spectrum}: Log-integer area eigenvalues from edge sectors (Section 5.11); this remains stable
 \item
   \textbf{Discrete Hawking/GW comb}: The specific comb pattern ΔE\_k = k\_B T\_H ln(k) follows if integer-multiplication transitions dominate; generic transitions would give a denser log-rational spectrum
 \end{itemize}
@@ -4259,7 +4259,7 @@ So 2.25 is not a "generic" number one stumbles into. Checking this ratio to 10�
 
 \textbf{Validation against lattice QCD static potentials.}
 
-The Casimir-scaling structure has been tested in lattice SU(3) gauge theory. Bali (hep-lat/0006022) computed static potentials for multiple representations and reported continuum-extrapolated ratios. At r/r₀ = 0.73:
+The Casimir-scaling structure has been tested in lattice SU(3) gauge theory. Bali (\href{https://arxiv.org/abs/hep-lat/0006022}{hep-lat/0006022}) computed static potentials for multiple representations and reported continuum-extrapolated ratios. At \(r/r_0 = 0.73\):
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.240\textwidth}>{\RaggedRight\arraybackslash}p{0.240\textwidth}>{\RaggedRight\arraybackslash}p{0.240\textwidth}>{\RaggedRight\arraybackslash}p{0.240\textwidth}@{}}
@@ -4306,9 +4306,9 @@ These bounds already nail the exact-zero predictions to 10⁻¹⁵ fractional ac
 \item
   \textbf{Dynamics}: The GR chain requires modular covariance plus the null-surface modular bridge (N1-N3). The EFT bridge theorem (Section 5.2) derives N1-N3 from A1-A4 under two testable conditions: (i) null strips as A4 separators, (ii) local finite variation. Verifying these conditions in explicit UV regulators is a target for future work.
 \item
-  \textbf{Gauge structure}: The gauge group is reconstructed from sector fusion, and the anomaly/gluing link is precise. The Selection Axiom MAR uniquely determines the SM factors, \(N_c = 3\), and \(N_g = 3\). DHR transportability is equivalent to \([z]=0\) (Proposition 6.1a). Justifying the refinement-stability selector for chirality in explicit models remains a target for future work.
+  \textbf{Gauge structure}: The gauge group is reconstructed from sector fusion, and the anomaly/gluing link is precise. The Selection Axiom MAR uniquely determines the SM factors, \(N_c = 3\), and \(N_g = 3\). Proposition 6.1a gives DHR transportability \(\Leftrightarrow [z]=0\). Justifying the refinement-stability selector for chirality in explicit models remains a target for future work.
 \item
-  \textbf{Microscopic theory}: Quantum link models (Section 2.6) provide an explicit UV realization of R0/R1 and give EC + Markov collars automatically. What remains: (i) a microscopic derivation of A3 (generalized entropy), and (ii) ensuring modular flow becomes geometric in the continuum limit (the Assumptions H/G gap). The latter likely requires a holographic or relativistic regime not automatic in generic lattice gauge systems.
+  \textbf{Microscopic theory}: Quantum link models (Section 2.6) provide an explicit UV realization of R0/R1 and give EC + Markov collars automatically. What remains: (i) a microscopic derivation of A3 (generalized entropy), and (ii) ensuring modular flow becomes geometric in the continuum limit (the Assumptions H/G gap). The latter likely requires a holographic or relativistic regime, which is not automatic in generic lattice gauge systems.
 \item
   \textbf{Loop gluing beyond central defect}: The general obstruction theory is structurally in place, but quantitative matching to EFT anomalies remains open.
 \end{itemize}
@@ -4343,7 +4343,7 @@ After rescaling by remnant parameters, all events should stack at universal coor
 
 These exact rationals are fixed entirely by group theory (Casimir eigenvalue ratios), with no adjustable parameters. Any deviation identifies a measurement contradiction with the heat-kernel edge-sector mechanism.
 
-\textbf{Z₆ entropy fingerprint (Section 6.18).} The global gauge group quotient (SU(3)×SU(2)×U(1))/Z₆ produces a universal entropy deficit of exactly log₂ 6 ≈ 2.585 bits in the edge-sector distribution. This is a direct "global-structure observable": measuring edge-sector entropies of \textasciitilde6.6 bits instead of \textasciitilde4.0 bits identifies a measurement contradiction with the Z₆ quotient. The prediction is nearly scale-independent and requires no UV completion details.
+\textbf{Z$_6$ entropy fingerprint (Section 6.18).} The quotient gauge group predicts a universal entropy deficit of exactly \(\log_2 6 \approx 2.585\) bits in the edge-sector distribution. This is a direct "global-structure observable." Measuring edge-sector entropies of \textasciitilde6.6 bits instead of \textasciitilde4.0 bits identifies a measurement contradiction with the \( \mathbb{Z}_6 \) quotient. The prediction is nearly scale-independent and requires no UV completion details.
 
 \textbf{Black hole spectroscopy secondary structure (Section 5.11).} Beyond the headline log-integer comb, the framework predicts rigid secondary structure:
 
@@ -4352,7 +4352,7 @@ These exact rationals are fixed entirely by group theory (Casimir eigenvalue rat
 \item
   \emph{Universal energy ratios}: E\_k/E\_2 = ln(k)/ln(2) exactly. For example, E\_3/E\_2 = ln(3)/ln(2) ≈ 1.585 is parameter-free. This arithmetic pattern of ratios distinguishes OPH from other "quantized area" proposals that have different functional forms or free spacing parameters.
 \item
-  \emph{Mass-independent fractional linewidth}: The intrinsic linewidth Γ/ΔE\_k ≈ 3-5\% is approximately independent of black hole mass. This is a sharp shape prediction constraining not just line positions but line profiles.
+  \emph{Mass-independent fractional linewidth}: The intrinsic linewidth \(\Gamma/\Delta E_k \approx 3\text{--}5\%\) is approximately independent of black hole mass. This is a sharp shape prediction constraining line positions and line profiles.
 \item
   \emph{Fixed weight hierarchy}: Line weights follow a (k-1)/k pattern from detailed balance in the log-integer transition rule, on top of the GR greybody envelope. High-k lines asymptote in strength in a specific, counting-driven way.
 \end{enumerate}
@@ -4419,7 +4419,7 @@ If the fundamental screen Hilbert space has finite total dimension dim(H\_tot) =
 
 \textbf{Program lemma for θ\_QCD.} In 3+1D, a θ-term is a topological angle. In the gluing/obstruction language, θ corresponds to a nontrivial 2-group cocycle on triple overlaps:
 
-\textbf{derive (θ as gluing obstruction).} Adding a θ-term corresponds to weighting gauge histories by exp(iθQ). On the screen net, this appears as a nontrivial 2-cocycle (g\_ij, h\_ijk) whose 4D extension class is nonzero. If loop-coherent gluing is imposed (vanishing obstruction in the appropriate cohomology), then θ is forced to a discrete set \{0, π\} (CP-even points). Refinement stability + MaxEnt then selects θ = 0 unless CP is spontaneously broken.
+\textbf{derive (θ as gluing obstruction).} Adding a \(\theta\)-term corresponds to weighting gauge histories by \(\exp(i\theta Q)\). On the screen net, this appears as a nontrivial 2-cocycle \((g_{ij}, h_{ijk})\) whose 4D extension class is nonzero. If loop-coherent gluing is imposed (vanishing obstruction in the appropriate cohomology), then \(\theta\) is forced to the discrete set \(\{0,\pi\}\) (CP-even points). Refinement stability + MaxEnt then selects \(\theta = 0\) unless CP is spontaneously broken.
 
 \textbf{Status.} This is a derivation target, not a proven result. If correct, it would explain why θ\_QCD ≈ 0 without fine-tuning: the same consistency conditions that constrain gauge gluing would force θ to discrete values.
 

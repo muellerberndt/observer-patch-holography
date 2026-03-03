@@ -60,7 +60,7 @@ The prediction code enforces a runtime mutation test: after computing all predic
 {\def\LTcaptype{none} % do not increment counter
 \setlength{\LTleft}{0pt}
 \setlength{\LTright}{0pt}
-\setlength{\tabcolsep}{2pt}
+\setlength{\tabcolsep}{1.2pt}
 \renewcommand{\arraystretch}{1.05}
 \footnotesize
 \begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.13\textwidth}>{\RaggedRight\arraybackslash}p{0.09\textwidth}>{\RaggedRight\arraybackslash}p{0.18\textwidth}>{\RaggedRight\arraybackslash}p{0.33\textwidth}>{\RaggedRight\arraybackslash}p{0.15\textwidth}@{}}
@@ -80,7 +80,7 @@ Constant & Value & Code variable & Origin & Status \\
 {\def\LTcaptype{none} % do not increment counter
 \setlength{\LTleft}{0pt}
 \setlength{\LTright}{0pt}
-\setlength{\tabcolsep}{2pt}
+\setlength{\tabcolsep}{1.2pt}
 \renewcommand{\arraystretch}{1.05}
 \footnotesize
 \begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.13\textwidth}>{\RaggedRight\arraybackslash}p{0.12\textwidth}>{\RaggedRight\arraybackslash}p{0.21\textwidth}>{\RaggedRight\arraybackslash}p{0.28\textwidth}>{\RaggedRight\arraybackslash}p{0.14\textwidth}@{}}
@@ -92,7 +92,7 @@ Constant & Value & Code variable & Derivation & Part I of this manuscript ref \\
 \endlastfoot
 \(N_c\) (colors) & 3 & \texttt{N\_c\_DEFAULT} & Witten\textquotesingle s global SU(2) anomaly requires \(N_c + 1\) SU(2) doublets per generation to be even, so \(N_c\) must be odd. \(N_c = 1\) is excluded (SU(1) trivial). The Selection Axiom MAR (third component of the complexity vector) picks the smallest nontrivial value. \textbf{Result}: \(N_c = 3\). & Theorem 6.14 (§6.9); Part II of this manuscript §6 \\
 \(N_g\) (generations) & 3 & \texttt{N\_g\_DEFAULT} & Three independent constraints narrow the window: (1) CP violation requires \(N_g \geq 3\) (CKM phases \((N_g-1)(N_g-2)/2 > 0\)). (2) Asymptotic freedom of SU(2) requires \(N_g(N_c+1) < 22\), giving \(N_g \leq 5\). (3) MAR (fourth component of the complexity vector) picks the smallest value in \(\{3, 4, 5\}\). \textbf{Result}: \(N_g = 3\). & Proposition 6.9 (§6.4); Part II of this manuscript §7 \\
-Gauge group & \(\frac{SU(3) \times SU(2) \times U(1)}{\mathbb{Z}_6}\) & --- & Tannaka-Krein / Doplicher-Roberts reconstruction from edge-sector fusion rules yields a compact gauge group \(G\) (Theorem 6.1, §6.1). The Selection Axiom MAR uniquely selects the SM factors: the minimal faithful carrier \(\mathbb{C}^3 \otimes \mathbb{C}^2\) enforces the product structure SU(3) \(\times\) SU(2) \(\times\) U(1), the commutant argument excludes extra factors, and the \(\mathbb{Z}_6\) quotient follows from hypercharge quantization (Proposition 6.6). & §6.1--6.2; Part II of this manuscript \\
+Gauge group & \((SU(3)\times SU(2)\times U(1))/\mathbb{Z}_6\) & --- & Tannaka-Krein / Doplicher-Roberts reconstruction from edge-sector fusion rules yields a compact gauge group \(G\) (Theorem 6.1, §6.1). The Selection Axiom MAR uniquely selects the SM factors: the minimal faithful carrier \(\mathbb{C}^3 \otimes \mathbb{C}^2\) enforces the product structure SU(3) \(\times\) SU(2) \(\times\) U(1), the commutant argument excludes extra factors, and the \(\mathbb{Z}_6\) quotient follows from hypercharge quantization (Proposition 6.6). & §6.1--6.2; Part II of this manuscript \\
 \(\beta_{\text{EW}}\) & 4 & \texttt{beta\_ew(N\_c)} & Number of SU(2) doublets per generation = \(N_c\) quark doublets + 1 lepton doublet = \(N_c + 1 = 4\). This is a counting consequence of the Witten anomaly analysis that already fixed \(N_c = 3\). & §6.9, §6.19 \\
 \(\varepsilon\) (Z₆ defect) & \(1/6\) & \texttt{defect\_\allowbreak epsilon\_\allowbreak Z6()} & The SM gauge group has a \(\mathbb{Z}_6\) center quotient. Each unit of \(\mathbb{Z}_6\) defect insertion removes \(\Delta S = \ln 6\) nats of entropy (MaxEnt weighting, Assumption B). The resulting Boltzmann suppression per defect is \(e^{-\ln 6} = 1/6\). \textbf{This is topologically fixed} by the quotient structure, not chosen. & §6.18, §6.21 \\
 \(\delta\) (Koide phase) & \(2/9\) & computed inline & The holonomy phase on generation space: \(\delta = \beta_{\text{EW}} \cdot Y_Q / N_g = (N_c+1)/(2 N_c N_g) = 4/18 = 2/9\). Here \(Y_Q = 1/(2N_c)\) is the quark-doublet hypercharge (fixed by anomaly cancellation) and \(N_g = 3\) is the number of generations. All ingredients are previously derived. Experimental extraction: \(\delta_{\text{exp}} = 0.2222248 \pm 0.0000063\), matching \(2/9 = 0.2222\ldots\) within \(0.4\sigma\). & Proposition 13.3 (§13 of Part V of this manuscript) \\
@@ -110,7 +110,7 @@ These constants are \emph{not} inputs , they are uniquely determined mathematica
 {\def\LTcaptype{none} % do not increment counter
 \setlength{\LTleft}{0pt}
 \setlength{\LTright}{0pt}
-\setlength{\tabcolsep}{2pt}
+\setlength{\tabcolsep}{1.2pt}
 \renewcommand{\arraystretch}{1.05}
 \footnotesize
 \begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.20\textwidth}>{\RaggedRight\arraybackslash}p{0.16\textwidth}>{\RaggedRight\arraybackslash}p{0.20\textwidth}>{\RaggedRight\arraybackslash}p{0.32\textwidth}@{}}
@@ -121,7 +121,7 @@ Constant & Value & Code location & What determines it \\
 \bottomrule\noalign{}
 \endlastfoot
 MSSM \(\beta\)-coefficients & \((b_1, b_2, b_3) = (33/5, 1, -3)\) & \texttt{B\_MSSM} & The edge-sector computation (§6.17 of Part I of this manuscript) derives \(\beta\)-function shifts \(\Delta b \approx (2.49, 4.17, 4.01)\) from the heat-kernel vacuum-polarization weighting and the \(\mathbb{Z}_6\) quotient. These match the shifts from SM to MSSM to better than 1\%. The coefficients themselves are standard 1-loop group theory: \(b_i = \sum_R T(R_i)\) summed over all matter multiplets. Using MSSM content is a \emph{consequence} of the edge-sector matching, not an assumption. SM-only coefficients fail catastrophically (\(\alpha_s\) off by 52\(\sigma\)). \\
-SM 1-loop \(\beta\)-coefficients & \((b_1, b_2, b_3)^{\text{SM}} = (41/10, -19/6, -7)\) & \texttt{B\_\allowbreak SM\_\allowbreak 1LOOP} & Standard 1-loop coefficients for the SM with \(N_g = 3\), used only for the critical-surface RG evolution from \(M_U\) to \(m_t\) (§5 of this paper). Determined entirely by the SM gauge group and matter content. \\
+SM 1-loop \(\beta\)-coefficients & standard SM set & \texttt{B\_SM} & Standard 1-loop coefficients for the SM with \(N_g = 3\), namely \((41/10,\,-19/6,\,-7)\). Used only for critical-surface RG evolution from \(M_U\) to \(m_t\) (§5 of this paper). Fully fixed by SM gauge group and matter content. \\
 4-loop MSbar \(\beta\)-coefficients & \(\beta_0, \beta_1, \beta_2, \beta_3\) & \texttt{beta\_\allowbreak coeffs\_\allowbreak msbar(n\_\allowbreak f)} in \texttt{oph\_\allowbreak qcd.py} & Standard perturbative QCD: \(\beta_0 = 11 - 2n_f/3\), \(\beta_1 = 102 - 38n_f/3\), etc. These are computed from SU(3) Feynman diagrams at each loop order. The 4-loop coefficient \(\beta_3\) involves \(\zeta(3)\); all are universal in the MSbar scheme. \\
 Pole-mass conversion & \(K_2 = 13.44 - 1.04 n_l\), \(K_3 = 190.6 - 26.7 n_l + 0.65 n_l^2\) & \texttt{top\_\allowbreak pole\_\allowbreak from\_\allowbreak msbar()} & Standard 3-loop QCD relation between \(\overline{\text{MS}}\) and pole mass (Chetyrkin, Kniehl, Steinhauser 2000). These are perturbative coefficients computed from Feynman diagrams; they depend only on \(n_l\) (number of light flavors) and SU(3) group factors. \\
 Casimir eigenvalues & \(C_2(p,q)\), \(d_{(p,q)}\) & \texttt{ellbar\_\allowbreak su3()}, \texttt{ellbar\_\allowbreak su2()} & Group-theoretic: \(C_2(p,q) = \frac{1}{3}(p^2 + q^2 + pq + 3p + 3q)\) for SU(3), \(C_2(j) = j(j+1)\) for SU(2), \(d_{(p,q)} = \frac{1}{2}(p+1)(q+1)(p+q+2)\). These are properties of the Lie algebra, not physical inputs. \\
@@ -135,7 +135,7 @@ GUT normalization & \(\alpha_1 = \frac{5}{3}\alpha_Y\) & inline & The factor \(5
 {\def\LTcaptype{none} % do not increment counter
 \setlength{\LTleft}{0pt}
 \setlength{\LTright}{0pt}
-\setlength{\tabcolsep}{2pt}
+\setlength{\tabcolsep}{1.2pt}
 \renewcommand{\arraystretch}{1.05}
 \footnotesize
 \begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.20\textwidth}>{\RaggedRight\arraybackslash}p{0.16\textwidth}>{\RaggedRight\arraybackslash}p{0.20\textwidth}>{\RaggedRight\arraybackslash}p{0.32\textwidth}@{}}
@@ -620,8 +620,8 @@ Particle & OPH (GeV) & PDG (GeV) & Rel. Error & Stage & Error Source \\
 \(\gamma\) & 0 & 0 & exact & §9 & Symmetry-protected; no error expected \\
 \(g\) (gluon) & 0 & 0 & exact & §9 & Symmetry-protected; no error expected \\
 \(W\) boson & 80.386 & 80.377 ± 0.012 & +0.012\% & §4 & Tree-level only; missing 1-loop EW corrections (\(\Delta r\)) would shift by \textasciitilde0.1\%. Residual is well within this \\
-\(Z\) pole & 91.220 & 91.188 ± 0.002 & +0.035\% & §4 & Uses simplified \(\Delta\rho = 3/(32\pi^2)\) (unit Yukawa); full \(\Delta\rho(m_t, m_b, m_H)\) would absorb most of this. Also missing 2-loop EW and mixed QCD-EW corrections \\
-\(H\) (Higgs) & 126.48 & 125.20 ± 0.11 & +1.02\% & §5 & Critical surface uses 1-loop SM RGE only. 2-loop \(\beta_\lambda\) (especially the \(\alpha_s y_t^2\) term) shifts \(m_H\) downward by \textasciitilde1 GeV, closing most of this gap. Also sensitive to exact \(M_U\) value \\
+\(Z\) pole & 91.220 & 91.188 ± 0.002 & +0.035\% & §4 & Uses simplified \(\Delta\rho = 3/(32\pi^2)\). Full EW treatment absorbs most of this offset \\
+\(H\) (Higgs) & 126.48 & 125.20 ± 0.11 & +1.02\% & §5 & Uses 1-loop SM RGE only. Missing 2-loop terms can shift \(m_H\) downward by about 1 GeV; result is also sensitive to \(M_U\) \\
 \end{longtable}
 }
 
@@ -768,7 +768,7 @@ The quark masses from the \(\varepsilon = 1/6\) texture show large deviations. T
   \textbf{Missing threshold corrections}: No QCD or electroweak threshold corrections are applied at flavor thresholds. These are typically 5--20\% effects for the lighter quarks.
 \end{enumerate}
 
-\textbf{The correct interpretation}: The texture correctly captures the \emph{hierarchy} (the fact that \(m_t/m_u \sim 10^5\) arises from integer exponents in base 6), but it does not aim for precision at the individual-mass level. The base-6 logarithms of all nine charged-fermion Yukawas land within \textasciitilde0.3 of integers , this is the robust prediction. The order-one residuals are where scheme matching and subleading effects live.
+\textbf{The correct interpretation}: The texture correctly captures the \emph{hierarchy} (the fact that \(m_t/m_u \sim 10^5\) arises from integer exponents in base 6), and it does not aim for precision at the individual-mass level. The base-6 logarithms of all nine charged-fermion Yukawas land within \textasciitilde0.3 of integers , this is the core prediction. The order-one residuals are where scheme matching and subleading effects live.
 
 \subsubsection{11.4 Hadron Masses}\label{114-hadron-masses}
 
@@ -802,25 +802,25 @@ All computations can be reproduced from the code in \href{../code/particles/}{\t
 pip install numpy
 \end{verbatim}
 
-No other dependencies are needed. The \texttt{pdg} and \texttt{pandas} packages are only required for \texttt{tools/fetch\_pdg\_data.py} (the PDG data fetcher, used for comparison only).
+No other dependencies are needed. The \texttt{pdg} and \texttt{pandas} packages are only required for \path{tools/fetch_pdg_data.py} (the PDG data fetcher, used for comparison only).
 
 \subsubsection{12.2 Code Files}\label{122-code-files}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.320\textwidth}>{\RaggedRight\arraybackslash}p{0.320\textwidth}>{\RaggedRight\arraybackslash}p{0.320\textwidth}@{}}
+\begin{longtable}[]{@{}>{\RaggedRight\arraybackslash}p{0.390\textwidth}>{\RaggedRight\arraybackslash}p{0.390\textwidth}>{\RaggedRight\arraybackslash}p{0.140\textwidth}@{}}
 \toprule\noalign{}
 File & Description & Stage \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\href{../code/particles/particle_masses_stage5.py}{\texttt{particle\_masses\_stage5.py}} & Core spectrum prediction: gauge closure, transmutation, critical surface, Z₆ texture & 1--5 \\
-\href{../code/particles/oph_qcd.py}{\texttt{oph\_qcd.py}} & 4-loop MSbar β-coefficients and Λ extraction & 6 \\
-\href{../code/particles/oph_lattice_su3_quenched_v5.py}{\texttt{oph\_lattice\_su3\_quenched\_v5.py}} & Quenched Wilson SU(3) lattice for hadron mass ratios & 6--7 \\
-\href{../code/particles/oph_predict_compare.py}{\texttt{oph\_predict\_compare.py}} & Full predictor + PDG comparison (main entry point) & All \\
-\href{../code/particles/oph_no_cheat_audit.py}{\texttt{oph\_no\_cheat\_audit.py}} & Static anti-leak audit of prediction code & , \\
-\href{../code/particles/test_oph_predict_compare.py}{\texttt{test\_oph\_predict\_compare.py}} & Smoke tests + runtime no-cheat mutation test & , \\
-\href{../code/particles/test_particle_masses_stage5.py}{\texttt{test\_particle\_masses\_stage5.py}} & Regression tests for Stage 5 predictions & , \\
+\href{../code/particles/particle_masses_stage5.py}{\path{particle_masses_stage5.py}} & Core spectrum prediction: gauge closure, transmutation, critical surface, Z$_6$ texture & 1--5 \\
+\href{../code/particles/oph_qcd.py}{\path{oph_qcd.py}} & 4-loop MSbar $\beta$-coefficients and $\Lambda$ extraction & 6 \\
+\href{../code/particles/oph_lattice_su3_quenched_v5.py}{\path{oph_lattice_su3_quenched_v5.py}} & Quenched Wilson SU(3) lattice for hadron mass ratios & 6--7 \\
+\href{../code/particles/oph_predict_compare.py}{\path{oph_predict_compare.py}} & Full predictor plus PDG comparison (main entry point) & All \\
+\href{../code/particles/oph_no_cheat_audit.py}{\path{oph_no_cheat_audit.py}} & Static anti-leak audit of prediction code & Audit \\
+\href{../code/particles/test_oph_predict_compare.py}{\path{test_oph_predict_compare.py}} & Smoke tests plus runtime no-cheat mutation test & Tests \\
+\href{../code/particles/test_particle_masses_stage5.py}{\path{test_particle_masses_stage5.py}} & Regression tests for Stage 5 predictions & Tests \\
 \end{longtable}
 }
 
@@ -903,6 +903,17 @@ Starting from two numbers , the pixel area \(P = 1.63094\) and the screen capaci
 
 No PDG masses or couplings enter the prediction pipeline at any point. The derivation chain is:
 
-\[\boxed{P \;\xrightarrow{\text{entropy matching}}\; \alpha_U, M_U \;\xrightarrow{\text{transmutation}}\; v \;\xrightarrow{\text{RG + pixel}}\; \alpha_i(m_Z), m_Z, m_W \;\xrightarrow{\text{critical surface}}\; m_H, m_t \;\xrightarrow{\mathbb{Z}_6\text{ texture}}\; m_f \;\xrightarrow{\Lambda_{\overline{\text{MS}}}}\; m_{\text{hadrons}}}\]
+\[
+\boxed{
+\begin{aligned}
+P &\xrightarrow{\text{entropy matching}} \alpha_U, M_U
+\xrightarrow{\text{transmutation}} v \\
+&\xrightarrow{\text{RG + pixel}} \alpha_i(m_Z), m_Z, m_W
+\xrightarrow{\text{critical surface}} m_H, m_t \\
+&\xrightarrow{\mathbb{Z}_6\text{ texture}} m_f
+\xrightarrow{\Lambda_{\overline{\text{MS}}}} m_{\text{hadrons}}
+\end{aligned}
+}
+\]
 
 Every arrow is a mathematical derivation. The only free parameter is \(P\).
