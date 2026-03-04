@@ -4,14 +4,6 @@
 > Le Modèle Standard, la théorie quantique des champs, la relativité générale et la théorie des cordes sont des descriptions effectives de l'OPH sous-jacente.
 > À partir de deux constantes d'entrée et de cinq axiomes (A1-A4 + MAR), OPH détermine les propriétés de l'univers, résout les incompatibilités et explique les divergences de mesure, y compris la matière noire.
 
-## Posez vos questions à OPH Sage
-
-Le moyen le plus rapide d'explorer l'OPH est de poser vos questions directement à OPH Sage. OPH Sage peut répondre à des questions techniques et philosophiques.
-
-- [OPH Sage sur Telegram](https://t.me/HoloObserverBot)
-- [OPH Sage sur X](https://x.com/OphSage)
-- [OPH Sage sur Bluesky](https://bsky.app/profile/ophsage.bsky.social)
-
 ## Idée centrale
 
 Il n'existe pas de réalité objective indépendante des observateurs. La réalité est un réseau de perspectives subjectives qui doivent s'accorder là où elles se recouvrent.
@@ -26,8 +18,15 @@ Si vous débutez en physique, voici d'excellents points d'entrée :
 
 - **Livre (Web) :** [Livre OPH](https://oth-book.lovable.app)
 - **Labo interactif OPH :** [floatingpragma.io/oph](https://floatingpragma.io/oph)
-- **OPH Sage (Telegram, X, Bluesky) :** posez vos questions techniques et philosophiques sur [Telegram](https://t.me/HoloObserverBot), [X](https://x.com/OphSage), ou [Bluesky](https://bsky.app/profile/ophsage.bsky.social)
 - **NotebookLM :** [Regardez la vidéo d'introduction et commencez à poser vos questions](https://notebooklm.google.com/notebook/d5249760-6ce8-44a0-927b-ccf90402711a?artifactId=fb7c0ebd-4375-4997-9cae-6558ff8977b4)
+
+## Posez vos questions à OPH Sage
+
+Le moyen le plus rapide d'explorer l'OPH est de poser vos questions directement à OPH Sage. OPH Sage peut répondre à des questions techniques et philosophiques.
+
+- [OPH Sage sur Telegram](https://t.me/HoloObserverBot)
+- [OPH Sage sur X](https://x.com/OphSage)
+- [OPH Sage sur Bluesky](https://bsky.app/profile/ophsage.bsky.social)
 
 ## Article principal
 

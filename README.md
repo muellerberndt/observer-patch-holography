@@ -4,14 +4,6 @@
 > The Standard Model, quantum field theory, general relativity, and string theory are effective descriptions of underlying OPH dynamics.
 > From two input constants and five axioms (A1-A4 + MAR), OPH determines universe-wide properties, resolves incompatibilities, and explains measurement divergences including dark matter.
 
-## Ask OPH Sage
-
-The fastest way to explore OPH is to ask OPH Sage directly. OPH Sage can answer technical and philosophical questions.
-
-- [OPH Sage on Telegram](https://t.me/HoloObserverBot)
-- [OPH Sage on X](https://x.com/OphSage)
-- [OPH Sage on Bluesky](https://bsky.app/profile/ophsage.bsky.social)
-
 ## Core Idea
 
 There is no objective reality independent of observers. Reality is a network of subjective perspectives that must agree where they overlap.
@@ -26,8 +18,15 @@ If you are new to physics, these are great starting points:
 
 - **Book (Web):** [OPH Book](https://oth-book.lovable.app)
 - **Interactive OPH Lab:** [floatingpragma.io/oph](https://floatingpragma.io/oph)
-- **OPH Sage (Telegram, X, Bluesky):** Ask technical and philosophical questions on [Telegram](https://t.me/HoloObserverBot), [X](https://x.com/OphSage), or [Bluesky](https://bsky.app/profile/ophsage.bsky.social)
 - **NotebookLM notebook:** [Watch the introduction video and start asking questions](https://notebooklm.google.com/notebook/d5249760-6ce8-44a0-927b-ccf90402711a?artifactId=fb7c0ebd-4375-4997-9cae-6558ff8977b4)
+
+## Ask OPH Sage
+
+The fastest way to explore OPH is to ask OPH Sage directly. OPH Sage can answer technical and philosophical questions.
+
+- [OPH Sage on Telegram](https://t.me/HoloObserverBot)
+- [OPH Sage on X](https://x.com/OphSage)
+- [OPH Sage on Bluesky](https://bsky.app/profile/ophsage.bsky.social)
 
 ## Main Paper
 
@@ -45,15 +44,9 @@ All other documents in this repository are supporting derivations, supplements, 
 - [How OPH Resolves Fundamental Physics](https://medium.com/@muellerberndt/answering-10-of-the-hardest-questions-in-physics-and-some-bonus-questions-51222bf2419f)
 - [How Observer Patch Holography Improves on the Standard Model and General Relativity](https://muellerberndt.medium.com/how-observer-path-holography-improves-on-the-standard-model-and-general-relativity-c971c376027e)
 
-Physics is reverse engineering at cosmic scale. We observe reality's behavior and work backward to reconstruct the underlying rules. This project presents a theory of everything in the literal sense: it explains why reality exists and why it is the way it is, derived from first principles.
-
-## The Core Idea (Detailed)
-
-The next section turns this principle into a concrete framework built from observer patches, overlap consistency, and holographic reconstruction.
-
 ## Observer Patch Holography
 
-Our model takes this literally. We start with observer patches on a 2D holographic screen. Each patch represents a perspective with its own local data. Where patches overlap, their descriptions must agree. "Reality" is whatever survives this consistency filter. There is no world-in-itself. There are only subjective views that agree on what happened.
+We model reality as a network of subjective perspectives that must agree where they overlap. Concretely, we start with observer patches on a 2D holographic screen. Each patch represents a perspective with its own local data. Where patches overlap, their descriptions must agree. "Reality" is whatever survives this consistency filter. There is no world-in-itself. There are only subjective views that agree on what happened.
 
 Lorentz invariance exists because different observers must have consistent descriptions. Gauge symmetry exists because overlapping patches must identify shared observables. Conservation laws exist because the same quantities must be conserved across all perspectives. The laws are not imposed from outside. They are the conditions that make agreement possible.
 
