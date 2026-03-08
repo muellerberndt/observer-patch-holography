@@ -10,7 +10,21 @@ The laws of physics are the consistency rules that make this intersubjective agr
 
 From this starting point (plus entropy and Markov constraints), OPH treats spacetime, gauge structure, and particle physics as emergent consequences of consistency.
 
-## Learning OPH for Non-Physicists
+## Papers
+
+**Observers are all you need** is the primary OPH paper.
+
+- **PDF (main paper):** [Observers are all you need](paper/observers_are_all_you_need.pdf)
+- **LaTeX source:** [observers_are_all_you_need.tex](paper/observers_are_all_you_need.tex)
+
+**Reality as a Consensus Protocol** is a companion CS paper that presents the computational spine of OPH as a standalone theorem package. It proves that objective physical law is the unique fixed point of a distributed reconciliation protocol between observer patches, that topology can obstruct global consistency (with particles as stable defects), that gauge symmetry is implementation hiding, and that classical records form an eventually consistent CRDT layer.
+
+- **PDF:** [Reality as a Consensus Protocol](paper/reality_as_consensus_protocol.pdf)
+- **LaTeX source:** [reality_as_consensus_protocol.tex](paper/reality_as_consensus_protocol.tex)
+
+All other documents in this repository are supporting derivations, supplements, and companion resources.
+
+## Informal Material
 
 If you are new to physics, these are great starting points:
 
@@ -25,20 +39,6 @@ The fastest way to explore OPH is to ask OPH Sage directly. OPH Sage can answer 
 - [OPH Sage on Telegram](https://t.me/HoloObserverBot)
 - [OPH Sage on X](https://x.com/OphSage)
 - [OPH Sage on Bluesky](https://bsky.app/profile/ophsage.bsky.social)
-
-## Papers
-
-**Observers are all you need** is the primary OPH paper.
-
-- **PDF (main paper):** [Observers are all you need](paper/observers_are_all_you_need.pdf)
-- **LaTeX source:** [observers_are_all_you_need.tex](paper/observers_are_all_you_need.tex)
-
-**Reality as a Consensus Protocol** is a companion CS paper that presents the computational spine of OPH as a standalone theorem package. It proves that objective physical law is the unique fixed point of a distributed reconciliation protocol between observer patches, that topology can obstruct global consistency (with particles as stable defects), that gauge symmetry is implementation hiding, and that classical records form an eventually consistent CRDT layer.
-
-- **PDF:** [Reality as a Consensus Protocol](paper/reality_as_consensus_protocol.pdf)
-- **LaTeX source:** [reality_as_consensus_protocol.tex](paper/reality_as_consensus_protocol.tex)
-
-All other documents in this repository are supporting derivations, supplements, and companion resources.
 
 ## Common Criticisms
 

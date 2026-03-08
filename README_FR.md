@@ -12,7 +12,21 @@ Les lois de la physique sont les règles de cohérence qui rendent cet accord in
 
 À partir de ce point de départ (avec les contraintes d'entropie et de Markov), l'OPH fait émerger espace-temps, symétries de jauge et physique des particules comme conséquences de cohérence.
 
-## Apprendre l'OPH (non-physiciens)
+## Articles
+
+**Observers are all you need** est l'article principal de l'OPH.
+
+- **PDF (article principal) :** [Observers are all you need](paper/observers_are_all_you_need.pdf)
+- **Source LaTeX :** [observers_are_all_you_need.tex](paper/observers_are_all_you_need.tex)
+
+**Reality as a Consensus Protocol** est un article complémentaire orienté informatique qui présente l'ossature computationnelle de l'OPH sous la forme d'un paquet de théorèmes autonome. Il montre que la loi physique objective est le point fixe unique d'un protocole de réconciliation distribué entre patchs d'observateurs, que la topologie peut faire obstacle à la cohérence globale avec des particules comme défauts stables, que la symétrie de jauge est une forme de masquage d'implémentation, et que les enregistrements classiques forment une couche CRDT à cohérence éventuelle.
+
+- **PDF :** [Reality as a Consensus Protocol](paper/reality_as_consensus_protocol.pdf)
+- **Source LaTeX :** [reality_as_consensus_protocol.tex](paper/reality_as_consensus_protocol.tex)
+
+Tous les autres documents du dépôt sont des dérivations, suppléments et ressources complémentaires.
+
+## Ressources informelles
 
 Si vous débutez en physique, voici d'excellents points d'entrée :
 
@@ -27,20 +41,6 @@ Le moyen le plus rapide d'explorer l'OPH est de poser vos questions directement 
 - [OPH Sage sur Telegram](https://t.me/HoloObserverBot)
 - [OPH Sage sur X](https://x.com/OphSage)
 - [OPH Sage sur Bluesky](https://bsky.app/profile/ophsage.bsky.social)
-
-## Articles
-
-**Observers are all you need** est l'article principal de l'OPH.
-
-- **PDF (article principal) :** [Observers are all you need](paper/observers_are_all_you_need.pdf)
-- **Source LaTeX :** [observers_are_all_you_need.tex](paper/observers_are_all_you_need.tex)
-
-**Reality as a Consensus Protocol** est un article complémentaire orienté informatique qui présente l'ossature computationnelle de l'OPH sous la forme d'un paquet de théorèmes autonome. Il montre que la loi physique objective est le point fixe unique d'un protocole de réconciliation distribué entre patchs d'observateurs, que la topologie peut faire obstacle à la cohérence globale avec des particules comme défauts stables, que la symétrie de jauge est une forme de masquage d'implémentation, et que les enregistrements classiques forment une couche CRDT à cohérence éventuelle.
-
-- **PDF :** [Reality as a Consensus Protocol](paper/reality_as_consensus_protocol.pdf)
-- **Source LaTeX :** [reality_as_consensus_protocol.tex](paper/reality_as_consensus_protocol.tex)
-
-Tous les autres documents du dépôt sont des dérivations, suppléments et ressources complémentaires.
 
 ## Critiques courantes
 
