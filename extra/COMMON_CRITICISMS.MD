@@ -328,7 +328,7 @@ That is a meaningful challenge. But it is a very different challenge from the bl
 
 ### Short version
 
-> The circularity objection starts from a different misconception: it assumes that once `P` is calibrated, every later use of `P` is being advertised as a prediction. That is not the paper's claim. The paper explicitly separates calibration-sector consistency checks from genuine predictions. After calibrating `P`, the gauge/electroweak branch in one-input mode is a consistency check, but the charged-lepton ratios, the Higgs and top masses from the critical-surface condition, the `Z_6` hierarchy pattern, and the parameter-free gauge-structure outputs come from additional structural constraints. So the right question is not "does `P` appear downstream?" but "what is still fixed only by calibration, and what is fixed independently afterward?" The manuscript answers that question explicitly.
+> The circularity objection starts from a misconception: it assumes that once `P` is calibrated, every later use of `P` is being advertised as a prediction. That is not the paper's claim. The paper explicitly separates calibration-sector consistency checks from genuine predictions. After calibrating `P`, the gauge/electroweak branch in one-input mode is a consistency check, but the charged-lepton ratios, the Higgs and top masses from the critical-surface condition, the `Z_6` hierarchy pattern, and the parameter-free gauge-structure outputs come from additional structural constraints. So the right question is not "does `P` appear downstream?" but "what is still fixed only by calibration, and what is fixed independently afterward?" The manuscript answers that question explicitly.
 
 ---
 
