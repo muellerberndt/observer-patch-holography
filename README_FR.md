@@ -4,6 +4,8 @@
 > Le Modèle Standard, la théorie quantique des champs, la relativité générale et la théorie des cordes sont des descriptions effectives de l'OPH sous-jacente.
 > À partir de deux constantes d'entrée et de cinq axiomes (A1-A4 + MAR), OPH détermine les propriétés de l'univers, résout les incompatibilités et explique les divergences de mesure, y compris la matière noire.
 
+**Version anglaise :** [README.md](README.md)
+
 ## Idée centrale
 
 Il n'existe pas de réalité objective indépendante des observateurs. La réalité est un réseau de perspectives subjectives qui doivent s'accorder là où elles se recouvrent.
@@ -26,13 +28,14 @@ Les lois de la physique sont les règles de cohérence qui rendent cet accord in
 
 Tous les autres documents du dépôt sont des dérivations, suppléments et ressources complémentaires.
 
-## Ressources informelles
+## Ressources officielles OPH
 
-Si vous débutez en physique, voici d'excellents points d'entrée :
+Commencez par le site officiel de l'OPH, le labo interactif OPH et la version web du livre OPH :
 
-- **Livre (Web) :** [Livre OPH](https://oph-book.floatingpragma.io)
-- **Labo interactif OPH :** [floatingpragma.io/oph](https://floatingpragma.io/oph)
-- **NotebookLM :** [Regardez la vidéo d'introduction et commencez à poser vos questions](https://notebooklm.google.com/notebook/d5249760-6ce8-44a0-927b-ccf90402711a?artifactId=fb7c0ebd-4375-4997-9cae-6558ff8977b4)
+- **Site officiel de l'OPH :** [Site officiel de l'OPH sur floatingpragma.io/oph](https://floatingpragma.io/oph)
+- **Labo interactif OPH :** [OPH Lab sur oph-lab.floatingpragma.io](https://oph-lab.floatingpragma.io)
+- **Livre OPH (edition web) :** [Lire le livre OPH en ligne](https://oph-book.floatingpragma.io)
+- **NotebookLM :** [Regardez la presentation d'introduction a l'OPH et commencez a poser vos questions](https://notebooklm.google.com/notebook/d5249760-6ce8-44a0-927b-ccf90402711a?artifactId=fb7c0ebd-4375-4997-9cae-6558ff8977b4)
 
 ## Posez vos questions à OPH Sage
 
@@ -51,8 +54,6 @@ Cette section regroupe des réponses aux objections courantes adressées à l'OP
 - [L'OPH aurait une discontinuité Type I / Type III, donc son histoire du temps modulaire serait incohérente en interne](extra/COMMON_OBJECTIONS.md#objection-3-type-i-type-iii)
 
 **Lire :** [Comment l'OPH résout la physique fondamentale](https://medium.com/@muellerberndt/answering-10-of-the-hardest-questions-in-physics-and-some-bonus-questions-51222bf2419f)
-
-**Version anglaise :** [README.md](README.md)
 
 **Articles de blog :**
 

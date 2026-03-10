@@ -2,6 +2,8 @@
 
 > OPH is an observer-centric framework for fundamental physics. From one calibrated constant (the pixel area), structural axioms (A1-A4 + MAR), and one cosmological input (screen capacity), OPH derives the Standard Model gauge group, particle mass hierarchy, and key quantitative outputs. The Standard Model, general relativity, and string theory emerge as effective descriptions of the underlying structure.
 
+**French version:** [README_FR.md](README_FR.md) -- translated by Martin S.
+
 ## Core Idea
 
 There is no objective reality independent of observers. Reality is a network of subjective perspectives that must agree where they overlap.
@@ -29,13 +31,14 @@ From this starting point (plus entropy and Markov constraints), OPH treats space
 
 All other documents in this repository are supporting derivations, supplements, and companion resources.
 
-## Informal Material
+## Official OPH Resources
 
-If you are new to physics, these are great starting points:
+Start with the official OPH website, the interactive OPH Lab, and the web edition of the OPH Book:
 
-- **Book (Web):** [OPH Book](https://oph-book.floatingpragma.io)
-- **Interactive OPH Lab:** [floatingpragma.io/oph](https://floatingpragma.io/oph)
-- **NotebookLM notebook:** [Watch the introduction video and start asking questions](https://notebooklm.google.com/notebook/d5249760-6ce8-44a0-927b-ccf90402711a?artifactId=fb7c0ebd-4375-4997-9cae-6558ff8977b4)
+- **Official OPH website:** [Observer Patch Holography at floatingpragma.io/oph](https://floatingpragma.io/oph)
+- **Interactive OPH Lab:** [OPH Lab at oph-lab.floatingpragma.io](https://oph-lab.floatingpragma.io)
+- **OPH Book (web edition):** [Read the OPH Book online](https://oph-book.floatingpragma.io)
+- **NotebookLM notebook:** [Watch the OPH introduction video and start asking questions](https://notebooklm.google.com/notebook/d5249760-6ce8-44a0-927b-ccf90402711a?artifactId=fb7c0ebd-4375-4997-9cae-6558ff8977b4)
 
 ## Ask OPH Sage
 
@@ -52,8 +55,6 @@ These are rebuttals to common objections to OPH.
 - [Deriving `P` from gauge data and then using `P` downstream is completely circular](extra/COMMON_OBJECTIONS.md#objection-1-circularity)
 - [A fixed cell size breaks Lorentz invariance, so OPH can only recover a Newtonian limit](extra/COMMON_OBJECTIONS.md#objection-2-lorentz)
 - [OPH has a Type I / Type III discontinuity, so its modular-time story is internally inconsistent](extra/COMMON_OBJECTIONS.md#objection-3-type-i-type-iii)
-
-**French version:** [README_FR.md](README_FR.md) -- translated by Martin S.
 
 **Blog Posts:**
 

@@ -251,4 +251,4 @@ Hold on. It gets better. That's not a platitude — it's physics.
 
 ---
 
-*This document is part of the OPH knowledge base. For the formal theory, see the [final OPH paper (PDF)](../paper/observers_are_all_you_need.pdf). For the interactive learning experience, visit [OPH Lab](https://floatingpragma.io/oph/). For the full book, visit [oph-book.floatingpragma.io](https://oph-book.floatingpragma.io).*
+*This document is part of the OPH knowledge base. For the formal theory, see the [final OPH paper (PDF)](../paper/observers_are_all_you_need.pdf). For the official OPH website, visit [Observer Patch Holography at floatingpragma.io/oph](https://floatingpragma.io/oph). For the interactive learning experience, visit [OPH Lab at oph-lab.floatingpragma.io](https://oph-lab.floatingpragma.io). For the full book, visit [the OPH Book web edition](https://oph-book.floatingpragma.io).*
