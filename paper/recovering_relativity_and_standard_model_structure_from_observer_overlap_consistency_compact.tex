@@ -177,8 +177,9 @@ obeys quantum focusing on null generators, and collar tripartitions have small c
 \begin{axiom}[Minimal Admissible Realization]\label{ax:mar}
 Among transportable sectors that are loop-coherent, anomaly-free, refinement-stable with light chiral matter, single-Higgs Yukawa-completable, intrinsically CP-capable, and weak-sector UV-completable, the realized sector is the lexicographically minimal one under
 \[
-C(\Sigma)=\bigl(\chi_{\mathrm{faith}},\,N_{\mathrm{nonab}},\,N_c,\,N_g\bigr).
+C(\Sigma)=\bigl(\chi_{\mathrm{cpl}},\,N_{\mathrm{nonab}},\,N_c,\,N_g\bigr).
 \]
+\(\chi_{\mathrm{cpl}}\) is the coupled carrier dimension: the smallest unitary carrier containing a common irreducible block on which the admissible pseudoreal and complex nonabelian charge types both act nontrivially. This is stronger than the abstract minimal faithful representation dimension.
 \end{axiom}
 
 \begin{assumption}[Technical Premises]\label{ass:technical}
@@ -721,17 +722,17 @@ Any admissible low-energy sector must contain both a pseudoreal nonabelian charg
 Light chiral matter requires left-handed multiplets and right-handed singlets to carry inequivalent gauge data. A pseudoreal doublet structure is the minimal way to realize the weak sector without immediately producing vectorlike masses. A genuinely complex nonabelian representation is required to distinguish quarks from antiquarks. A single nonabelian factor cannot realize both roles in the minimal admissible sector.
 \end{proof}
 
-\begin{lemma}[Minimal faithful carrier]\label{lem:carrier}
-Under Lemma~\ref{lem:mincontent}, the minimal faithful carrier has the form
+\begin{lemma}[Minimal coupled carrier]\label{lem:carrier}
+Under Lemma~\ref{lem:mincontent}, the minimal coupled carrier has the form
 \[
 V=\mathbb C^3\otimes \mathbb C^2,
 \qquad
-\chi_{\mathrm{faith}}=6.
+\chi_{\mathrm{cpl}}=6.
 \]
 \end{lemma}
 
 \begin{proof}
-The smallest faithful pseudoreal irreducible representation of a compact connected Lie group is the doublet of $\SU(2)$. The smallest faithful irreducible complex nonabelian representation is the triplet of $\SU(3)$. To support both sectors simultaneously while keeping all factors nontrivial, the carrier must contain both. The tensor-product carrier $\mathbb C^3\otimes\mathbb C^2$ is therefore minimal.
+The smallest faithful pseudoreal irreducible representation of a compact connected Lie group is the doublet of $\SU(2)$. The smallest faithful irreducible complex nonabelian representation is the triplet of $\SU(3)$. By definition of \(\chi_{\mathrm{cpl}}\), these two charge types must occur on a common nonabelian block rather than on disconnected direct-sum summands. The tensor-product carrier \(\mathbb C^3\otimes\mathbb C^2\) is therefore minimal. The block-diagonal representation \(\mathbb C^3\oplus \mathbb C^2\) of \(S(U(3)\times U(2))\) is faithful of dimension \(5\), but it is not coupled and therefore is not the MAR minimizer.
 \end{proof}
 
 \begin{lemma}[No extra continuous factors]\label{lem:commutant}
@@ -763,7 +764,7 @@ G_{\mathrm{phys}}=
 \end{theorem}
 
 \begin{proof}
-Theorem~\ref{thm:compactgauge} yields some compact group $G$. Lemma~\ref{lem:mincontent} identifies the minimal admissible sector content. Lemma~\ref{lem:carrier} then fixes the minimal faithful carrier. The tensor-product structure of that carrier implies commuting color and weak actions, hence product-group structure up to finite quotient. Lemma~\ref{lem:commutant} shows that the only additional continuous factor compatible with minimality is a single $\U(1)$. Proposition~\ref{prop:z6} fixes the remaining finite quotient. Therefore
+Theorem~\ref{thm:compactgauge} yields some compact group $G$. Lemma~\ref{lem:mincontent} identifies the minimal admissible sector content. Lemma~\ref{lem:carrier} then fixes the minimal coupled carrier. The tensor-product structure of that carrier implies commuting color and weak actions, hence product-group structure up to finite quotient. Lemma~\ref{lem:commutant} shows that the only additional continuous factor compatible with minimality is a single $\U(1)$. Proposition~\ref{prop:z6} fixes the remaining finite quotient. Therefore
 \[
 G_{\mathrm{phys}}=
 \frac{\SU(3)\times\SU(2)\times\U(1)}{\mathbb Z_6}.

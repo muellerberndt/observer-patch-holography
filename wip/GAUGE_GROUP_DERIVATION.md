@@ -119,15 +119,15 @@ The weak gauge sector (the factor carrying the pseudoreal doublet) is asymptotic
 
 **Selection Axiom MAR (Minimal Admissible Realization).** Among all OPH-realizable sectors $\Sigma$ that satisfy admissibility conditions (i)–(vi), Nature realizes the **lexicographically minimal** one under the complexity vector
 
-$$C(\Sigma) = \bigl(\chi_{\mathrm{faith}},\; N_{\mathrm{nonab}},\; N_c,\; N_g\bigr),$$
+$$C(\Sigma) = \bigl(\chi_{\mathrm{cpl}},\; N_{\mathrm{nonab}},\; N_c,\; N_g\bigr),$$
 
 where:
-- $\chi_{\mathrm{faith}}$ is the **faithful edge capacity**: the dimension of the minimal faithful unitary representation of $G$ (the smallest representation on which all gauge factors act nontrivially),
+- $\chi_{\mathrm{cpl}}$ is the **coupled edge capacity**: the dimension of the minimal unitary carrier containing a common irreducible block on which the admissible pseudoreal and complex nonabelian charge types both act nontrivially,
 - $N_{\mathrm{nonab}}$ is the **number of nonabelian simple factors** in $G$,
 - $N_c$ is the **rank of the color factor** (the dimension of the fundamental representation of the complex nonabelian factor),
 - $N_g$ is the **number of chiral generations**.
 
-Lexicographic minimality means: first minimize $\chi_{\mathrm{faith}}$; among ties, minimize $N_{\mathrm{nonab}}$; among further ties, minimize $N_c$; among final ties, minimize $N_g$.
+Lexicographic minimality means: first minimize $\chi_{\mathrm{cpl}}$; among ties, minimize $N_{\mathrm{nonab}}$; among further ties, minimize $N_c$; among final ties, minimize $N_g$.
 
 **Key properties of MAR:**
 
@@ -136,6 +136,10 @@ Lexicographic minimality means: first minimize $\chi_{\mathrm{faith}}$; among ti
 2. *It is not "minimalism in general."* MAR only selects among sectors that already pass all six admissibility filters. Plain minimality (smallest $G$) would yield $U(1)$ or $SU(2)$, which fail conditions (iii)–(v). The admissibility conditions do the heavy lifting; MAR breaks the remaining degeneracy.
 
 3. *It is powerful.* Product gauge structure, the specific factors $SU(3) \times SU(2) \times U(1)$, and the values $N_c = 3$, $N_g = 3$ all follow from MAR applied to the admissible class.
+
+**Remark (coupled vs. faithful).** Earlier drafts overloaded the first MAR coordinate with the abstract group-theoretic minimal faithful representation dimension. That is not the quantity used in the gauge proof. For
+$G_{\mathrm{phys}} \cong S(U(3) \times U(2))$, the block-diagonal action on
+$\mathbb{C}^3 \oplus \mathbb{C}^2$ is faithful of dimension $5$, but it places the complex and pseudoreal charge types on disconnected invariant subspaces. MAR minimizes the coupled carrier dimension $\chi_{\mathrm{cpl}}$, for which the minimal SM carrier is $\mathbb{C}^3 \otimes \mathbb{C}^2$ of dimension $6$.
 
 ---
 
@@ -163,7 +167,7 @@ The premise $[z] = 0$ ensures that this reconstruction is global: charges are DH
 
 ### Step 2: The gauge group must be a product
 
-**From:** MAR (minimizing $\chi_{\mathrm{faith}}$) + admissibility (iii).
+**From:** MAR (minimizing $\chi_{\mathrm{cpl}}$) + admissibility (iii).
 
 **Lemma 5.1.** Any admissible sector must contain at least two genuinely different nonabelian charge types: one pseudoreal and one complex.
 
@@ -173,23 +177,24 @@ The premise $[z] = 0$ ensures that this reconstruction is global: charges are DH
 
 A single nonabelian factor cannot simultaneously provide both types: a group is either pseudoreal at a given dimension or complex, not both. $\square$
 
-**Lemma 5.2.** The minimal faithful carrier is $V = \mathbb{C}^3 \otimes \mathbb{C}^2$, with $\chi_{\mathrm{faith}} = 6$.
+**Lemma 5.2.** The minimal coupled carrier is $V = \mathbb{C}^3 \otimes \mathbb{C}^2$, with $\chi_{\mathrm{cpl}} = 6$.
 
 *Proof.*
 - The smallest faithful pseudoreal irreducible representation of any compact simple group is the fundamental **2** of $SU(2)$ (the only 2D pseudoreal irrep).
 - The smallest faithful irreducible complex representation of any compact simple group is the fundamental **3** of $SU(3)$ (the 2D fundamental of $SU(2)$ is pseudoreal, not complex; the fundamental of $SU(2)$ in dimension 2 is the only option for pseudoreal, while $SU(3)$ in dimension 3 is the first genuinely complex case).
-- For both charge types to act faithfully, the carrier must accommodate both simultaneously. The minimal such space is the tensor product $V = \mathbb{C}^3 \otimes \mathbb{C}^2$, giving $\chi_{\mathrm{faith}} = 6$.
-- Any other combination (e.g., using $SU(4)$ instead of $SU(3)$, or $Sp(4)$ instead of $SU(2)$) gives $\chi_{\mathrm{faith}} > 6$, and is therefore disfavored by MAR. $\square$
+- By definition of $\chi_{\mathrm{cpl}}$, the admissible pseudoreal and complex charge types must occur on a common nonabelian block rather than on disconnected direct-sum summands. The minimal such block is the tensor product $V = \mathbb{C}^3 \otimes \mathbb{C}^2$, giving $\chi_{\mathrm{cpl}} = 6$.
+- The block-diagonal representation $\mathbb{C}^3 \oplus \mathbb{C}^2$ of $S(U(3) \times U(2))$ is faithful in the abstract group-theoretic sense, but it is not coupled: each nonabelian factor is trivial on one summand. It therefore does not enter the MAR selector.
+- Any other combination (e.g., using $SU(4)$ instead of $SU(3)$, or $Sp(4)$ instead of $SU(2)$) gives $\chi_{\mathrm{cpl}} > 6$, and is therefore disfavored by MAR. $\square$
 
-**Proposition 5.3 (Product structure from minimal carrier).** The minimal faithful carrier $\mathbb{C}^3 \otimes \mathbb{C}^2$ forces a product gauge structure.
+**Proposition 5.3 (Product structure from minimal coupled carrier).** The minimal coupled carrier $\mathbb{C}^3 \otimes \mathbb{C}^2$ forces a product gauge structure.
 
-*Proof.* On $V = \mathbb{C}^3 \otimes \mathbb{C}^2$, the color factor acts on the first tensor factor and the weak factor acts on the second. These actions commute by the tensor product structure. Therefore the gauge group decomposes as a product $G_{\mathrm{color}} \times G_{\mathrm{weak}} \times G_{\mathrm{abelian}}$ (up to finite quotient). A simple group like $SU(5)$ or $SO(10)$ acting irreducibly on a 6-dimensional space would require $\chi_{\mathrm{faith}} \geq 5$ or $\chi_{\mathrm{faith}} \geq 10$ respectively, and crucially would not provide the independent pseudoreal + complex structure required by Lemma 5.1.
+*Proof.* On $V = \mathbb{C}^3 \otimes \mathbb{C}^2$, the color factor acts on the first tensor factor and the weak factor acts on the second. These actions commute by the tensor product structure. Therefore the gauge group decomposes as a product $G_{\mathrm{color}} \times G_{\mathrm{weak}} \times G_{\mathrm{abelian}}$ (up to finite quotient). A simple group acting irreducibly on a low-dimensional carrier would not provide the independent pseudoreal + complex factor structure required by Lemma 5.1; when those roles are realized on a common block, the minimal coupled carrier is the tensor product above.
 
-Product structure is derived from the minimal-carrier argument. $\square$
+Product structure is derived from the minimal coupled-carrier argument. $\square$
 
 ### Step 3: The factors are SU(3), SU(2), and U(1)
 
-**From:** Lemmas 6.3–6.5 of PAPER.md, applied to the minimal carrier.
+**From:** Lemmas 6.3–6.5 of PAPER.md, applied to the minimal coupled carrier.
 
 **Lemma 5.4 (SU(2) from pseudoreal doublet).** The factor acting on $\mathbb{C}^2$ as a faithful 2D pseudoreal representation is $SU(2)$.
 
@@ -205,7 +210,7 @@ Product structure is derived from the minimal-carrier argument. $\square$
 
 ### Step 4: Nothing else — the commutant argument
 
-**Proposition 5.7 (No additional factors).** No extra gauge factor — neither nonabelian nor abelian — can appear without increasing $\chi_{\mathrm{faith}}$ beyond 6.
+**Proposition 5.7 (No additional factors).** No extra gauge factor — neither nonabelian nor abelian — can appear without increasing $\chi_{\mathrm{cpl}}$ beyond 6.
 
 *Proof.* Consider the maximal compact subgroup of $U(6)$ acting on $V = \mathbb{C}^3 \otimes \mathbb{C}^2$ with commuting actions on each tensor factor:
 
@@ -217,10 +222,10 @@ $$S(U(3) \times U(2)) \cong \frac{SU(3) \times SU(2) \times U(1)}{\text{finite c
 
 Now compute the commutant:
 - The commutant of $SU(3) \times SU(2)$ inside $U(6)$ is exactly $U(1)$.
-- Therefore no extra continuous factor (neither $U(1)'$ nor any nonabelian group) can appear without enlarging the carrier beyond $\chi = 6$.
-- Any additional nonabelian factor would require its own faithful representation, increasing $\chi_{\mathrm{faith}}$.
+- Therefore no extra continuous factor (neither $U(1)'$ nor any nonabelian group) can appear without enlarging the carrier beyond $\chi_{\mathrm{cpl}} = 6$.
+- Any additional nonabelian factor would have to act nontrivially on the same coupled block, increasing $\chi_{\mathrm{cpl}}$.
 
-MAR selects the minimal $\chi_{\mathrm{faith}}$, so extra factors are excluded. $\square$
+MAR selects the minimal $\chi_{\mathrm{cpl}}$, so extra factors are excluded. $\square$
 
 ### Step 5: The global quotient is $\mathbb{Z}_6$
 
@@ -248,7 +253,7 @@ $$\boxed{A1\text{–}A4 + R0 + R1 + [z]=0 + \mathrm{MAR} \;\Longrightarrow\; G_{
 
 **Theorem (N_c = 3).** Under $T_{\mathrm{ext}}$, the rank of the color factor is $N_c = 3$.
 
-**Proof.** The gauge group derivation (§5) already fixes the color factor as $SU(3)$ — i.e., $N_c = 3$ — through the minimal carrier argument (Lemma 5.2). We give here the independent confirmation from anomaly constraints + MAR.
+**Proof.** The gauge group derivation (§5) already fixes the color factor as $SU(3)$ — i.e., $N_c = 3$ — through the minimal coupled-carrier argument (Lemma 5.2). We give here the independent confirmation from anomaly constraints + MAR.
 
 **Step 1: Witten anomaly constrains N_c to be odd.**
 
@@ -268,7 +273,7 @@ For $N_c = 1$: $SU(1)$ is trivial (no color dynamics). The fundamental represent
 
 **Step 3: MAR selects N_c = 3.**
 
-Among the remaining candidates $\{3, 5, 7, \ldots\}$, all with $\chi_{\mathrm{faith}} = 2N_c$ (since the minimal carrier is $\mathbb{C}^{N_c} \otimes \mathbb{C}^2$), MAR's complexity vector has $N_c$ in the third slot. Lexicographic minimization selects $N_c = 3$. $\square$
+Among the remaining candidates $\{3, 5, 7, \ldots\}$, the SM-like quotient family has $\chi_{\mathrm{cpl}} = 2N_c$ because the minimal coupled carrier is $\mathbb{C}^{N_c} \otimes \mathbb{C}^2$. (The block-diagonal faithful representation $\mathbb{C}^{N_c} \oplus \mathbb{C}^2$ has dimension $N_c + 2$, but it is not coupled and is therefore irrelevant to MAR.) MAR's complexity vector has $N_c$ in the third slot, so lexicographic minimization selects $N_c = 3$. $\square$
 
 ---
 
@@ -316,14 +321,14 @@ Among the admissible candidates $\{3, 4, 5\}$, MAR's complexity vector has $N_g$
 
 **Corollary.** The gauge group $G_{\mathrm{phys}} = SU(3) \times SU(2) \times U(1)/\mathbb{Z}_6$ does not contain $X$ or $Y$ gauge bosons that mediate proton decay.
 
-*Proof.* Proton decay via gauge bosons requires a simple unification group (e.g., $SU(5)$, $SO(10)$) whose additional generators connect quarks to leptons. The MAR derivation forces a product group structure with $\chi_{\mathrm{faith}} = 6$, which excludes simple groups. Therefore no gauge bosons mediating $B$-violating transitions exist. $\square$
+*Proof.* Proton decay via gauge bosons requires a simple unification group (e.g., $SU(5)$, $SO(10)$) whose additional generators connect quarks to leptons. The MAR derivation forces a product group structure with $\chi_{\mathrm{cpl}} = 6$, which excludes simple groups. Therefore no gauge bosons mediating $B$-violating transitions exist. $\square$
 
 ### Corollary 2: Uniqueness
 
-**Corollary.** The SM gauge group is the *unique* solution. No other compact gauge group satisfies all admissibility conditions while achieving $\chi_{\mathrm{faith}} = 6$.
+**Corollary.** The SM gauge group is the *unique* solution. No other compact gauge group satisfies all admissibility conditions while achieving $\chi_{\mathrm{cpl}} = 6$.
 
-*Proof.* By the commutant argument (Proposition 5.7), the group $SU(3) \times SU(2) \times U(1)/\mathbb{Z}_6$ exhausts the continuous symmetry of the minimal carrier $\mathbb{C}^3 \otimes \mathbb{C}^2$. Any alternative group either:
-- Has $\chi_{\mathrm{faith}} > 6$ (excluded by MAR), or
+*Proof.* By the commutant argument (Proposition 5.7), the group $SU(3) \times SU(2) \times U(1)/\mathbb{Z}_6$ exhausts the continuous symmetry of the minimal coupled carrier $\mathbb{C}^3 \otimes \mathbb{C}^2$. Any alternative group either:
+- Has $\chi_{\mathrm{cpl}} > 6$ (excluded by MAR), or
 - Fails to provide both pseudoreal and complex representations (excluded by condition iii), or
 - Is a subgroup of the SM group, which would fail anomaly cancellation or Yukawa completeness.
 

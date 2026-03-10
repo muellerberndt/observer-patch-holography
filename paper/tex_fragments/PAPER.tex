@@ -2048,22 +2048,24 @@ Theorem 6.1 yields \emph{some} compact \(G\). The Selection Axiom MAR (Minimal A
 
 \textbf{Selection Axiom MAR (Minimal Admissible Realization).} Among all OPH-realizable sectors \(\Sigma\) that are (i) loop-coherent / transportable (\([z]=0\)), (ii) anomaly-free, (iii) refinement-stable with light chiral matter, (iv) single-Higgs Yukawa-completable, (v) intrinsically CP-capable, (vi) weak-sector UV-completable, Nature realizes the lexicographically minimal one under
 
-\[C(\Sigma) = (\chi_{\mathrm{faith}},\; N_{\mathrm{nonab}},\; N_c,\; N_g).\]
+\[C(\Sigma) = (\chi_{\mathrm{cpl}},\; N_{\mathrm{nonab}},\; N_c,\; N_g).\]
 
 See Part II of this manuscript for the complete formal statement, admissibility definitions, and proof.
 
+Here \(\chi_{\mathrm{cpl}}\) is the \textbf{coupled edge capacity}: the dimension of the minimal unitary carrier containing a common irreducible block on which the admissible pseudoreal and complex nonabelian charge types both act nontrivially. This is intentionally stronger than the abstract minimal faithful representation dimension. For \(S(U(3)\times U(2))\), the block-diagonal action on \(\mathbb{C}^3 \oplus \mathbb{C}^2\) is faithful of dimension \(5\), but it is not coupled and therefore does not enter MAR.
+
 \textbf{Note on {[}z{]}=0.} The loop-coherent gluing condition \([z]=0\) (Proposition 6.1a) is kept as an explicit premise of the extended theory, not hidden inside MAR. It ensures that the reconstructed compact group acts as a genuine global gauge symmetry. By Proposition 6.1a, this is equivalent to DHR transportability.
 
-\textbf{What MAR derives.} The former Selectors S1 (sector factorization), S2 (minimal sector content), and S (edge capacity minimality) are all consequences of MAR applied to the admissible class:
+\textbf{What MAR derives.} The former Selectors S1 (sector factorization), S2 (minimal sector content), and S (coupled edge-capacity minimality) are all consequences of MAR applied to the admissible class:
 
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Product structure} (formerly S1): follows from the minimal faithful carrier \(\mathbb{C}^3 \otimes \mathbb{C}^2\), which enforces commuting color and weak actions.
+  \textbf{Product structure} (formerly S1): follows from the minimal coupled carrier \(\mathbb{C}^3 \otimes \mathbb{C}^2\), which enforces commuting color and weak actions.
 \item
   \textbf{Minimal sector content} (formerly S2): the pseudoreal doublet, complex triplet, and continuous abelian character are the minimal representations satisfying the admissibility conditions.
 \item
-  \textbf{Edge capacity minimality} (formerly S): is the first component of MAR\textquotesingle s complexity vector.
+  \textbf{Coupled edge-capacity minimality} (formerly S): is the first component of MAR\textquotesingle s complexity vector.
 \end{itemize}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
@@ -2103,13 +2105,15 @@ QED.
 \item
   The minimal faithful pseudoreal representation is the doublet (χ = 2), giving \(SU(2)\). The minimal faithful complex representation is the triplet (χ = 3), giving \(SU(3)\).
 \item
-  The minimal faithful carrier for both is \(\mathbb{C}^3 \otimes \mathbb{C}^2\), giving total edge capacity \(\chi_{\mathrm{faith}} = 6\).
+  The minimal coupled carrier for both is \(\mathbb{C}^3 \otimes \mathbb{C}^2\), giving coupled edge capacity \(\chi_{\mathrm{cpl}} = 6\).
+\item
+  The block-diagonal faithful representation \(\mathbb{C}^3 \oplus \mathbb{C}^2\) of \(S(U(3)\times U(2))\) has dimension \(5\), but it is not coupled and therefore is not the MAR minimizer.
 \item
   The maximal compact subgroup of \(U(6)\) acting on \(\mathbb{C}^3 \otimes \mathbb{C}^2\) with commuting actions is \((SU(3) \times SU(2) \times U(1))/(\text{finite center})\).
 \item
-  The commutant of \(SU(3) \times SU(2)\) inside \(U(6)\) is exactly \(U(1)\), so no additional continuous factors appear without increasing \(\chi\).
+  The commutant of \(SU(3) \times SU(2)\) inside \(U(6)\) is exactly \(U(1)\), so no additional continuous factors appear without increasing \(\chi_{\mathrm{cpl}}\).
 \item
-  Product structure (formerly Selector S1) is not separately assumed: it follows from the tensor product structure of the minimal carrier.
+  Product structure (formerly Selector S1) is not separately assumed: it follows from the tensor product structure of the minimal coupled carrier.
 \end{itemize}
 
 Combined with Proposition 6.6 (hypercharges quantized in sixths from the realized spectrum), this yields:
@@ -4200,7 +4204,7 @@ The following questions remain for future work:
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Product gauge group}: Derived from minimal faithful carrier \(\mathbb{C}^3 \otimes \mathbb{C}^2\) under MAR
+  \textbf{Product gauge group}: Derived from minimal coupled carrier \(\mathbb{C}^3 \otimes \mathbb{C}^2\) under MAR
 \item
   \textbf{SM global gauge group \(SU(3) \times SU(2) \times U(1)/\mathbb{Z}_6\)}: MAR + admissibility (Part II of this manuscript)
 \item

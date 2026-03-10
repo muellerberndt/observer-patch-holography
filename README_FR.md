@@ -6,6 +6,8 @@
 
 **Version anglaise :** [README.md](README.md)
 
+> **Défi de réfutation de l'OPH :** Un défi doté de 10 000 USD pour réfuter l'OPH est actuellement en cours sur [challenge.floatingpragma.io](https://challenge.floatingpragma.io).
+
 ## Idée centrale
 
 Il n'existe pas de réalité objective indépendante des observateurs. La réalité est un réseau de perspectives subjectives qui doivent s'accorder là où elles se recouvrent.
@@ -32,6 +34,7 @@ Tous les autres documents du dépôt sont des dérivations, suppléments et ress
 
 Commencez par le site officiel de l'OPH, le labo interactif OPH et la version web du livre OPH :
 
+- **Défi de réfutation de l'OPH (10 000 USD) :** [challenge.floatingpragma.io](https://challenge.floatingpragma.io)
 - **Site officiel de l'OPH :** [Site officiel de l'OPH sur floatingpragma.io/oph](https://floatingpragma.io/oph)
 - **Labo interactif OPH :** [OPH Lab sur oph-lab.floatingpragma.io](https://oph-lab.floatingpragma.io)
 - **Livre OPH (edition web) :** [Lire le livre OPH en ligne](https://oph-book.floatingpragma.io)

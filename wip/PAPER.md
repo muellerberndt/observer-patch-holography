@@ -2499,10 +2499,19 @@ matter, (iv) single-Higgs Yukawa-completable, (v) intrinsically CP-capable,
 (vi) weak-sector UV-completable, Nature realizes the lexicographically
 minimal one under
 
-$$C(\Sigma) = (\chi_{\mathrm{faith}},\; N_{\mathrm{nonab}},\; N_c,\; N_g).$$
+$$C(\Sigma) = (\chi_{\mathrm{cpl}},\; N_{\mathrm{nonab}},\; N_c,\; N_g).$$
 
 See GAUGE_GROUP_DERIVATION.md for the complete formal statement, admissibility
 definitions, and proof.
+
+Here $\chi_{\mathrm{cpl}}$ is the **coupled edge capacity**: the dimension of
+the minimal unitary carrier containing a common irreducible block on which the
+admissible pseudoreal and complex nonabelian charge types both act
+nontrivially. This is intentionally stronger than the abstract minimal
+faithful representation dimension. For
+$S(U(3)\times U(2))$, the block-diagonal action on
+$\mathbb{C}^3 \oplus \mathbb{C}^2$ is faithful of dimension $5$, but it is not
+coupled and therefore does not enter MAR.
 
 **Note on [z]=0.** The loop-coherent gluing condition $[z]=0$ (Proposition
 6.1a) is kept as an explicit premise of the extended theory, not hidden inside
@@ -2511,16 +2520,16 @@ gauge symmetry. By Proposition 6.1a, this is equivalent to DHR
 transportability.
 
 **What MAR derives.** The former Selectors S1 (sector factorization), S2
-(minimal sector content), and S (edge capacity minimality) are all consequences
+(minimal sector content), and S (coupled edge-capacity minimality) are all consequences
 of MAR applied to the admissible class:
 
-- **Product structure** (formerly S1): follows from the minimal faithful carrier
+- **Product structure** (formerly S1): follows from the minimal coupled carrier
   $\mathbb{C}^3 \otimes \mathbb{C}^2$, which enforces commuting color and weak
   actions.
 - **Minimal sector content** (formerly S2): the pseudoreal doublet, complex
   triplet, and continuous abelian character are the minimal representations
   satisfying the admissibility conditions.
-- **Edge capacity minimality** (formerly S): is the first component of MAR's
+- **Coupled edge-capacity minimality** (formerly S): is the first component of MAR's
   complexity vector.
 
 ---
@@ -2568,15 +2577,19 @@ QED.
 - The minimal faithful pseudoreal representation is the doublet (χ = 2),
   giving $SU(2)$. The minimal faithful complex representation is the triplet
   (χ = 3), giving $SU(3)$.
-- The minimal faithful carrier for both is $\mathbb{C}^3 \otimes \mathbb{C}^2$,
-  giving total edge capacity $\chi_{\mathrm{faith}} = 6$.
+- The minimal coupled carrier for both is $\mathbb{C}^3 \otimes \mathbb{C}^2$,
+  giving coupled edge capacity $\chi_{\mathrm{cpl}} = 6$.
+- The block-diagonal faithful representation
+  $\mathbb{C}^3 \oplus \mathbb{C}^2$ of $S(U(3)\times U(2))$ has dimension $5$,
+  but it is not coupled and therefore is not the MAR minimizer.
 - The maximal compact subgroup of $U(6)$ acting on
   $\mathbb{C}^3 \otimes \mathbb{C}^2$ with commuting actions is
   $(SU(3) \times SU(2) \times U(1))/(\text{finite center})$.
 - The commutant of $SU(3) \times SU(2)$ inside $U(6)$ is exactly $U(1)$,
-  so no additional continuous factors appear without increasing $\chi$.
+  so no additional continuous factors appear without increasing
+  $\chi_{\mathrm{cpl}}$.
 - Product structure (formerly Selector S1) is not separately assumed: it
-  follows from the tensor product structure of the minimal carrier.
+  follows from the tensor product structure of the minimal coupled carrier.
 
 Combined with Proposition 6.6 (hypercharges quantized in sixths from the
 realized spectrum), this yields:
@@ -4638,7 +4651,7 @@ The following questions remain for future work:
 
 **Derived under extended theory $T_{\mathrm{ext}}$ (A1–A4 + R0 + R1 + [z]=0 + MAR):**
 
-- **Product gauge group**: Derived from minimal faithful carrier $\mathbb{C}^3 \otimes \mathbb{C}^2$ under MAR
+- **Product gauge group**: Derived from minimal coupled carrier $\mathbb{C}^3 \otimes \mathbb{C}^2$ under MAR
 - **SM global gauge group $SU(3) \times SU(2) \times U(1)/\mathbb{Z}_6$**: MAR + admissibility (GAUGE_GROUP_DERIVATION.md)
 - **N_c = 3**: Witten anomaly + MAR minimality (Theorem 6.14)
 - **N_g = 3**: CP + asymptotic freedom + MAR minimality (Proposition 6.9)

@@ -256,7 +256,7 @@ The gauge-as-gluing principle (Section above) reconstructs compact gauge groups 
 
 **Proton stability**: This is where our model diverges from traditional Grand Unified Theories. Standard GUTs embed SU(3) x SU(2) x U(1) into a larger simple group, introducing leptoquark bosons that mediate proton decay. Super-Kamiokande's limit $\tau_p > 10^{34}$ years excludes minimal SU(5).
 
-Our model takes a different path. Under MAR, the minimal faithful carrier $\mathbb{C}^3 \otimes \mathbb{C}^2$ enforces a *product* gauge structure. There is no embedding in a larger simple group and no leptoquark generators. See [GAUGE_GROUP_DERIVATION.md](wip/GAUGE_GROUP_DERIVATION.md) for the complete proof.
+Our model takes a different path. Under MAR, the minimal coupled carrier $\mathbb{C}^3 \otimes \mathbb{C}^2$ enforces a *product* gauge structure. There is no embedding in a larger simple group and no leptoquark generators. See [GAUGE_GROUP_DERIVATION.md](wip/GAUGE_GROUP_DERIVATION.md) for the complete proof.
 
 ## How the Model Explains Known Physics
 
@@ -340,7 +340,7 @@ These are derived from the Selection Axiom MAR:
 
 | Result | How Derived |
 |--------|-------------|
-| Product gauge group | Minimal faithful carrier $\mathbb{C}^3 \otimes \mathbb{C}^2$ (MAR) |
+| Product gauge group | Minimal coupled carrier $\mathbb{C}^3 \otimes \mathbb{C}^2$ (MAR) |
 | SM global group SU(3) × SU(2) × U(1)/Z₆ | MAR + admissibility conditions |
 | $N_c = 3$ (three colors) | Witten anomaly + MAR minimality |
 | $N_g = 3$ (three generations) | CP + asymptotic freedom + MAR minimality |

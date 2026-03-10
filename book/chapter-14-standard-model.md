@@ -393,9 +393,9 @@ The gauge group isn't put in by hand. It's reconstructed from how charges combin
 
 Why does the reconstructed group have the form SU(3) x SU(2) x U(1)?
 
-The Selection Axiom MAR (Minimal Admissible Realization) answers this uniquely. Among all compact gauge groups that satisfy consistency requirements — anomaly freedom, chiral matter, CP violation capability, UV completability — MAR selects the one with the smallest faithful edge capacity. The result:
+The Selection Axiom MAR (Minimal Admissible Realization) answers this uniquely. Among all compact gauge groups that satisfy consistency requirements — anomaly freedom, chiral matter, CP violation capability, UV completability — MAR selects the one with the smallest coupled edge capacity. The result:
 
-- The minimal faithful carrier is $\mathbb{C}^3 \otimes \mathbb{C}^2$, which forces a product gauge structure (not assumed — derived).
+- The minimal coupled carrier is $\mathbb{C}^3 \otimes \mathbb{C}^2$, which forces a product gauge structure (not assumed — derived).
 - The factor acting on $\mathbb{C}^2$ as a pseudoreal doublet is uniquely SU(2).
 - The factor acting on $\mathbb{C}^3$ as a complex triplet is uniquely SU(3).
 - The commutant of SU(3) × SU(2) inside U(6) is exactly U(1) — no additional factors can appear.

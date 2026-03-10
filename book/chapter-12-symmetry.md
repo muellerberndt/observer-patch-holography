@@ -133,7 +133,7 @@ A conserved current on the screen creates a gauge boson in the bulk.
 
 ### Our Route: Gauge Group from Gluing
 
-In this book we take a different route. The gauge group is not assumed in advance. It is reconstructed from how edge charge sectors fuse when you glue patches. The fusion rules define a compact gauge group via Tannaka-Krein reconstruction. The Selection Axiom MAR (Minimal Admissible Realization) then uniquely determines which compact group is realized: it must be $SU(3) \times SU(2) \times U(1)/\mathbb{Z}_6$ — the Standard Model gauge group, with three colors and three generations. No other choice satisfies all consistency requirements while minimizing the edge capacity.
+In this book we take a different route. The gauge group is not assumed in advance. It is reconstructed from how edge charge sectors fuse when you glue patches. The fusion rules define a compact gauge group via Tannaka-Krein reconstruction. The Selection Axiom MAR (Minimal Admissible Realization) then uniquely determines which compact group is realized: it must be $SU(3) \times SU(2) \times U(1)/\mathbb{Z}_6$ — the Standard Model gauge group, with three colors and three generations. No other choice satisfies all consistency requirements while minimizing the coupled edge capacity.
 
 ## 12.8 Symmetry Breaking
 

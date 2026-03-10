@@ -517,7 +517,7 @@ $$p(R_1, R_2, R_3) \propto \prod_{i=1}^3 d_{R_i} e^{-t_i C_2(R_i)}$$
 
 By Tannaka-Krein reconstruction: $G \cong \text{SU}(3) \times \text{SU}(2) \times \text{U}(1)$ (up to finite quotient).
 
-Under the extended theory $T_{\mathrm{ext}}$, the Selection Axiom MAR derives this product structure from first principles: the minimal faithful carrier $\mathbb{C}^3 \otimes \mathbb{C}^2$ enforces commuting color and weak actions, which implies the additive boundary Laplacian. See [GAUGE_GROUP_DERIVATION.md](GAUGE_GROUP_DERIVATION.md) for the complete proof.
+Under the extended theory $T_{\mathrm{ext}}$, the Selection Axiom MAR derives this product structure from first principles: the minimal coupled carrier $\mathbb{C}^3 \otimes \mathbb{C}^2$ enforces commuting color and weak actions, which implies the additive boundary Laplacian. See [GAUGE_GROUP_DERIVATION.md](GAUGE_GROUP_DERIVATION.md) for the complete proof.
 
 ## 10.2 No Leptoquarks, No Gauge Proton Decay
 
