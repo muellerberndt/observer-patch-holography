@@ -405,35 +405,35 @@ The null-surface modular bridge (Route 2) is derived from A1-A4 under two testab
 
 ### The Einstein Equation
 
-Combining the entropy variation with the geometric identity for area variation at fixed volume, one obtains the semiclassical Einstein equation in the same local scaling regime:
+Combining the entropy variation with the geometric identity for area variation at fixed volume, one obtains the first-variation Einstein relation in the same local scaling regime:
 
 $$\delta A\big|_{V} = -\frac{\Omega_{d-2} \ell^d}{d^2-1}(G_{00} + \Lambda g_{00})$$
 
 the equilibrium condition yields:
 
-$$G_{00} + \Lambda g_{00} = 8\pi G \langle T_{00} \rangle$$
+$$\delta\!\left(G_{00} + \Lambda g_{00}\right) = 8\pi G\,\delta\langle T_{00} \rangle$$
 
-This holds in the rest frame of each small cap.
+This holds in the rest frame of each small cap for admissible first variations.
 
 ### Where Patch Consistency Actually Enters
 
-Here's the distinctive contribution of our framework: Different observers through the same bulk point have different rest frames. The equilibrium argument gives Einstein's equation in each observer's rest frame separately.
+Here's the distinctive contribution of our framework: Different observers through the same bulk point have different rest frames. The equilibrium argument gives the first-variation relation in each observer's rest frame separately.
 
-**Patch consistency forces these to be compatible.** If observer A gets $G_{00}^{(A)} = 8\pi G T_{00}^{(A)}$ and observer B gets $G_{00}^{(B)} = 8\pi G T_{00}^{(B)}$, and they must agree on the overlapping physics, then the equation must hold as a tensor equation in all frames:
+**Patch consistency forces these to be compatible.** If observer A gets $\delta(G_{00}^{(A)}+\Lambda g_{00}^{(A)}) = 8\pi G\,\delta T_{00}^{(A)}$ and observer B gets $\delta(G_{00}^{(B)}+\Lambda g_{00}^{(B)}) = 8\pi G\,\delta T_{00}^{(B)}$, and they must agree on the overlapping physics, then the relation upgrades to a tensor equation in all frames:
 
 $$G_{ab} + \Lambda g_{ab} = 8\pi G \langle T_{ab} \rangle$$
 
-So patch consistency promotes the scalar relation to a tensor equation. But the scalar relation itself comes from MaxEnt + the EFT bridge, not from patch consistency.
+So patch consistency promotes the rest-frame first-variation relation to a tensor equation. But the scalar relation itself comes from MaxEnt + the EFT bridge, not from patch consistency.
 
 ### The Derivation Chain
 
-The derivation chain for the semiclassical Einstein equation in OPH proceeds as:
+The derivation chain for the scaling-limit Einstein branch in OPH proceeds as:
 
 ```
 MaxEnt (Assumption B)
     → δS_gen = 0 (entanglement equilibrium)
     → Null-surface modular bridge (connects modular energy to stress tensor)
-    → G_00 = 8πG T_00 in each rest frame
+    → δ(G_00 + Λg_00) = 8πG δT_00 in each rest frame
     → Patch consistency promotes to tensor equation
     → G_ab = 8πG T_ab
 ```
@@ -522,7 +522,7 @@ The detailed dynamics of how information gets scrambled and unscrambled on the s
 
 ## 15.12 Dark Sector: A Program-Level Modular-Anomaly Branch
 
-This is not a closed theorem on the same footing as Lorentz kinematics or the semiclassical Einstein derivation. It is a structurally motivated phenomenology branch.
+This is not a closed theorem on the same footing as Lorentz kinematics or the conditional scaling-limit Einstein derivation. It is a structurally motivated phenomenology branch.
 
 ### The Problem
 
@@ -536,7 +536,7 @@ An alternative: modify gravity (MOND). At low accelerations, perhaps gravity beh
 
 Our framework suggests a third option: **there may be extra gravitational pull coming from imperfect information, not particles**.
 
-Recall that we derive the semiclassical Einstein equation from entanglement equilibrium in the scaling regime. In a perfect world, information on one side of a boundary would be perfectly recoverable from the boundary itself (the Markov condition). In that limit, you get pure Einstein gravity.
+Recall that we derive the first-variation Einstein relation, whose tensor upgrade gives the semiclassical Einstein equation, from entanglement equilibrium in the scaling regime. In a perfect world, information on one side of a boundary would be perfectly recoverable from the boundary itself (the Markov condition). In that limit, you get pure Einstein gravity.
 
 But the real world isn't perfect. There's always some residual correlation that can't be captured by the boundary alone. This **Markov imperfection** appears as an extra term in Einstein's equations.
 
@@ -596,6 +596,6 @@ Gravity emerges from entanglement equilibrium. The equilibrium condition comes f
 
 Newton's absolute time and space were beautiful ideas that served humanity well for two centuries. But they were always approximations. The deeper truth is that time and space are not the stage on which physics happens. They emerge from the physics itself.
 
-We now have the stage: emergent spacetime with Lorentz kinematics and scaling-limit semiclassical Einstein dynamics. We've seen how both spacetime (this chapter) and particles (Chapter 14) emerge from the screen. But what exactly IS matter in this model? How do the classical concepts of particles, energy, and motion relate to the deeper quantum structure?
+We now have the stage: emergent spacetime with Lorentz kinematics and the scaling-limit Einstein branch. We've seen how both spacetime (this chapter) and particles (Chapter 14) emerge from the screen. But what exactly IS matter in this model? How do the classical concepts of particles, energy, and motion relate to the deeper quantum structure?
 
 That's the question of **Chapter 16: Matter, Motion, and Classical Physics**.

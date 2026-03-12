@@ -119,7 +119,7 @@ backbone that all observers must agree on.
 This is a significant shift from the traditional view. And it works. When you
 work out the consequences, the results are extraordinary:
 
-- **Scaling-limit semiclassical gravity** emerges from entanglement equilibrium on the screen
+- **A conditional scaling-limit Einstein branch** emerges from entanglement equilibrium on the screen
 - **The Standard Model gauge structure** SU(3) x SU(2) x U(1)/Z₆ is derived rather than assumed under the extended MAR admissibility package
 - **Three charged lepton masses** (electron, muon, tau) are genuine predictions at sub-permille accuracy from parameter-free Koide structure; W and Z boson masses are calibration-sector consistency checks
 - **A dark-sector branch** becomes structurally available from modular anomalies, not new particles

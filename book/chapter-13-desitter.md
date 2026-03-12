@@ -108,8 +108,8 @@ The Gibbons-Hawking theorem gives us all three for de Sitter horizons. In our
 model this supplies the calibration for the area term and
 the temperature normalization. Combined with geometric modular flow on caps
 (derived under Markov + MaxEnt + symmetry + refinement) and entanglement
-equilibrium in the same scaling regime, this establishes semiclassical
-Einstein dynamics as a consequence of observer-patch consistency on the
+equilibrium in the same scaling regime, this establishes a scaling-limit
+Einstein branch as a consequence of observer-patch consistency on the
 holographic screen.
 
 ## 13.5 The Problem of Time in De Sitter
@@ -225,7 +225,7 @@ Our framework suggests a different, program-level branch.
 
 ### The Modular Anomaly
 
-In Chapter 11, we saw that the semiclassical Einstein equation emerges from an entanglement-equilibrium argument in the scaling regime. But that derivation assumed perfect Markov structure-perfect recoverability across patch overlaps.
+In Chapter 11, we saw that a first-variation Einstein relation, later upgraded to the semiclassical Einstein equation, emerges from an entanglement-equilibrium argument in the scaling regime. But that derivation assumed perfect Markov structure-perfect recoverability across patch overlaps.
 
 In reality, the Markov condition is only approximate. There's a correction term:
 
