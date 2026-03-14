@@ -184,7 +184,7 @@ Le cadre repose sur quatre axiomes centraux plus un axiome de sélection :
 | **A4** | Markov local | L'information mutuelle conditionnelle décroît à travers les colliers |
 | **MAR** | Réalisation admissible minimale | Parmi les secteurs admissibles, la Nature réalise le minimum lexicographique |
 
-Les hypothèses structurelles supplémentaires (MaxEnt, régularité euclidienne, mélange exponentiel) sont détaillées dans la [source principale](paper/tex_fragments/PAPER.tex).
+Les hypothèses structurelles supplémentaires (MaxEnt, prémisses de limite d'échelle contrôlée et de branche géométrique OPH, mélange exponentiel) sont détaillées dans la [source principale](paper/tex_fragments/PAPER.tex).
 
 ## La chaîne de prédictions
 
@@ -297,7 +297,7 @@ Ces résultats suivent de l'absence de référentiel « tiers » privilégié. I
 4. *QNEC/Focalisation* : dérivé en interne via monotonie de l'entropie relative.
 5. *Équilibre d'intrication* : mène aux équations d'Einstein via le mécanisme de Jacobson (1995, 2016).
 
-Les hypothèses explicites restantes sont MaxEnt et la régularité euclidienne (normalisation $2\pi$).
+Les hypothèses explicites restantes sont MaxEnt, les prémisses de limite d'échelle et de branche géométrique OPH derrière l'étape BW, ainsi que les conditions du pont EFT ci-dessus.
 
 ### Particules et forces
 
@@ -319,14 +319,14 @@ La plupart des points ci-dessous sont des *postdictions* : masses nulles des bos
 
 ### Dérivés des hypothèses du cadre
 
-Ces résultats suivent des axiomes centraux (A1-A4) + hypothèses supplémentaires (MaxEnt, jauge-comme-collage, régularité euclidienne). Le jeu complet est détaillé dans l'article technique.
+Ces résultats suivent des axiomes centraux (A1-A4) + hypothèses supplémentaires (MaxEnt, jauge-comme-collage, et prémisses OPH de limite d'échelle / branche géométrique). Le jeu complet est détaillé dans l'article technique.
 
 | Résultat | Chaîne de dérivation |
 |--------|------------------|
 | Masse du photon = 0 | Redondance de jauge émergente + U(1)_em non brisée -> terme de masse interdit |
 | Masse du graviton = 0 | Équilibre d'intrication + invariance difféomorphe -> terme de masse interdit |
 | Masse du gluon = 0 | Jauge-comme-collage pour SU(3) -> terme de masse interdit |
-| Groupe de Lorentz | A1-A4 + covariance modulaire via BW -> $\mathrm{Conf}(S^2) \sim SO(3,1)$ |
+| Groupe de Lorentz | A1-A4 + théorème BW sur la branche géométrique OPH -> $\mathrm{Conf}(S^2) \sim SO(3,1)$ |
 | Invariance CPT | Cinématique de Lorentz + localité via théorème CPT |
 | Conservation de charge | Symétrie de jauge U(1)_em non brisée |
 | Formule de la constante de Newton | $G = a_{\rm cell}/4\bar{\ell}(t)$ depuis la densité d'entropie de bord |
@@ -476,7 +476,7 @@ Le cadre OPH prend l'étape suivante : il n'essaie pas de sauver une réalité o
 
 Comme résumé dans la matrice de statut plus haut, le cadre établit aujourd'hui une cinématique de Lorentz conditionnelle, une branche semi-classique d'Einstein conditionnelle, une symétrie de jauge compacte, le groupe du MS (via MAR), trois générations, trois couleurs, des porteurs de force sans masse, un programme quantitatif à deux entrées avec distinction explicite entre calibration et sorties indépendantes, la stabilité du proton, ainsi qu'un pont explicite OPH->cordes via les secteurs de bord YM 2D. Les principaux axes d'ingénierie actifs :
 
-1. **Microphysique d'écran** : les modèles de liens quantiques réalisent les prémisses de régulateur et donnent automatiquement la complétion bord-centre. Reste : assurer un flot modulaire géométrique conforme dans la limite continue.
+1. **Microphysique d'écran** : les modèles de liens quantiques réalisent les prémisses de régulateur et donnent automatiquement la complétion bord-centre. Reste : forcer ou vérifier la sélection de la branche modulaire géométrique OPH dans la limite continue.
 2. **Vérification du pont EFT** : le pont modulaire de surface nulle est dérivé sous deux conditions testables ; il faut les vérifier dans des régulateurs UV explicites.
 3. **Constante cosmologique** : expliquée structurellement comme $\Lambda = 3\pi/(G \cdot \log \dim \mathcal{H}_{\rm tot})$ via la capacité d'écran ; valeur numérique inférée de l'observation.
 4. **Problème CP fort** : $\theta_{QCD}$ est déterminé (la dérivation via cohomologie d'obstruction de collage est donnée en section 8.4).

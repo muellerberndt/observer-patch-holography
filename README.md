@@ -171,7 +171,7 @@ The entire framework rests on four core axioms plus one selection axiom:
 | **A4** | Local Markov | Conditional mutual information decays across collars |
 | **MAR** | Minimal Admissible Realization | Among admissible sectors, Nature realizes the lexicographically minimal one |
 
-Additional structural assumptions (MaxEnt, Euclidean regularity, exponential mixing) are detailed in the [main paper source](paper/tex_fragments/PAPER.tex).
+Additional structural assumptions (MaxEnt, the controlled scaling-limit and OPH geometric-branch premises, exponential mixing) are detailed in the [main paper source](paper/tex_fragments/PAPER.tex).
 
 ## The Prediction Chain
 
@@ -288,7 +288,7 @@ These results follow from the absence of a privileged "third-party" frame. There
 
 5. *Entanglement equilibrium* leads to a conditional scaling-limit Einstein branch via the Jacobson mechanism (1995, 2016).
 
-The remaining explicit assumptions are MaxEnt and Euclidean regularity (for 2pi normalization).
+The remaining explicit assumptions are MaxEnt, the OPH geometric-branch/scaling-limit premises behind the BW step, and the EFT-bridge conditions listed above.
 
 ### Particles and Forces
 
@@ -312,14 +312,14 @@ To be clear: most of what follows are *postdictions*. The photon mass, the numbe
 
 ### Derived from Framework Assumptions
 
-These results follow from the core axioms (A1-A4) plus additional assumptions (MaxEnt, gauge-as-gluing, Euclidean regularity). The full required assumption set is detailed in the technical paper.
+These results follow from the core axioms (A1-A4) plus additional assumptions (MaxEnt, gauge-as-gluing, and the OPH geometric-branch/scaling-limit premises). The full required assumption set is detailed in the technical paper.
 
 | Result | Derivation Chain |
 |--------|------------------|
 | Photon mass = 0 | Given emergent gauge redundancy + unbroken U(1)_em, mass term forbidden |
 | Graviton mass = 0 | Given entanglement equilibrium + diffeo invariance, mass term forbidden |
 | Gluon mass = 0 | Given gauge-as-gluing for SU(3), mass term forbidden |
-| Lorentz group | A1-A4 + modular covariance via BW theorem gives Conf(S^2) ~ SO(3,1) |
+| Lorentz group | A1-A4 + BW theorem on the OPH geometric branch gives Conf(S^2) ~ SO(3,1) |
 | CPT invariance | Lorentz kinematics + locality via CPT theorem |
 | Charge conservation | Unbroken U(1)_em gauge symmetry |
 | Newton's constant formula | $G = a_{\rm cell}/4\bar{\ell}(t)$ from edge entropy density |
@@ -484,7 +484,7 @@ A measurement contradiction would require showing that some phenomenon cannot be
 
 As summarized in the status matrix above, the framework derives Lorentz kinematics, a conditional semiclassical Einstein branch, compact gauge symmetry, the SM gauge group (via MAR), three generations, three colors, massless force carriers, a two-input quantitative particle-physics program, proton stability, and an explicit OPH-to-string bridge through 2D Yang-Mills edge sectors. The main engineering extensions are:
 
-1. **Screen microphysics**: Quantum link models realize the regulator premises and give edge-center completion automatically. Remaining: ensure modular flow becomes geometric conformal dilation in the continuum limit.
+1. **Screen microphysics**: Quantum link models realize the regulator premises and give edge-center completion automatically. Remaining: force or verify selection of the OPH geometric modular branch in the continuum limit.
 
 2. **EFT bridge verification**: The null-surface modular bridge is derived from core axioms under two testable conditions. These need verification in explicit UV regulators.
 
