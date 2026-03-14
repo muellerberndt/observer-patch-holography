@@ -12,7 +12,7 @@
 
 ## Core Idea
 
-There is no objective reality independent of observers. Reality is a network of subjective perspectives that must agree where they overlap.
+OPH takes the strong observer-first position that objective reality is not fundamental but emergent from a network of subjective perspectives that must agree where they overlap.
 
 The laws of physics are the consistency rules that make this intersubjective agreement possible.
 
@@ -117,7 +117,7 @@ These are rebuttals to common objections to OPH.
 
 ## Observer Patch Holography
 
-We model reality as a network of subjective perspectives that must agree where they overlap. Concretely, we start with observer patches on a 2D holographic screen. Each patch represents a perspective with its own local data. Where patches overlap, their descriptions must agree. "Reality" is whatever survives this consistency filter. There is no world-in-itself. There are only subjective views that agree on what happened.
+We model reality as a network of subjective perspectives that must agree where they overlap. Concretely, we start with observer patches on a 2D holographic screen. Each patch represents a perspective with its own local data. Where patches overlap, their descriptions must agree. On the OPH interpretation, "objective reality" is the overlap-consistent backbone shared across those perspectives rather than an assumed primitive.
 
 Lorentz invariance exists because different observers must have consistent descriptions. Gauge symmetry exists because overlapping patches must identify shared observables. Conservation laws exist because the same quantities must be conserved across all perspectives. The laws are not imposed from outside. They are the conditions that make agreement possible.
 
@@ -127,7 +127,7 @@ The model rests on four core concepts:
 
 - **Patch**: A connected region of the screen accessible to a particular observer. Each patch has its own algebra of observables, the questions that observer can ask about reality.
 
-- **Overlap consistency**: Where two patches share a region, their descriptions must agree. This is the central axiom. It replaces "objective reality" with "intersubjective agreement."
+- **Overlap consistency**: Where two patches share a region, their descriptions must agree. This is the central axiom. It makes objectivity a reconstructed intersubjective structure rather than a starting assumption.
 
 - **Observer**: A stable pattern within the screen data that maintains records and participates in consistency relations.
 
