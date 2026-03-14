@@ -1,6 +1,6 @@
 # Observer Patch Holography: An Observer-Centric Approach to Fundamental Physics
 
-> > OPH is an observer-centric framework for fundamental physics. In the current quantitative implementation it uses two external continuous inputs (pixel area and screen capacity) together with structural axioms and explicit scaling/regularity premises. OPH develops a conditional scaling-limit gravity branch, conditional compact gauge reconstruction with Standard Model closure under extended MAR, and a quantitative program whose outputs are separated into calibration checks, a supplement-backed Higgs/top branch that adds no further continuous fit once the gauge trajectory is fixed, and weaker phenomenological continuations. The Standard Model and general relativity emerge as effective sectors of the underlying structure, while the string-theoretic worldsheet bridge remains continuation-level in the current program.
+> OPH is an observer-centric framework for fundamental physics. In the current quantitative implementation it uses two external continuous inputs (pixel area and screen capacity) together with structural axioms and explicit scaling/regularity premises. OPH develops a conditional scaling-limit gravity branch, conditional compact gauge reconstruction with Standard Model closure under extended MAR, and a quantitative program whose outputs are separated into calibration checks, a supplement-backed Higgs/top branch that adds no further continuous fit once the gauge trajectory is fixed, and weaker phenomenological continuations. The Standard Model and general relativity emerge as effective sectors of the underlying structure, while the string-theoretic worldsheet bridge remains continuation-level in the current program.
 
 > **Status disclaimer:** OPH is an active research program and not yet fully proven. Several derivations remain incomplete, some proofs currently exist only as sketches, and certain auxiliary assumptions still need to be removed. The framework should therefore be regarded as under active development.
 
@@ -185,7 +185,7 @@ The following infographic summarizes the current OPH reconstruction program from
 
 ## The Fundamental Parameters
 
-Our universe is currently described in the quantitative implementation by exactly **two externally fixed fundamental inputs**:
+Our universe is characterized by exactly **two externally fixed fundamental parameters**:
 
 ### 1. Pixel Area: $a_{\text{cell}} \approx 1.63 \, \ell_P^2$
 
