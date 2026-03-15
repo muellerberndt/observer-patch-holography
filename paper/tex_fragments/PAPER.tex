@@ -262,7 +262,7 @@ Node & Main-manuscript output & Immediate OPH ingredients & Standard mathematics
 \textbf{D1} & Theorem 3.1: normal-form/objectivity statement & overlap-consistency setup on finite patch nets & Newman's lemma & finite patch net, termination, and local confluence & structural theorem \\
 \textbf{D2} & Section 2.3 and \S5.4: EC/Markov collar and generalized-entropy split & Canonical 1--4 plus R0/R1 when invoked & HJPW; Petz; Fawzi--Renner & exact-Markov or idealized recoverability hypotheses when exact identities are used; coarse-grained \(A/(4G)\) dictionary & structural lemma/proposition layer \\
 \textbf{D3} & Theorems 4.2--4.3: geometric modular flow and Lorentz branch & Canonical 1--4 & Bisognano--Wichmann modular geometry; conformal-group classification & controlled refinement limit together with the OPH geometric-branch hypothesis used in Theorem 4.2 & conditional scaling-limit theorem \\
-\textbf{D4} & Section 5.2: null modular bridge & D2+D3 & Borchers--Wiesbrock and endpoint differentiation & null-strip control, half-sided inclusion, and relativistic null-stress premise & conditional bridge theorem \\
+\textbf{D4} & Section 5.2: null modular bridge & D2+D3 & Borchers--Wiesbrock and endpoint differentiation & the theorem-local inherited-strip decomposition and exact-or-controlled Markov hypotheses of Section 5.2, plus half-sided inclusion and the relativistic null-stress premise & conditional bridge theorem \\
 \textbf{D5} & Theorem 5.1: Einstein branch & D3+D4 & Jacobson small-ball mathematics; null-to-tensor reconstruction modulo a metric term & fixed-cap stationarity and the locally Lorentzian \(d=4\) scaling regime & conditional scaling-limit theorem \\
 \textbf{D6} & capacity/\(\Lambda\) reduction statements & D5 leaves \(+\Lambda g_{ab}\) undetermined & de Sitter entropy relation and dimensional analysis & external input \(N_{\mathrm{scr}}\) and the screen-capacity identification & input-dependent corollary / estimate \\
 \textbf{D7} & Theorem 6.1: compact gauge reconstruction & Canonical 1--4 & Doplicher--Roberts / Tannaka reconstruction & rigid symmetric bosonic colimit, transportability, and fiber-functor premises & conditional structural theorem \\
@@ -895,48 +895,120 @@ By Section 4.2, \(K_C = 2\pi B_C + \text{const}\), hence
 
 \subsubsection{5.2 Null-surface modular bridge}\label{52-null-surface-modular-bridge}
 
-We record an internal route toward the stress tensor that avoids assuming a UV CFT on small caps. Much of the EFT bridge can be tied to the same Markov structure (A4), geometric modular flow (BW\(_{S^2}\)), and explicit scaling-limit regularity premises used elsewhere in the argument. The crucial bookkeeping point is the same as in Section 4.1: exact null-strip additivity is justified only for exact Markov strip states, or for a controlled fixed-cutoff strip family whose distance to the exact Markov set goes to zero. Small strip CMI is not silently upgraded to exact identities.
-
-\textbf{Theorem ladder summary.} The stress-tensor package is organized as a chain with explicit hypotheses; where the synchronized ledger keeps a step as premise rather than theorem, that status is left explicit:
-
-\textbf{Read-along chain:}
+We record an internal route toward the stress tensor that avoids assuming a UV CFT on small caps, but the sharp claim boundary is now explicit. At fixed cutoff one can transfer the same cut-center data used in the spatial collar theorem to regulated null strips. What does not follow from that transfer alone is the left/right tensor split of the strip multiplicity spaces needed for exact splice and modular-additivity identities. The null bridge therefore separates three layers:
 \begin{itemize}
 \tightlist
 \item
-  R0, R1 \(\Longrightarrow\) null-EC (Proposition 5.2a)
+  transferred center data at the two null cuts;
 \item
-  null-EC + exact Markovity or controlled exact-Markov strip limit \(\Longrightarrow\) N1 additivity (Corollary 5.2b)
+  an additional decomposition-inheritance condition that upgrades those center sectors to the same left/right block structure used in the spatial collar branch;
+\item
+  exact Markovity, or a controlled family converging to the exact Markov set on one fixed finite-dimensional inherited strip model.
+\end{itemize}
+Only after all three layers are in place does the null strip use the same HJPW factorization and modular-additivity theorem as the spatial collar branch. The later identification of the resulting half-line density with a continuum null stress tensor remains a separate scaling-limit premise.
+
+\textbf{Theorem ladder summary.} The stress-tensor package is organized as a chain with explicit hypotheses:
+\begin{itemize}
+\tightlist
+\item
+  R0, R1 plus transferred cut data \(\Longrightarrow\) central null-strip sector decomposition
+\item
+  central null-strip sectors plus decomposition inheritance \(\Longrightarrow\) null-EC (Proposition 5.2a)
+\item
+  null-EC plus exact Markovity or a controlled exact-Markov strip limit \(\Longrightarrow\) N1 additivity (Corollary 5.2b)
 \item
   B + MX \(\Longrightarrow\) bounded-interval endpoint control (Proposition 5.2c)
 \item
-  bounded-interval endpoint control + half-line differentiability \(\Longrightarrow\) density formula (Lemma 5.2d)
+  bounded-interval endpoint control plus half-line differentiability \(\Longrightarrow\) density formula (Lemma 5.2d)
 \item
-  N2 is kept explicit as the half-sided modular-inclusion premise in the scaling regime
+  N2 is kept explicit as the half-sided modular-inclusion premise in the scaling regime; the geometric blow-up only identifies its form (Corollary 5.2e)
 \item
-  N2 + density + relativistic null-stress identification \(\Longrightarrow\) \(T_{kk}\) bridge with explicit carried error (Theorem 5.2g below)
+  N2 plus density plus relativistic null-stress identification \(\Longrightarrow\) the \(T_{kk}\) bridge with explicit carried error (Theorem 5.2g below)
 \end{itemize}
 
 Setup. For a small circle \(\Sigma = \partial C\), let \(\mathcal N\) be the null surface generated by null geodesics orthogonal to \(\Sigma\) in the locally Lorentzian regime implied by Section 4.2. Label null generators by angle \(\Omega\) and use affine parameter \(v\) along each generator. For an interval \(I\) along a generator, let \(K[I]\) denote the reference modular Hamiltonian for the algebra supported on that interval, or for a region that is a union of such intervals across generators.
 
 \begin{quote}
-\textbf{Proposition 5.2a (Null-EC from R0, R1).} Under the regulator premises R0 and R1 (type-I at UV plus boundary gauge invariants) applied to cuts at \(v=v_1,v_2\), the buffer strip algebra \(\mathcal A(J)\) has a central decomposition into edge labels at the two cuts:
+\textbf{Proposition 5.2a (Null-cut center transfer and inherited split).} Fix a regulated null tripartition
 \[
-\mathcal H_J
-\cong
-\bigoplus_{\alpha_1,\alpha_2}
-\left(
-\mathcal H_{j_L^{\alpha_1,\alpha_2}}
-\otimes
-\mathcal H_{j_R^{\alpha_1,\alpha_2}}
-\right),
+I_-=(v_1,v_2),\qquad
+J=(v_2,v_3),\qquad
+I_+=(v_3,v_4),
 \]
-with center generated by projectors \(P_{\alpha_1,\alpha_2}\). Within each block, \(\mathcal A(I_-\cup J)\) acts only on the left factor and \(\mathcal A(J\cup I_+)\) acts only on the right factor.
+with cuts \(\Gamma_-:=\{v=v_2\}\) and \(\Gamma_+:=\{v=v_3\}\). Under R0 and R1, assume that the two null cuts inherit the same compact overlap-redundancy actions as ordinary collars, so that in a compatible type-I regulator presentation one has
+\[
+\tilde{\mathcal H}_{I_-}
+\cong
+\bigoplus_{\alpha_-}
+W_{\alpha_-}\otimes \mathcal H_{i_-^{\alpha_-}},
+\]
+\[
+\tilde{\mathcal H}_{J}
+\cong
+\bigoplus_{\alpha_-,\alpha_+}
+W_{\alpha_-}^{*}\otimes
+\mathcal H_{j^{\alpha_-,\alpha_+}}\otimes
+W_{\alpha_+},
+\]
+\[
+\tilde{\mathcal H}_{I_+}
+\cong
+\bigoplus_{\alpha_+}
+W_{\alpha_+}^{*}\otimes \mathcal H_{i_+^{\alpha_+}},
+\]
+where \(W_{\alpha_\pm}\) are irreducible modules for the transferred cut actions and opposite sides of each cut carry inverse transport. Then the strip algebra has a central sector decomposition
+\[
+\mathcal A(J)
+\cong
+\bigoplus_{\alpha_-,\alpha_+}
+\mathcal B(\mathcal H_{j^{\alpha_-,\alpha_+}}),
+\qquad
+Z(\mathcal A(J))
+=
+\bigoplus_{\alpha_-,\alpha_+}\mathbb C\,P_{\alpha_-,\alpha_+}.
+\]
 
-\textbf{Proof.} A cut at fixed \(v\) is a boundary for the strip region in the same kinematic sense in which \(\partial C\) is a boundary for a spatial collar. The EC proof of Section 2.3 is therefore unchanged: type-I factorization at the regulator and boundary gauge invariance imply a Schur-lemma decomposition with center labels at the cuts. QED.
+If, in addition, each multiplicity space \(\mathcal H_{j^{\alpha_-,\alpha_+}}\) admits a factorization
+\[
+\mathcal H_{j^{\alpha_-,\alpha_+}}
+\cong
+\mathcal H_{j_L^{\alpha_-,\alpha_+}}
+\otimes
+\mathcal H_{j_R^{\alpha_-,\alpha_+}}
+\]
+such that \(\mathcal A(I_-\cup J)\) acts blockwise only on
+\(\mathcal H_{i_-^{\alpha_-}}\otimes \mathcal H_{j_L^{\alpha_-,\alpha_+}}\)
+and \(\mathcal A(J\cup I_+)\) acts blockwise only on
+\(\mathcal H_{j_R^{\alpha_-,\alpha_+}}\otimes \mathcal H_{i_+^{\alpha_+}}\),
+then
+\[
+\mathcal A(J)
+\cong
+\bigoplus_{\alpha_-,\alpha_+}
+\mathcal B(\mathcal H_{j_L^{\alpha_-,\alpha_+}})
+\otimes
+\mathcal B(\mathcal H_{j_R^{\alpha_-,\alpha_+}}),
+\]
+and the glued tripartition satisfies
+\[
+\mathcal H_{I_-\cup J\cup I_+}
+\cong
+\bigoplus_{\alpha_-,\alpha_+}
+\mathcal H_{i_-^{\alpha_-}}
+\otimes
+\mathcal H_{j_L^{\alpha_-,\alpha_+}}
+\otimes
+\mathcal H_{j_R^{\alpha_-,\alpha_+}}
+\otimes
+\mathcal H_{i_+^{\alpha_+}}.
+\]
+Thus the two null cuts transfer the same theorematic center data as the spatial collar branch, while the left/right split of the strip multiplicity spaces is an additional decomposition-inheritance condition and is not forced by center transfer alone.
+
+\textbf{Proof.} Because the transferred cut actions are finite-dimensional and unitary, complete reducibility gives the displayed decompositions. Gauge-invariant strip observables commute with those cut actions, so they preserve the sector pair \((\alpha_-,\alpha_+)\) and act only on the multiplicity space \(\mathcal H_{j^{\alpha_-,\alpha_+}}\), which gives the direct-sum algebra and its central projectors. Gluing to \(I_-\) and \(I_+\) and taking cut invariants across \(\Gamma_-\) and \(\Gamma_+\) pairs \(W_{\alpha_-}\) with \(W_{\alpha_-}^{*}\) and \(W_{\alpha_+}\) with \(W_{\alpha_+}^{*}\); Schur\textquotesingle s lemma therefore leaves exactly the displayed block decomposition of the full tripartition. If the multiplicity spaces further factor as \(j_L\otimes j_R\) with the stated action property, the strip algebra acquires the same left/right block form used in the ordinary collar theorem. QED.
 \end{quote}
 
 \begin{quote}
-\textbf{Corollary 5.2b (Controlled N1 from null-strip EC).} Let \((I_-):(J):(I_+)\) be a fixed regulated strip tripartition and define
+\textbf{Corollary 5.2b (Controlled N1 from an inherited null-strip model).} On one fixed finite-dimensional strip model satisfying Proposition 5.2a, define
 \[
 \mathfrak M_{I_-:J:I_+}
 :=
@@ -944,7 +1016,7 @@ with center generated by projectors \(P_{\alpha_1,\alpha_2}\). Within each block
 \sigma:\ I(I_-:I_+\mid J)_\sigma=0
 \right\},
 \]
-together with the strip exact-Markov modulus
+and
 \[
 \delta^{\mathrm M}_{I_-:J:I_+}(\varepsilon)
 :=
@@ -953,20 +1025,19 @@ together with the strip exact-Markov modulus
 I(I_-:I_+\mid J)_\rho\le\varepsilon
 \right\}.
 \]
-On this fixed finite-dimensional strip model,
-\[
-\delta^{\mathrm M}_{I_-:J:I_+}(\varepsilon)\to 0
-\qquad
-(\varepsilon\downarrow0).
-\]
-
-If the strip reference state is exact Markov, then
+If the strip reference state is exact Markov, then there is a central operator \(K_{\partial,J}\in Z(\mathcal A(J))\) such that
 \[
 K_{I_-\cup J\cup I_+}
 =
-K_{I_-\cup J}+K_{J\cup I_+}-K_J
+K_{I_-\cup J}+K_{J\cup I_+}-K_J+K_{\partial,J}.
 \]
-up to a central boundary term.
+Equivalently,
+\[
+\Delta K_J
+:=
+K_{I_-\cup J\cup I_+}-K_{I_-\cup J}-K_{J\cup I_+}+K_J
+\]
+is central.
 
 If instead \(I(I_-:I_+\mid J)_\omega\le\varepsilon\), choose \(\widetilde\omega_J\in\mathfrak M_{I_-:J:I_+}\) with
 \[
@@ -974,19 +1045,19 @@ If instead \(I(I_-:I_+\mid J)_\omega\le\varepsilon\), choose \(\widetilde\omega_
 \le
 \delta^{\mathrm M}_{I_-:J:I_+}(\varepsilon).
 \]
-Then every bounded observable on \(I_-\cup J\) or \(J\cup I_+\) differs from the exact-Markov reference by at most \(O(\delta^{\mathrm M}_{I_-:J:I_+}(\varepsilon))\). If the relevant strip marginals are uniformly faithful with lower spectral bound \(\lambda_\ast>0\), then
+Then every bounded observable on \(I_-\cup J\) or \(J\cup I_+\) differs from the exact-Markov reference by at most
+\[
+\|O\|\,\delta^{\mathrm M}_{I_-:J:I_+}(\varepsilon).
+\]
+If the relevant strip marginals are uniformly faithful with lower spectral bound \(\lambda_\ast>0\), then
 \[
 \|\Delta K_J(\omega)-\Delta K_J(\widetilde\omega_J)\|_\infty
 \le
-4\lambda_\ast^{-1}\,\delta^{\mathrm M}_{I_-:J:I_+}(\varepsilon),
+4\lambda_\ast^{-1}\,\delta^{\mathrm M}_{I_-:J:I_+}(\varepsilon).
 \]
-where
-\[
-\Delta K_J
-:=
-K_{I_-\cup J\cup I_+}-K_{I_-\cup J}-K_{J\cup I_+}+K_J.
-\]
-Independently, Fawzi--Renner gives a recovered comparison state with trace-norm error \(r_{\mathrm{FR}}(\varepsilon)=2\sqrt{1-e^{-\varepsilon}}\le 2\sqrt{\varepsilon}\). Thus exact N1 is available only at exact Markovity or in a controlled strip family with \(\delta^{\mathrm M}_{I_-:J:I_+}(\varepsilon_J)\to0\).
+Independently, Fawzi--Renner gives a recovered comparison state with trace-norm error \(r_{\mathrm{FR}}(\varepsilon)=2\sqrt{1-e^{-\varepsilon}}\le 2\sqrt{\varepsilon}\). Thus exact N1 is available only at exact Markovity or in a controlled strip family on one fixed inherited strip model with \(\delta^{\mathrm M}_{I_-:J:I_+}(\varepsilon_J)\to0\).
+
+\textbf{Proof.} On the inherited split of Proposition 5.2a, exact Markovity is equivalent by HJPW to blockwise factorization of the state, so the modular Hamiltonian is additive on each block and only a direct sum of block constants remains, which is central. The controlled exact-Markov replacement is the same fixed-model compactness argument used for the spatial collar exact-Markov modulus, now with \(A,B,D\) relabeled as \(I_-,J,I_+\). The operator-logarithm Lipschitz bound then gives the displayed estimate for \(\Delta K_J\). Fawzi--Renner supplies a constructive comparison state but does not by itself identify an exact Markov state; that exact replacement is measured by \(\delta^{\mathrm M}_{I_-:J:I_+}\). QED.
 \end{quote}
 
 \begin{quote}
@@ -1033,13 +1104,13 @@ Integrating twice from \(a\) to \(+\infty\) and using the assumed vanishing of \
 \end{quote}
 
 \begin{quote}
-\textbf{Corollary 5.2e (Heuristic blow-up motivation for N2).} In the synchronized dependency ledger, N2 (half-sided modular inclusion) remains an explicit scaling-limit premise. The BW\(_{S^2}\) blow-up discussion below only motivates why one might expect that premise in a geometric modular phase.
+\textbf{Corollary 5.2e (Geometric form of the assumed N2 premise).} In the synchronized dependency ledger, N2 (half-sided modular inclusion) remains an explicit scaling-limit premise. The BW\(_{S^2}\) blow-up discussion only identifies the geometric form that this premise would take on the geometric modular branch.
 
 Near a smooth entangling cut, the cap dilation from Theorem 4.2 becomes a Rindler boost in the tangent geometry. Restricting that boost to a null generator gives the dilation
 \[
 v-v_0 \mapsto e^{-2\pi t}(v-v_0).
 \]
-For \(t\ge 0\), the half-line \(v>v_0\) maps into itself, which is the geometric pattern behind the half-sided modular-inclusion premise.
+For \(t\ge 0\), the half-line \(v>v_0\) maps into itself, which is exactly the geometric form of the assumed half-sided modular-inclusion property. This is motivation and geometric identification, not a theorem upgrade from fixed-cutoff strip data.
 \end{quote}
 
 \begin{quote}
@@ -1069,7 +1140,7 @@ Oddness under \(\hat n\mapsto-\hat n\) forces \(Y_{0i}=0\). Averaging over \(S^2
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item there is a consistent net \(P\mapsto\mathcal A(P)\) and a faithful reference state \(\omega\);
-\item consecutive null strips satisfy the null-EC structure above, with strip CMI controlled by \(\varepsilon_I\);
+\item consecutive null strips satisfy Proposition 5.2a and Corollary 5.2b on one fixed inherited strip model, with strip CMI controlled by \(\varepsilon_I\) and exact-Markov modulus \(\delta_I^{\mathrm M}\);
 \item N2 (half-sided modular inclusion) holds in the scaling-limit blow-up;
 \item the half-line differentiability hypotheses of Lemma 5.2d hold; and
 \item in the relativistic scaling-limit branch, the resulting half-line density is identified with a local null stress-tensor charge up to a separate EFT remainder.
@@ -1092,7 +1163,7 @@ r_{\mathrm{FR}}(\varepsilon_I)
 +
 \eta_I^{\mathrm{EFT}}
 \]
-collects the constructive recoverability error, the exact-Markov replacement error when modular Hamiltonians are compared on a fixed faithful strip model, and the separate relativistic scaling-limit remainder. For domain vectors \(\psi,\phi\),
+collects the constructive recoverability error, the exact-Markov replacement error on the fixed inherited strip model, and the separate relativistic scaling-limit remainder. For domain vectors \(\psi,\phi\),
 \[
 \bigl|
 \langle\psi,E^{(\eta)}_{I,\Omega}\phi\rangle
@@ -1110,20 +1181,23 @@ E^{(\eta)}_{I,\Omega},
 \]
 where \(g_I(v)\) is affine-covariant and vanishes at finite interval endpoints. Knowledge of \(T_{kk}\) for all null directions reconstructs a symmetric tensor \(T_{ab}\) modulo a metric term \(\phi g_{ab}\).
 
-\textbf{Proof.} Controlled null modular additivity comes from Corollary 5.2b. Lemma 5.2d gives the half-line endpoint-differentiation formula. Corollary 5.2e and Lemma 5.2f identify the resulting half-line density with the positive generator of null translations. The relativistic scaling-limit premise upgrades that density to \(T_{kk}\), while the three remainder sources are collected in \(E^{(\eta)}\). The null-to-tensor upgrade is the preceding lemma. QED.
+\textbf{Proof.} Proposition 5.2a and Corollary 5.2b supply the precise null-strip version of collar factorization: transferred cut centers, an explicit decomposition-inheritance condition, and exact or controlled modular additivity on one fixed inherited strip model. Lemma 5.2d gives the half-line endpoint-differentiation formula. Corollary 5.2e and Lemma 5.2f identify the resulting half-line density with the positive generator of null translations under the separate N2 premise. The relativistic scaling-limit premise upgrades that density to \(T_{kk}\), while the three remainder sources are collected in \(E^{(\eta)}\). The null-to-tensor upgrade is the preceding lemma. QED.
 
-\textbf{Gap-closure status.} The null bridge is therefore conditional rather than automatic, but the exact or controlled boundary is now explicit:
+\textbf{Gap-closure status.} The null bridge is therefore conditional rather than automatic, but the exact boundary is now explicit:
 \begin{itemize}
 \tightlist
 \item
-  \textbf{N1} is exact for exact Markov strip states, and otherwise is replaced by a controlled limit with carried errors \(r_{\mathrm{FR}}(\varepsilon_I)\) and \(\delta^{\mathrm M}_{I}(\varepsilon_I)\).
+  transferred cut-center data alone give the central sector decomposition of the null strip, not yet the left/right HJPW split;
 \item
-  \textbf{N2} remains an explicit scaling-limit premise; Corollary 5.2e is motivation, not a theorem upgrade.
+  the extra decomposition-inheritance condition of Proposition 5.2a is exactly what upgrades those sectors to the same collar-type block structure used in the spatial branch;
+\item
+  \textbf{N1} is exact for exact Markov strip states on that inherited decomposition, and otherwise is replaced by a controlled limit with carried errors \(r_{\mathrm{FR}}(\varepsilon_I)\) and \(\delta^{\mathrm M}_{I}(\varepsilon_I)\);
+\item
+  \textbf{N2} remains an explicit scaling-limit premise; Corollary 5.2e is geometric identification, not a theorem upgrade;
 \item
   \textbf{N3} supplies bounded-interval endpoint control from B + MX, while the half-line differentiability assumptions remain explicit scaling-limit regularity.
 \end{itemize}
-This is the disciplined route from small strip CMI to the exact null-splice identities later used in the Jacobson branch.
-
+This is the disciplined route from null-strip factorization to the exact null-splice identities used later in the Jacobson branch.
 \subsubsection{5.3 Modular energy as stress-tensor charge (UV CFT)}\label{53-modular-energy-as-stress-tensor-charge-uv-cft}
 
 If one assumes a UV CFT regime on sufficiently small caps, the modular Hamiltonian is explicitly local. This serves as an alternative EFT bridge to Section 5.2.
@@ -4274,7 +4348,7 @@ Node & Representative outputs in this manuscript & Standard mathematics used & E
 \textbf{D1} & Theorem 3.1 schedule-independent normal form & Newman's lemma & finite patch net, termination, and local confluence & Phase I structural theorem \\
 \textbf{D2} & EC decomposition, exact/approximate Markov collar, and generalized-entropy split & HJPW; Petz; Fawzi--Renner & R0/R1 or explicit recoverability control; coarse-grained \(A/(4G)\) dictionary & Phase I structural lemma/proposition layer \\
 \textbf{D3} & Theorems 4.2--4.3 Lorentz branch & Bisognano--Wichmann modular geometry; conformal-group classification & controlled refinement limit together with the OPH geometric-branch hypothesis used in Theorem 4.2 & Phase I conditional scaling-limit theorem \\
-\textbf{D4} & Section 5.2 null modular bridge & Borchers--Wiesbrock; distribution theory for half-line differentiation & null-strip control, half-sided inclusion, and the relativistic null-stress identification premise; the endpoint/propagation controls are internal to the local finite-constraint MaxEnt branch & Phase I conditional bridge theorem \\
+\textbf{D4} & Section 5.2 null modular bridge & Borchers--Wiesbrock; distribution theory for half-line differentiation & the theorem-local inherited-strip decomposition and exact-or-controlled Markov hypotheses of Section 5.2, plus half-sided inclusion and the relativistic null-stress identification premise; the endpoint/propagation controls are internal to the local finite-constraint MaxEnt branch & Phase I conditional bridge theorem \\
 \textbf{D5} & Theorem 5.1 rest-frame Einstein relation plus the conditional tensor upgrade of Corollary 5.1 & Jacobson small-ball mathematics; null-to-tensor reconstruction modulo a metric term & fixed-cap stationarity, the locally Lorentzian \(d=4\) scaling regime, and the all-directions/all-reference-states premise used in the tensor upgrade & Phase I conditional scaling-limit theorem/corollary \\
 \textbf{D6} & capacity/\(\Lambda\) statements and the separate capacity-based neutrino estimate & de Sitter entropy relation and dimensional analysis & external input \(N_{\mathrm{scr}}\) and the screen-capacity identification & Phase II input-dependent corollary / estimate \\
 \textbf{D7} & Theorem 6.1 compact gauge reconstruction & Doplicher--Roberts / Tannaka reconstruction & bosonic symmetric transportable colimit and fiber-functor premises; the refinement-stable qualifier is internal to the local finite-constraint MaxEnt/refinement branch & Phase I conditional structural theorem \\

@@ -221,12 +221,135 @@ where the carried remainder is controlled on bounded observables by \(r_{\mathrm
 
 \subsection{2.3 Null Modular Bridge (EFT Conditions N1-N3)}\label{23-null-modular-bridge-eft-conditions-n1-n3}
 
-\textbf{Condition N1:} Consecutive null strips satisfy exact-or-controlled Markov modular additivity up to central boundary terms.
+The null-strip package now separates three logically distinct layers: transferred cut-center data, an additional decomposition-inheritance condition on strip multiplicity spaces, and exact or controlled exact-Markovity on one fixed inherited strip model. This is the precise null analogue of the spatial collar factorization theorem.
 
-\textbf{Condition N2:} Null half-line algebras satisfy the half-sided modular inclusion property, either as an explicit scaling-limit premise or as the blow-up corollary of geometric modular flow near a smooth cut.
+\textbf{Condition N1 (null-strip center transfer, inherited split, and exact-or-controlled additivity).} Fix a regulated null tripartition
+\[
+I_-=(v_1,v_2),\qquad
+J=(v_2,v_3),\qquad
+I_+=(v_3,v_4),
+\]
+with cuts \(\Gamma_-:=\{v=v_2\}\) and \(\Gamma_+:=\{v=v_3\}\). The regulator premises R0--R1 must transfer the same compact overlap-redundancy data used for ordinary collars to these two null cuts. In a compatible type-I presentation this means
+\[
+\tilde{\mathcal H}_{I_-}
+\cong
+\bigoplus_{\alpha_-}
+W_{\alpha_-}\otimes \mathcal H_{i_-^{\alpha_-}},
+\]
+\[
+\tilde{\mathcal H}_{J}
+\cong
+\bigoplus_{\alpha_-,\alpha_+}
+W_{\alpha_-}^{*}\otimes
+\mathcal H_{j^{\alpha_-,\alpha_+}}\otimes
+W_{\alpha_+},
+\]
+\[
+\tilde{\mathcal H}_{I_+}
+\cong
+\bigoplus_{\alpha_+}
+W_{\alpha_+}^{*}\otimes \mathcal H_{i_+^{\alpha_+}},
+\]
+with opposite sides of each cut carrying inverse transport. Hence the strip algebra has the transferred center decomposition
+\[
+\mathcal A(J)
+\cong
+\bigoplus_{\alpha_-,\alpha_+}
+\mathcal B(\mathcal H_{j^{\alpha_-,\alpha_+}}),
+\qquad
+Z(\mathcal A(J))
+=
+\bigoplus_{\alpha_-,\alpha_+}\mathbb C\,P_{\alpha_-,\alpha_+}.
+\]
+The further factorization
+\[
+\mathcal H_{j^{\alpha_-,\alpha_+}}
+\cong
+\mathcal H_{j_L^{\alpha_-,\alpha_+}}
+\otimes
+\mathcal H_{j_R^{\alpha_-,\alpha_+}}
+\]
+is the extra decomposition-inheritance condition; it is not implied by center transfer alone.
 
-\textbf{Condition N3:} Bounded-interval modular Hamiltonians obey endpoint-Lipschitz control, and the renormalized null half-line family satisfies the weak differentiability / vanishing-at-infinity assumptions needed for the half-line endpoint-differentiation formula.
+On one fixed inherited strip model, define the exact Markov set
+\[
+\mathfrak M_{I_-:J:I_+}
+:=
+\left\{
+\sigma:\ I(I_-:I_+\mid J)_\sigma=0
+\right\},
+\]
+and the exact-Markov modulus
+\[
+\delta^{\mathrm M}_{I_-:J:I_+}(\varepsilon)
+:=
+\sup\left\{
+\inf_{\sigma\in\mathfrak M_{I_-:J:I_+}}\|\rho-\sigma\|_1:
+I(I_-:I_+\mid J)_\rho\le\varepsilon
+\right\}.
+\]
+Exact Markovity then gives
+\[
+K_{I_-\cup J\cup I_+}
+=
+K_{I_-\cup J}+K_{J\cup I_+}-K_J+K_{\partial,J},
+\qquad
+K_{\partial,J}\in Z(\mathcal A(J)).
+\]
+If strip CMI is only \(\le \varepsilon\), exact identities require a controlled exact-Markov replacement with carried error
+\[
+r_{\mathrm{FR}}(\varepsilon)
++
+4\lambda_\ast^{-1}\delta^{\mathrm M}_{I_-:J:I_+}(\varepsilon),
+\]
+where \(r_{\mathrm{FR}}(\varepsilon)=2\sqrt{1-e^{-\varepsilon}}\le 2\sqrt{\varepsilon}\). Small strip CMI alone is therefore not silently upgraded to exact splice formulas.
 
+\textbf{Condition N2 (half-sided modular inclusion remains a separate scaling-limit premise).} Null half-line algebras satisfy the Borchers--Wiesbrock half-sided inclusion property only as an explicit premise in the scaling regime. The blow-up of geometric cap modular flow near a smooth cut identifies its geometric form,
+\[
+v-v_0 \mapsto e^{-2\pi t}(v-v_0),
+\]
+but does not derive N2 from fixed-cutoff strip factorization.
+
+\textbf{Condition N3 (endpoint control and half-line differentiability).} Bounded-interval modular Hamiltonians obey the endpoint-Lipschitz estimate
+\[
+\bigl|\langle\psi,(K[I']-K[I])\phi\rangle\bigr|
+\le
+C_{\psi,\phi}\,|I'\Delta I|,
+\]
+from the branch-internal quasi-local propagation of the local MaxEnt generator. In addition, the renormalized half-line family \(\widetilde K_a(\Omega)\) must satisfy the weak twice-differentiability and vanishing-at-infinity assumptions needed for
+\[
+\langle\psi,\widetilde K_a(\Omega)\phi\rangle
+=
+2\pi\int_a^\infty (v-a)\,\langle\psi,p(v,\Omega)\phi\rangle\,dv.
+\]
+
+Under N1--N3 and the relativistic EFT identification premise, the renormalized half-line modular Hamiltonian takes the form
+\[
+\widetilde K[(a,\infty),\Omega]
+=
+2\pi\int_a^\infty (v-a)\,T_{kk}(v,\Omega)\,dv
++
+E^{(\eta)}_{(a,\infty),\Omega},
+\]
+with carried error
+\[
+\eta_I
+:=
+r_{\mathrm{FR}}(\varepsilon_I)
++
+4\lambda_\ast^{-1}\delta^{\mathrm M}_{I}(\varepsilon_I)
++
+\eta_I^{\mathrm{EFT}}.
+\]
+If bounded null intervals inherit geometric modular action from the interval-preserving projective flow, then likewise
+\[
+\widetilde K[I,\Omega]
+=
+2\pi\int_I g_I(v)\,T_{kk}(v,\Omega)\,dv
++
+E^{(\eta)}_{I,\Omega},
+\]
+where \(g_I(v)\) is affine-covariant and vanishes at finite interval endpoints. Thus the supplement now makes explicit that the null bridge uses the same theorematic center decomposition as the spatial collar branch only after center transfer and decomposition inheritance are both imposed, while N2 and the final continuum \(T_{kk}\) identification remain separate scaling-limit premises.
 \subsection{2.4 Stress Tensor Reconstruction}\label{24-stress-tensor-reconstruction}
 
 \textbf{Lemma 2.3 (Null Data Ambiguity):} If a symmetric tensor \(X_{ab}\) satisfies \(X_{ab}k^a k^b = 0\) for all null \(k\), then: \[X_{ab} = \phi \, g_{ab}\] for some scalar \(\phi\).
@@ -973,7 +1096,7 @@ Node & Output & Standard mathematics used & Extra premises / inputs beyond the f
 \textbf{D1} & schedule-independent normal form for overlap repair & Newman's lemma & finite patch net, termination, and local confluence & Phase I structural theorem \\
 \textbf{D2} & EC decomposition, Markov collar, and generalized-entropy split & HJPW; Petz; Fawzi--Renner & R0/R1 or explicit recoverability control; coarse-grained \(A/(4G)\) dictionary & Phase I structural lemma/proposition layer \\
 \textbf{D3} & geometric modular flow and Lorentz branch & Bisognano--Wichmann modular geometry; conformal-group classification & controlled refinement limit together with the OPH geometric-branch hypothesis of Theorem 2.2 & Phase I conditional scaling-limit theorem \\
-\textbf{D4} & null modular bridge to \(T_{kk}\) & Borchers--Wiesbrock; distributional differentiation on half-lines & null-strip control, half-sided inclusion, and the relativistic null-stress identification premise; the endpoint/propagation controls are internal to the local finite-constraint MaxEnt branch & Phase I conditional bridge theorem \\
+\textbf{D4} & null modular bridge to \(T_{kk}\) & Borchers--Wiesbrock; distributional differentiation on half-lines & the theorem-local inherited-strip decomposition and exact-or-controlled Markov hypotheses of Section~\ref{23-null-modular-bridge-eft-conditions-n1-n3}, plus half-sided inclusion and the relativistic null-stress identification premise; the endpoint/propagation controls are internal to the local finite-constraint MaxEnt branch & Phase I conditional bridge theorem \\
 \textbf{D5} & Jacobson-type rest-frame relation plus the conditional tensor upgrade & Jacobson small-ball mathematics; null-to-tensor reconstruction modulo a metric term & fixed-cap stationarity, the locally Lorentzian \(d=4\) scaling regime, and the all-directions/all-reference-states premise used in the tensor upgrade & Phase I conditional scaling-limit theorem/corollary \\
 \textbf{D6} & capacity/\(\Lambda\) corollary and the separate capacity-based neutrino estimate & de Sitter entropy relation and dimensional analysis & external input \(N_{\mathrm{scr}}\) and the screen-capacity identification & Phase II input-dependent corollary / estimate \\
 \textbf{D7} & compact gauge reconstruction in the bosonic branch & Doplicher--Roberts / Tannaka reconstruction & bosonic symmetric transportable colimit and fiber-functor premises; the refinement-stable qualifier is internal to the local finite-constraint MaxEnt/refinement branch & Phase I conditional structural theorem \\
